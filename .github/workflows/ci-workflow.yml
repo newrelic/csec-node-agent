@@ -21,9 +21,4 @@ jobs:
       run: npm ci
     - name: Run Unit Tests
       run: npm run test
-    - name: Archive Unit Test Coverage
-      uses: actions/upload-artifact@v3
-      with:
-        name: unit-tests-${{ matrix.node-version }}
-        path: ./coverage/unit/lcov.info
 
