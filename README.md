@@ -59,7 +59,6 @@ Our [API and developer documentation](http://newrelic.github.io/node-newrelic/) 
 
 ### Supported  Modules
 
-- mysql
 - http
 - https
 - fs
