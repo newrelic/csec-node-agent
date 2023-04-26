@@ -55,7 +55,7 @@ The @newrelic/csec-node-agent must be explicitly enabled in order to perform IAS
 ```
 ## Getting Started
 
-Our [API and developer documentation](http://newrelic.github.io/node-newrelic/docs/) for writing instrumentation will be of help. We particularly recommend the tutorials and various "shim" API documentation.
+Our [API and developer documentation](http://newrelic.github.io/node-newrelic/) for writing instrumentation will be of help. We particularly recommend the tutorials and various "shim" API documentation.
 
 ### Supported  Modules
 
