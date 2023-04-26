@@ -4,7 +4,7 @@
   "description": "Newrelic Security Agent for Node.js",
   "main": "index.js",
   "collectorVersion": "1.0.1-limited-preview",
-  "buildNumber": 100,
+  "buildNumber": 103,
   "jsonVersion": "1.0.1",
   "contributors": [
     {
