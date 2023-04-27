@@ -1,9 +1,9 @@
+# The New Relic Security Agent for Node.js is in preview and licensed under the New Relic Pre-Release Software Notice.
 
-# The @newrelic/csec-node-agent is in preview and licensed under the New Relic Pre-Release Software Notice.
+#### Repo: https://github.com/newrelic/csec-node-agent
+#### Package Name: @newrelic/security-agent
 
-
-# @newrelic/csec-node-agent
-The New Relic @newrelic/csec-node-agent is in preview and is not generally available.This module enables instrumentation of Node.js application for interactive application security analysis (IAST) and exposes exploitable vulnerabilities. 
+The New Relic security agent is in preview and is not generally available.This module enables instrumentation of Node.js application for interactive application security analysis (IAST) and exposes exploitable vulnerabilities. 
 The IAST capability should only be used in pre-production environments as the application is tested for real exploitable vulnerabilities.
 
 
@@ -14,18 +14,18 @@ Typically, most users use the version auto-installed by the APM agent. You can s
 In some cases, installing a specific version is ideal. For example, new features or major changes might be released via a major version update to this module, prior to inclusion in the main New Relic Node.js Agent.
 
 ```
-npm install @newrelic/csec-node-agent
+npm install @newrelic/security-agent
 ```
 
 ```js
 // index.js
 const  newrelic = require(‘newrelic’);
-require(‘@newrelic/csec-node-agent’).start(newrelic);
+require(‘@newrelic/security-agent’).start(newrelic);
 ```
 
 For more information, please see the agent [installation guide][3].
 
-The @newrelic/csec-node-agent must be explicitly enabled in order to perform IAST analysis of the application. In the newrelic.js, set the following parameters
+The @newrelic/security-agent must be explicitly enabled in order to perform IAST analysis of the application. In the newrelic.js, set the following parameters
 ```
  /**
   * Security Configurations
@@ -110,5 +110,5 @@ If you believe you have found a security vulnerability in this project or any of
 If you would like to contribute to this project, review [these guidelines](https://github.com/newrelic/csec-node-agent/blob/main/CONTRIBUTING.md).
 
 ## License
-@newrelic/csec-node-agent is licensed under the New Relic Pre-Release Software Notice.
-The @newrelic/csec-node-agent also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
+The New Relic security agent is licensed under the New Relic Pre-Release Software Notice.
+The @newrelic/security-agent also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
