@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "@aws-sdk/client-lambda": "3.276.0",
-    "@newrelic/newrelic-oss-cli": "^0.1.2",
     "axios": "0.21.4",
     "check-disk-space": "^3.1.0",
     "content-type": "^1.0.4",
@@ -58,6 +57,7 @@
   "devDependencies": {
     "@hapi/hapi": "^21.3.0",
     "@koa/router": "^12.0.0",
+    "@newrelic/newrelic-oss-cli": "^0.1.2",
     "@newrelic/test-utilities": "7.2.1",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
