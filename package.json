@@ -20,7 +20,8 @@
   ],
   "scripts": {
     "test": "tap --test-regex='(\\/|^test\\/instrumentation-security\\/.*\\.test\\.js)$' || :",
-    "posttest": "rm -f newrelic_agent.log && rm -rf nr-security-home && rm -rf .nyc_output"
+    "posttest": "rm -f newrelic_agent.log && rm -rf nr-security-home && rm -rf .nyc_output",
+    "third-party-updates": "oss third-party manifest && oss third-party notices && git add THIRD_PARTY_NOTICES.md third_party_manifest.json"
   },
   "keywords": [],
   "author": "newrelic",
@@ -31,6 +32,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-lambda": "3.276.0",
+    "@newrelic/newrelic-oss-cli": "^0.1.2",
     "axios": "0.21.4",
     "check-disk-space": "^3.1.0",
     "content-type": "^1.0.4",
@@ -86,7 +88,7 @@
   },
   "files": [
     "index.js",
-    "README.md",
+    "*.md",
     "LICENSE",
     "lib/"
   ]
