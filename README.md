@@ -1,7 +1,4 @@
-# The New Relic Security Agent for Node.js is in preview and licensed under the New Relic Pre-Release Software Notice.
-
-#### Repo: https://github.com/newrelic/csec-node-agent
-#### Package Name: @newrelic/security-agent
+# New Relic Node.js security agent.
 
 The New Relic security agent is in preview and is not generally available.This module enables instrumentation of Node.js application for interactive application security analysis (IAST) and exposes exploitable vulnerabilities. 
 The IAST capability should only be used in pre-production environments as the application is tested for real exploitable vulnerabilities.
@@ -9,7 +6,7 @@ The IAST capability should only be used in pre-production environments as the ap
 
 ## Installation and Getting Started
 
-Typically, most users use the version auto-installed by the APM agent. You can see agent install instructions [here](https://github.com/newrelic/node-newrelic#installation-and-getting-started).
+Typically, most users use the version auto-installed by the [New Relic Node.js agent](https://github.com/newrelic/node-newrelic). You can see agent install instructions [here](https://github.com/newrelic/node-newrelic#installation-and-getting-started).
 
 In some cases, installing a specific version is ideal. For example, new features or major changes might be released via a major version update to this module, prior to inclusion in the main New Relic Node.js Agent.
 
