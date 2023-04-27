@@ -1,5 +1,5 @@
 {
-  "name": "@newrelic/csec-node-agent",
+  "name": "@newrelic/security-agent",
   "version": "0.0.1",
   "description": "Newrelic Security Agent for Node.js",
   "main": "index.js",
