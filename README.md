@@ -1,81 +1,69 @@
-# New Relic Node.js security agent.
+# New Relic Node.js security agent
 
-The New Relic security agent is in preview and is not generally available.This module enables instrumentation of Node.js application for interactive application security analysis (IAST) and exposes exploitable vulnerabilities. 
-The IAST capability should only be used in pre-production environments as the application is tested for real exploitable vulnerabilities.
+**Note**: The IAST capability should only be used in pre-production environments as the application is tested for real exploitable vulnerabilities.
 
+The New Relic security agent is in preview and is not generally available. This module enables instrumentation of a Node.js application for interactive application security testing(IAST) and exposes exploitable vulnerabilities. 
 
-## Installation and Getting Started
+## Installation
 
 Typically, most users use the version auto-installed by the [New Relic Node.js agent](https://github.com/newrelic/node-newrelic). You can see agent install instructions [here](https://github.com/newrelic/node-newrelic#installation-and-getting-started).
 
 In some cases, installing a specific version is ideal. For example, new features or major changes might be released via a major version update to this module, prior to inclusion in the main New Relic Node.js Agent.
 
+```sh
+npm install @newrelic/security-agent@latest
 ```
-npm install @newrelic/security-agent
-```
+
+For more information, please see New Relic Node.js agent [installation guide](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/installation-configuration/install-nodejs-agent/)
+
+The `@newrelic/security-agent` must be explicitly enabled in order to perform IAST analysis of the application. In the newrelic.js, set the following parameters
 
 ```js
-// index.js
-const  newrelic = require(‘newrelic’);
-require(‘@newrelic/security-agent’).start(newrelic);
-```
-
-For more information, please see the agent [installation guide][3].
-
-The @newrelic/security-agent must be explicitly enabled in order to perform IAST analysis of the application. In the newrelic.js, set the following parameters
-```
  /**
   * Security Configurations
   */
    security: {
     /**
+     * enables/disables security agent functions and generation of events.
+     */
+    enabled: true,
+    /**
       * To completely disable security, set agent.enabled flag to false. If the flag is set to false, the security module is not loaded. This property is read only once at application start.
       */
     agent: {
       enabled: true
-    },
-    /**
-     * enables/disables security agent functions and generation of events.
-     */
-    enabled: true,
-    
-/**
-     *  Security agent provides two modes: IAST and RASP. Default is IAST.
-     */
-    mode: 'IAST',
-    /**
-     * Security agent validator URL. Must be prefixed with wss://.
-     */
-    validator_service_url: 'wss://csec.nr-data.net',
+    }
   }
 ```
+
 ## Getting Started
 
-Our [API and developer documentation](http://newrelic.github.io/node-newrelic/) for writing instrumentation will be of help. We particularly recommend the tutorials and various "shim" API documentation.
+The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instrumentation will be of help. We particularly recommend the [tutorials](https://newrelic.github.io/node-newrelic/tutorial-Instrumentation-Basics.html) and the [shim API](https://newrelic.github.io/node-newrelic/Shim.html) documentation.
 
 ### Supported  Modules
 
-- http
-- https
-- fs
-- child_process
-- Mysql (2.16.x and above)
-- Mysql2 (2.x and above)
-- Pg (7.x and above)
-- Mongodb (2.x, 3.x and 4.x)
-- Express (4.x and above)
-- @koa/router ((9.x and above)
-- Koa-router (9.x and above)
-- @hapi/hapi (19.x and above)
-- Fastify (2.x, 3.x and 4.x)
-- Restify (8.x, 9.x, 10.x and 11.x)
-- Director (1.2.x)
-- Ldapjs (2.x and above)
-- Ldapts (2.x and above)
-- Xpath (0.0.20 and above)
-- Xpath.js (0.0.1 and above) 
+- Node.js core modules
+    - `http` 
+    - `https`
+    - `fs`
+    - `child_process`
+- [mysql](https://www.npmjs.com/package/mysql)(2.16.x and above)
+- [mysql2](https://www.npmjs.com/package/mysql2) (2.x and above)
+- [pg](https://www.npmjs.com/package/pg)(7.x and above)
+- [mongodb](https://www.npmjs.com/package/mongodb)(2.x, 3.x and 4.x)
+- [express](https://www.npmjs.com/package/express)(4.x and above)
+- [@koa/router](https://www.npmjs.com/package/@koa/router) ((9.x and above)
+- [koa-router](https://www.npmjs.com/package/koa-router)(9.x and above)
+- [@hapi/hapi](https://www.npmjs.com/package/@hapi/hapi)(19.x and above)
+- [fastify](https://www.npmjs.com/package/fastify)(2.x, 3.x and 4.x)
+- [restify](https://www.npmjs.com/package/restify)(8.x, 9.x, 10.x and 11.x)
+- [director](https://www.npmjs.com/package/director)(1.2.x)
+- [ldapjs](https://www.npmjs.com/package/ldapjs)(2.x and above)
+- [ldapts](https://www.npmjs.com/package/ldapts)(2.x and above)
+- [xpath](https://www.npmjs.com/package/xpath)(0.0.20 and above)
+- [xpath.js](https://www.npmjs.com/package/xpath.js)(0.0.1 and above) 
 
-For more information, please see the agent [compatibility and requirements][4].
+For more information, please see New Relic Node.js agent [compatibility and requirements](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent/).
 
 ## Testing
 
@@ -87,14 +75,13 @@ All tests are stored in `tests/` and are written using
 
 To run the full suite, run: `npm test`.
 
-
 ## Support
 
 New Relic hosts and moderates an online forum where you can interact with New Relic employees as well as other customers to get help and share best practices.  You can find this project's topic/threads here:  Add the url for the support thread here: https://forum.newrelic.com/s/
 
 ## Contribute
 
-Any feedback provided to New Relic about the New Relic csec-node-agent, including feedback provided as source code, comments, or other copyrightable or patentable material, is provided to New Relic under the terms of the Apache Software License, version 2. If you do not provide attribution information or a copy of the license with your feedback, you waive the performance of those requirements of the Apache License with respect to New Relic. The license grant regarding any feedback is irrevocable and persists past the termination of the preview license.
+Any feedback provided to New Relic about the New Relic security agent, including feedback provided as source code, comments, or other copyrightable or patentable material, is provided to New Relic under the terms of the Apache Software License, version 2. If you do not provide attribution information or a copy of the license with your feedback, you waive the performance of those requirements of the Apache License with respect to New Relic. The license grant regarding any feedback is irrevocable and persists past the termination of the preview license.
 Keep in mind that when you submit a pull request or other feedback, you’ll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
 If you have any questions drop us an email at opensource@newrelic.com.
 
@@ -108,4 +95,4 @@ If you would like to contribute to this project, review [these guidelines](https
 
 ## License
 The New Relic security agent is licensed under the New Relic Pre-Release Software Notice.
-The @newrelic/security-agent also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
+The `@newrelic/security-agent` also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
