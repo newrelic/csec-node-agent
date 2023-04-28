@@ -19,7 +19,7 @@
     }
   ],
   "scripts": {
-    "test": "tap --test-regex='(\\/|^test\\/instrumentation-security\\/.*\\.test\\.js)$' || :",
+    "test": "tap --test-regex='(\\/|^test\\/instrumentation-security\\/.*\\.test\\.js)$'",
     "posttest": "rm -f newrelic_agent.log && rm -rf nr-security-home && rm -rf .nyc_output",
     "third-party-updates": "oss third-party manifest && oss third-party notices && git add THIRD_PARTY_NOTICES.md third_party_manifest.json"
   },
@@ -79,7 +79,7 @@
     "mongodb3": "npm:mongodb@^3.7.3",
     "newrelic": "^9.15.0",
     "request": "^2.88.2",
-    "restify": "^8.6.1",
+    "restify": "^11.1.0",
     "sinon": "^15.0.0",
     "tap": "^16.3.2",
     "xmldom": "^0.6.0",
