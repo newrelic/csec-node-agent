@@ -19,7 +19,7 @@
     }
   ],
   "scripts": {
-    "test": "tap --test-regex='(\\/|^test\\/instrumentation-security\\/.*\\.test\\.js)$'",
+    "test": "tap --test-regex='(\\/|^test\\/instrumentation-security\\/.*\\.test\\.js)$' --no-coverage",
     "posttest": "rm -f newrelic_agent.log && rm -rf nr-security-home && rm -rf .nyc_output",
     "third-party-updates": "oss third-party manifest && oss third-party notices && git add THIRD_PARTY_NOTICES.md third_party_manifest.json"
   },
