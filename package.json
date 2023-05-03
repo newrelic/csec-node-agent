@@ -1,6 +1,6 @@
 {
   "name": "@newrelic/security-agent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Newrelic Security Agent for Node.js",
   "main": "index.js",
   "collectorVersion": "1.0.1-limited-preview",
@@ -23,7 +23,13 @@
     "posttest": "rm -f newrelic_agent.log && rm -rf nr-security-home && rm -rf .nyc_output",
     "third-party-updates": "oss third-party manifest && oss third-party notices && git add THIRD_PARTY_NOTICES.md third_party_manifest.json"
   },
-  "keywords": [],
+  "keywords": [
+    "instrumentation",
+    "IAST",
+    "RASP",
+    "New Relic Security Agent",
+    "Node.js Application Security"
+  ],
   "author": "newrelic",
   "license": "Apache-2.0",
   "repository": {
