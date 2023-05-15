@@ -1,4 +1,7 @@
+<a href="https://opensource.newrelic.com/oss-category/#community-plus"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Community_Plus.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png"><img alt="New Relic Open Source community plus project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png"></picture></a>
+
 # New Relic Node.js security agent
+[![npm status badge][1]][2] [![Security Agent CI][3]][4]
 
 **Note**: The IAST capability should only be used in pre-production environments as the application is tested for real exploitable vulnerabilities.
 
@@ -39,6 +42,9 @@ The `@newrelic/security-agent` must be explicitly enabled in order to perform IA
 ## Getting Started
 
 The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instrumentation will be of help. We particularly recommend the [tutorials](https://newrelic.github.io/node-newrelic/tutorial-Instrumentation-Basics.html) and the [shim API](https://newrelic.github.io/node-newrelic/Shim.html) documentation.
+
+### Supported  Node.js Versions
+- Node version 14.x and above
 
 ### Supported  Modules
 
@@ -96,3 +102,8 @@ If you would like to contribute to this project, review [these guidelines](https
 ## License
 The New Relic security agent is licensed under the New Relic Pre-Release Software Notice.
 The `@newrelic/security-agent` also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
+
+[1]: https://img.shields.io/npm/v/@newrelic/security-agent.svg 
+[2]: https://www.npmjs.com/package/@newrelic/security-agent 
+[3]: https://github.com/newrelic/csec-node-agent/workflows/CSEC%20Node%20Agent%20CI/badge.svg
+[4]: https://github.com/newrelic/csec-node-agent/actions?query=workflow%3A%22CSEC+Node+Agent+CI%22
