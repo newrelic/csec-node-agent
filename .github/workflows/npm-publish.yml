@@ -30,16 +30,16 @@ jobs:
         registry-url: 'https://registry.npmjs.org'
     - name: Install dependencies
       run: npm ci
-    - name: Version ${{ github.event.inputs.release_type }} 
-      run: npm version ${{ github.event.inputs.release_type }} 
     - name: Setup GitHub Credentials
       run: |
         git config user.name $GITHUB_ACTOR
         git config user.email gh-actions-${GITHUB_ACTOR}@github.com
+    - name: Version ${{ github.event.inputs.release_type }} 
+      run: npm version ${{ github.event.inputs.release_type }} 
     - name: Publish module
       run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     - name: Push changes and tags 
-      run: git push --tags
+      run: git push --follow-tags
 
