@@ -1,9 +1,9 @@
 {
   "name": "@newrelic/security-agent",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Newrelic Security Agent for Node.js",
   "main": "index.js",
-  "collectorVersion": "1.0.1-limited-preview",
+  "collectorVersion": "1.0.2-limited-preview",
   "jsonVersion": "1.0.1",
   "contributors": [
     {
