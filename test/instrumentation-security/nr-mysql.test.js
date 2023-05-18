@@ -12,7 +12,7 @@ const mockConnection = () => {
     connect: () => {
       return 'Succesfully connected';
     },
-    query: (query, callback) => {
+    query: (query, params, callback) => {
       callback(null, "Query executed");
     },
     end: () => {
@@ -75,7 +75,7 @@ test('mysql', (t) => {
       password: 'password',
       database: 'db',
     });
-    pool.query("SELECT * FROM TABLE_NAME", (err, data) => {
+    pool.query("SELECT * FROM TABLE_NAME", [], (err, data) => {
       t.same(data, "Query executed");
       t.end();
     });
@@ -101,5 +101,18 @@ test('mysql', (t) => {
     var res = con.connect();
     t.same(res, "Succesfully connected");
     t.end();
+  })
+  
+  t.test('prepared statement', (t) => {
+    let con = mockMysql.createConnection({
+      host: "localhost",
+      user: "root",
+      password: "3306"
+    });
+
+    con.query("UPDATE TABLE_NAME set a=?", ["foo"], (err, data) => {
+      t.same(data, "Query executed");
+      t.end();
+    });
   })
 })
