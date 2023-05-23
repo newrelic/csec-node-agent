@@ -17,6 +17,9 @@ on:
 jobs:
   version-module:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
     strategy:
       matrix:
         node-version: [lts/*]
