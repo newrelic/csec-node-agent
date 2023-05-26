@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Thu Apr 27 2023 15:33:40 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Wed May 24 2023 20:27:16 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
@@ -18,27 +18,15 @@
       "publisher": "AWS SDK for JavaScript Team",
       "url": "https://aws.amazon.com/javascript/"
     },
-    "@newrelic/newrelic-oss-cli@0.1.2": {
-      "name": "@newrelic/newrelic-oss-cli",
-      "version": "0.1.2",
-      "range": "^0.1.2",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/newrelic/newrelic-oss-cli",
-      "versionedRepoUrl": "https://github.com/newrelic/newrelic-oss-cli/tree/v0.1.2",
-      "licenseFile": "node_modules/@newrelic/newrelic-oss-cli/LICENSE",
-      "licenseUrl": "https://github.com/newrelic/newrelic-oss-cli/blob/v0.1.2/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "New Relic"
-    },
-    "axios@0.21.4": {
+    "axios@1.4.0": {
       "name": "axios",
-      "version": "0.21.4",
+      "version": "1.4.0",
       "range": "0.21.4",
       "licenses": "MIT",
       "repoUrl": "https://github.com/axios/axios",
-      "versionedRepoUrl": "https://github.com/axios/axios/tree/v0.21.4",
+      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.4.0",
       "licenseFile": "node_modules/axios/LICENSE",
-      "licenseUrl": "https://github.com/axios/axios/blob/v0.21.4/LICENSE",
+      "licenseUrl": "https://github.com/axios/axios/blob/v1.4.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Matt Zabriskie"
     },
@@ -300,15 +288,15 @@
     }
   },
   "devDependencies": {
-    "@hapi/hapi@21.3.1": {
+    "@hapi/hapi@21.3.2": {
       "name": "@hapi/hapi",
-      "version": "21.3.1",
+      "version": "21.3.2",
       "range": "^21.3.0",
       "licenses": "BSD-3-Clause",
       "repoUrl": "https://github.com/hapijs/hapi",
-      "versionedRepoUrl": "https://github.com/hapijs/hapi/tree/v21.3.1",
+      "versionedRepoUrl": "https://github.com/hapijs/hapi/tree/v21.3.2",
       "licenseFile": "node_modules/@hapi/hapi/LICENSE.md",
-      "licenseUrl": "https://github.com/hapijs/hapi/blob/v21.3.1/LICENSE.md",
+      "licenseUrl": "https://github.com/hapijs/hapi/blob/v21.3.2/LICENSE.md",
       "licenseTextSource": "file"
     },
     "@koa/router@12.0.0": {
@@ -323,6 +311,18 @@
       "licenseTextSource": "file",
       "publisher": "Alex Mingoia",
       "email": "talk@alexmingoia.com"
+    },
+    "@newrelic/newrelic-oss-cli@0.1.2": {
+      "name": "@newrelic/newrelic-oss-cli",
+      "version": "0.1.2",
+      "range": "^0.1.2",
+      "licenses": "Apache-2.0",
+      "repoUrl": "https://github.com/newrelic/newrelic-oss-cli",
+      "versionedRepoUrl": "https://github.com/newrelic/newrelic-oss-cli/tree/v0.1.2",
+      "licenseFile": "node_modules/@newrelic/newrelic-oss-cli/LICENSE",
+      "licenseUrl": "https://github.com/newrelic/newrelic-oss-cli/blob/v0.1.2/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "New Relic"
     },
     "@newrelic/test-utilities@7.2.1": {
       "name": "@newrelic/test-utilities",
@@ -588,15 +588,15 @@
       "publisher": "Mikeal Rogers",
       "email": "mikeal.rogers@gmail.com"
     },
-    "restify@8.6.1": {
+    "restify@11.1.0": {
       "name": "restify",
-      "version": "8.6.1",
-      "range": "^8.6.1",
+      "version": "11.1.0",
+      "range": "^11.1.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/restify/node-restify",
-      "versionedRepoUrl": "https://github.com/restify/node-restify/tree/v8.6.1",
+      "versionedRepoUrl": "https://github.com/restify/node-restify/tree/v11.1.0",
       "licenseFile": "node_modules/restify/LICENSE",
-      "licenseUrl": "https://github.com/restify/node-restify/blob/v8.6.1/LICENSE",
+      "licenseUrl": "https://github.com/restify/node-restify/blob/v11.1.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Mark Cavage",
       "email": "mcavage@gmail.com"
