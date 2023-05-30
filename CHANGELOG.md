@@ -1,3 +1,8 @@
+### v0.1.0
+* Handling to use OS specific path separator.
+* Functionality to create directories in windows environment.
+* IAST support for windows.
+* Log file permission fix.
 ### v0.0.8
 * Handling for IP resolving to IPV4 as Node.js v17 and above no longer re-sorts results of IP address lookups and returns them as-is.
 * Third Party Notices update
