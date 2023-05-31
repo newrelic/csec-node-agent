@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "New Relic Security Agent for Node.js",
   "main": "index.js",
-  "collectorVersion": "1.0.3-limited-preview",
   "jsonVersion": "1.0.1",
   "contributors": [
     {
