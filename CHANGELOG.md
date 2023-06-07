@@ -1,3 +1,8 @@
+###v0.1.1
+* Fix in mysql instrumentation on getConnection to check if callback is wrapped
+* NR-123832: Support for fire and forget vulnerability detection
+* Fixes for snapshot file.
+* Handling for high_security config.
 ### v0.1.0
 * Handling to use OS specific path separator.
 * Functionality to create directories in windows environment.
