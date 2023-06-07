@@ -13,7 +13,7 @@ function start(NRAgentObject) {
     const agent = NRAgentObject.agent;
     API.newrelic = NRAgentObject;
     API.setNRAgent(agent);
-    if (!agent.config.security.agent.enabled || agent.config.security.enabled == null) {
+    if (agent.config.high_security) {
         return;
     }
     require('./lib/nr-security-agent');
