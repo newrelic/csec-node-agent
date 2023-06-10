@@ -1,4 +1,8 @@
-###v0.1.1
+### v0.1.2
+* bump @aws-sdk/client-lambda to v3.348.0
+* Minor fix in ws reconnect.
+
+### v0.1.1
 * Fix in mysql instrumentation on getConnection to check if callback is wrapped
 * NR-123832: Support for fire and forget vulnerability detection
 * Fixes for snapshot file.
