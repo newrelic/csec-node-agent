@@ -75,7 +75,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### @aws-sdk/client-lambda
 
-This product includes source derived from [@aws-sdk/client-lambda](https://github.com/aws/aws-sdk-js-v3) ([v3.276.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.276.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.276.0/LICENSE):
+This product includes source derived from [@aws-sdk/client-lambda](https://github.com/aws/aws-sdk-js-v3) ([v3.348.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.348.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.348.0/LICENSE):
 
 ```
                                 Apache License
@@ -284,16 +284,28 @@ This product includes source derived from [@aws-sdk/client-lambda](https://githu
 
 ### axios
 
-This product includes source derived from [axios](https://github.com/axios/axios) ([v1.4.0](https://github.com/axios/axios/tree/v1.4.0)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.4.0/LICENSE):
+This product includes source derived from [axios](https://github.com/axios/axios) ([v0.21.4](https://github.com/axios/axios/tree/v0.21.4)), distributed under the [MIT License](https://github.com/axios/axios/blob/v0.21.4/LICENSE):
 
 ```
-# Copyright (c) 2014-present Matt Zabriskie & Collaborators
+Copyright (c) 2014-present Matt Zabriskie
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 ```
 
