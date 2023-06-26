@@ -75,7 +75,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### @aws-sdk/client-lambda
 
-This product includes source derived from [@aws-sdk/client-lambda](https://github.com/aws/aws-sdk-js-v3) ([v3.348.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.348.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.348.0/LICENSE):
+This product includes source derived from [@aws-sdk/client-lambda](https://github.com/aws/aws-sdk-js-v3) ([v3.358.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.358.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.358.0/LICENSE):
 
 ```
                                 Apache License
@@ -311,7 +311,7 @@ THE SOFTWARE.
 
 ### check-disk-space
 
-This product includes source derived from [check-disk-space](https://github.com/Alex-D/check-disk-space) ([v3.3.1](https://github.com/Alex-D/check-disk-space/tree/v3.3.1)), distributed under the [MIT License](https://github.com/Alex-D/check-disk-space/blob/v3.3.1/LICENSE):
+This product includes source derived from [check-disk-space](https://github.com/Alex-D/check-disk-space) ([v3.4.0](https://github.com/Alex-D/check-disk-space/tree/v3.4.0)), distributed under the [MIT License](https://github.com/Alex-D/check-disk-space/blob/v3.4.0/LICENSE):
 
 ```
 MIT License
@@ -433,10 +433,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### html-entities
 
-This product includes source derived from [html-entities](https://github.com/mdevils/node-html-entities) ([v1.4.0](https://github.com/mdevils/node-html-entities/tree/v1.4.0)), distributed under the [MIT License](https://github.com/mdevils/node-html-entities/blob/v1.4.0/LICENSE):
+This product includes source derived from [html-entities](https://github.com/mdevils/html-entities) ([v2.3.6](https://github.com/mdevils/html-entities/tree/v2.3.6)), distributed under the [MIT License](https://github.com/mdevils/html-entities/blob/v2.3.6/LICENSE):
 
 ```
-Copyright (c) 2013 Dulin Marat
+Copyright (c) 2021 Dulin Marat
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -455,6 +455,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
 ```
 
 ### is-invalid-path
@@ -639,7 +640,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### request-ip
 
-This product includes source derived from [request-ip](https://github.com/pbojinov/request-ip) ([v2.2.0](https://github.com/pbojinov/request-ip/tree/v2.2.0)), distributed under the [MIT License](https://github.com/pbojinov/request-ip/blob/v2.2.0/LICENSE.md):
+This product includes source derived from [request-ip](https://github.com/pbojinov/request-ip) ([v3.3.0](https://github.com/pbojinov/request-ip/tree/v3.3.0)), distributed under the [MIT License](https://github.com/pbojinov/request-ip/blob/v3.3.0/LICENSE.md):
 
 ```
 The MIT License (MIT)
@@ -683,7 +684,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v6.3.0](https://github.com/npm/node-semver/tree/v6.3.0)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v6.3.0/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.3](https://github.com/npm/node-semver/tree/v7.5.3)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.3/LICENSE):
 
 ```
 The ISC License
@@ -789,30 +790,18 @@ THE SOFTWARE.
 
 ### uuid
 
-This product includes source derived from [uuid](https://github.com/uuidjs/uuid) ([v3.4.0](https://github.com/uuidjs/uuid/tree/v3.4.0)), distributed under the [MIT License](https://github.com/uuidjs/uuid/blob/v3.4.0/LICENSE.md):
+This product includes source derived from [uuid](https://github.com/uuidjs/uuid) ([v9.0.0](https://github.com/uuidjs/uuid/tree/v9.0.0)), distributed under the [MIT License](https://github.com/uuidjs/uuid/blob/v9.0.0/LICENSE.md):
 
 ```
 The MIT License (MIT)
 
-Copyright (c) 2010-2016 Robert Kieffer and other contributors
+Copyright (c) 2010-2020 Robert Kieffer and other contributors
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ```
 
@@ -1851,7 +1840,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### mongodb-memory-server
 
-This product includes source derived from [mongodb-memory-server](https://github.com/nodkz/mongodb-memory-server) ([v8.12.2](https://github.com/nodkz/mongodb-memory-server/tree/v8.12.2)), distributed under the [MIT License](https://github.com/nodkz/mongodb-memory-server/blob/v8.12.2/LICENSE.md):
+This product includes source derived from [mongodb-memory-server](https://github.com/nodkz/mongodb-memory-server) ([v8.13.0](https://github.com/nodkz/mongodb-memory-server/tree/v8.13.0)), distributed under the [MIT License](https://github.com/nodkz/mongodb-memory-server/blob/v8.13.0/LICENSE.md):
 
 ```
 The MIT License (MIT)
@@ -2076,7 +2065,7 @@ Apache License
 
 ### mongodb
 
-This product includes source derived from [mongodb](https://github.com/mongodb/node-mongodb-native) ([v3.7.3](https://github.com/mongodb/node-mongodb-native/tree/v3.7.3)), distributed under the [Apache-2.0 License](undefined):
+This product includes source derived from [mongodb](https://github.com/mongodb/node-mongodb-native) ([v3.7.4](https://github.com/mongodb/node-mongodb-native/tree/v3.7.4)), distributed under the [Apache-2.0 License](undefined):
 
 ```
 Apache License
@@ -2492,7 +2481,7 @@ Apache License
 
 ### newrelic
 
-This product includes source derived from [newrelic](https://github.com/newrelic/node-newrelic) ([v9.15.0](https://github.com/newrelic/node-newrelic/tree/v9.15.0)), distributed under the [Apache-2.0 License](https://github.com/newrelic/node-newrelic/blob/v9.15.0/LICENSE):
+This product includes source derived from [newrelic](https://github.com/newrelic/node-newrelic) ([v10.3.1](https://github.com/newrelic/node-newrelic/tree/v10.3.1)), distributed under the [Apache-2.0 License](https://github.com/newrelic/node-newrelic/blob/v10.3.1/LICENSE):
 
 ```
                                  Apache License
@@ -2789,7 +2778,7 @@ THE SOFTWARE
 
 ### sinon
 
-This product includes source derived from [sinon](https://github.com/sinonjs/sinon) ([v15.0.4](https://github.com/sinonjs/sinon/tree/v15.0.4)), distributed under the [BSD-3-Clause License](https://github.com/sinonjs/sinon/blob/v15.0.4/LICENSE):
+This product includes source derived from [sinon](https://github.com/sinonjs/sinon) ([v15.2.0](https://github.com/sinonjs/sinon/tree/v15.2.0)), distributed under the [BSD-3-Clause License](https://github.com/sinonjs/sinon/blob/v15.2.0/LICENSE):
 
 ```
 (The BSD License)
@@ -2824,7 +2813,7 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ### tap
 
-This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v16.3.4](https://github.com/tapjs/node-tap/tree/v16.3.4)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v16.3.4/LICENSE):
+This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v16.3.7](https://github.com/tapjs/node-tap/tree/v16.3.7)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v16.3.7/LICENSE):
 
 ```
 The ISC License
