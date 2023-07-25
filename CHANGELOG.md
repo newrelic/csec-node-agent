@@ -1,3 +1,11 @@
+### v0.2.0 (2023-07-24)
+#### Features
+* IAST data pull implementation
+* Logging update
+
+#### Bug Fixes
+* Param fixes for mysql and file hooks.
+
 ### v0.1.3
 * Updated semver to v7.5.3 (Fix for CWE-1333)
 * Updated request-ip, log4js, html-entities, uuid and fast-safe-stringify to latest version.
