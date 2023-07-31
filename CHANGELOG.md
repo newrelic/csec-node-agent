@@ -1,3 +1,18 @@
+### v0.2.0 (2023-07-24)
+#### Features
+* IAST data pull implementation
+* Logging update
+
+#### Bug Fixes
+* Param fixes for mysql and file hooks.
+
+### v0.1.3
+* Updated semver to v7.5.3 (Fix for CWE-1333)
+* Updated request-ip, log4js, html-entities, uuid and fast-safe-stringify to latest version.
+* Fix for system call event generation to avoid null parameters in event.
+* Fix for id in nr-csec-tracing-data.
+* WS logging update.
+
 ### v0.1.2
 * bump @aws-sdk/client-lambda to v3.348.0
 * Minor fix in ws reconnect.
