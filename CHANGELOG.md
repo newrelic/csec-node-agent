@@ -1,3 +1,32 @@
+### v0.2.0 (2023-07-24)
+#### Features
+* IAST data pull implementation
+* Logging update
+
+#### Bug Fixes
+* Param fixes for mysql and file hooks.
+
+### v0.1.3
+* Updated semver to v7.5.3 (Fix for CWE-1333)
+* Updated request-ip, log4js, html-entities, uuid and fast-safe-stringify to latest version.
+* Fix for system call event generation to avoid null parameters in event.
+* Fix for id in nr-csec-tracing-data.
+* WS logging update.
+
+### v0.1.2
+* bump @aws-sdk/client-lambda to v3.348.0
+* Minor fix in ws reconnect.
+
+### v0.1.1
+* Fix in mysql instrumentation on getConnection to check if callback is wrapped
+* NR-123832: Support for fire and forget vulnerability detection
+* Fixes for snapshot file.
+* Handling for high_security config.
+### v0.1.0
+* Handling to use OS specific path separator.
+* Functionality to create directories in windows environment.
+* IAST support for windows.
+* Log file permission fix.
 ### v0.0.8
 * Handling for IP resolving to IPV4 as Node.js v17 and above no longer re-sorts results of IP address lookups and returns them as-is.
 * Third Party Notices update
