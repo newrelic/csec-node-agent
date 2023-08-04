@@ -75,7 +75,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### @aws-sdk/client-lambda
 
-This product includes source derived from [@aws-sdk/client-lambda](https://github.com/aws/aws-sdk-js-v3) ([v3.358.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.358.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.358.0/LICENSE):
+This product includes source derived from [@aws-sdk/client-lambda](https://github.com/aws/aws-sdk-js-v3) ([v3.379.1](https://github.com/aws/aws-sdk-js-v3/tree/v3.379.1)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.379.1/LICENSE):
 
 ```
                                 Apache License
@@ -311,7 +311,7 @@ THE SOFTWARE.
 
 ### check-disk-space
 
-This product includes source derived from [check-disk-space](https://github.com/Alex-D/check-disk-space) ([v3.4.0](https://github.com/Alex-D/check-disk-space/tree/v3.4.0)), distributed under the [MIT License](https://github.com/Alex-D/check-disk-space/blob/v3.4.0/LICENSE):
+This product includes source derived from [check-disk-space](https://github.com/Alex-D/check-disk-space) ([v3.3.1](https://github.com/Alex-D/check-disk-space/tree/v3.3.1)), distributed under the [MIT License](https://github.com/Alex-D/check-disk-space/blob/v3.3.1/LICENSE):
 
 ```
 MIT License
@@ -684,7 +684,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.3](https://github.com/npm/node-semver/tree/v7.5.3)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.3/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.4](https://github.com/npm/node-semver/tree/v7.5.4)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.4/LICENSE):
 
 ```
 The ISC License
