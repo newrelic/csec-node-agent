@@ -1,3 +1,11 @@
+### v0.2.1 (2023-08-07)
+#### Bug Fixes
+* Pinned check-disk-space to v3.3.1 to support Node.js v14
+#### Miscellaneous Chores
+* deps: Updated semver to v7.5.4 and @aws-sdk/client-lambda to v3.363.0
+#### Continuous Integration
+* Add Node.js 20.x to CI
+
 ### v0.2.0 (2023-07-24)
 #### Features
 * IAST data pull implementation
