@@ -2,21 +2,13 @@ name: Publish Module
 
 on:
   workflow_dispatch:
-    inputs:
-      release_type:
-        description: 'Type of release. patch or minor (major if breaking)'
-        required: true
-        type: choice
-        default: patch
-        options:
-          - patch
-          - minor
-          - major
-
 
 jobs:
   publish-module:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: write
     strategy:
       matrix:
         node-version: [lts/*]
@@ -34,12 +26,14 @@ jobs:
       run: |
         git config user.name $GITHUB_ACTOR
         git config user.email gh-actions-${GITHUB_ACTOR}@github.com
-    - name: Version ${{ github.event.inputs.release_type }} 
-      run: npm version ${{ github.event.inputs.release_type }} 
     - name: Publish module
       run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-    - name: Push changes and tags 
-      run: git push --tags
+    - name: Create and push tag 
+      run: |
+        VERSION=`node -e "const { version } = require('./package.json'); console.log(version);"`
+        git tag v$VERSION
+        git push --tags
+
 

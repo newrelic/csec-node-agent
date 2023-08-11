@@ -1,6 +1,6 @@
 /*
  * Copyright 2023 New Relic Corporation. All rights reserved.
- * SPDX-License-Identifier: Apache-2.0
+ * SPDX-License-Identifier: New Relic Pre-Release
  */
 
 const API = require('./lib/nr-security-api');
@@ -13,7 +13,7 @@ function start(NRAgentObject) {
     const agent = NRAgentObject.agent;
     API.newrelic = NRAgentObject;
     API.setNRAgent(agent);
-    if (!agent.config.security.agent.enabled || agent.config.security.enabled == null) {
+    if (agent.config.high_security) {
         return;
     }
     require('./lib/nr-security-agent');
