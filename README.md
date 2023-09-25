@@ -42,7 +42,7 @@ The `@newrelic/security-agent` must be explicitly enabled in order to perform IA
 The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instrumentation will be of help. We particularly recommend the [tutorials](https://newrelic.github.io/node-newrelic/tutorial-Instrumentation-Basics.html) and the [shim API](https://newrelic.github.io/node-newrelic/Shim.html) documentation.
 
 ### Supported  Node.js Versions
-- Node version 14.x, 16.x and 18.x
+- Node version 16.x, 18.x and 20.x
 
 ### Supported  Modules
 
@@ -56,7 +56,7 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
 - [pg](https://www.npmjs.com/package/pg)(7.x and above)
 - [mongodb](https://www.npmjs.com/package/mongodb)(2.x, 3.x and 4.x)
 - [express](https://www.npmjs.com/package/express)(4.x and above)
-- [@koa/router](https://www.npmjs.com/package/@koa/router) ((9.x and above)
+- [@koa/router](https://www.npmjs.com/package/@koa/router) (9.x and above)
 - [koa-router](https://www.npmjs.com/package/koa-router)(9.x and above)
 - [@hapi/hapi](https://www.npmjs.com/package/@hapi/hapi)(19.x and above)
 - [fastify](https://www.npmjs.com/package/fastify)(2.x, 3.x and 4.x)
