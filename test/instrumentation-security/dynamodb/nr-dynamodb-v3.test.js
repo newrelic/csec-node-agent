@@ -26,12 +26,11 @@ let client = null;
 let documentClient = null;
 const TABLE_NAME = "users_v3";
 
-const dbSetup = async () => {
-    docker.command('rm -f dynamodb2', (data) => {});
-    docker.command('run -p 8000:7000 --name dynamodb2 amazon/dynamodb-local', (data) => {});
+const dbSetup = async () => { 
+   require('child_process').execSync('docker rm -f dynamodb2 && docker run -d -p 8009:8000 --name dynamodb2 amazon/dynamodb-local && sleep 5');
     client = new DynamoDBClient(
         {
-            endpoint: 'http://127.0.0.1:7000',
+            endpoint: 'http://localhost:8009',
             region: 'local',
             credentials: {
                 accessKeyId: 'accessKeyId',
@@ -85,6 +84,7 @@ test('dynamodb - v3', (t) => {
             }
         };
         var command = new CreateTableCommand(params);
+       
         const data = await client.send(command);
         t.ok(data)
         t.end();

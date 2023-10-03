@@ -24,7 +24,7 @@ const TABLE_NAME = "users";
 const setupAWS = () => {
     aws.config.update(
         {
-            endpoint: 'http://localhost:8000',
+            endpoint: 'http://localhost:8008',
             region: 'local',
             credentials: {
                 accessKeyId: 'accessKeyId',
@@ -35,8 +35,7 @@ const setupAWS = () => {
 }
 
 const dbSetup = async () => {
-    docker.command('rm -f dynamodb', (data) => {});
-    docker.command('run -p 8000:8000 --name dynamodb amazon/dynamodb-local', (data) => {});
+    require('child_process').execSync('docker rm -f dynamodb && docker run -d -p 8008:8000 --name dynamodb amazon/dynamodb-local && sleep 5');
     setupAWS()
     dynamodb = new aws.DynamoDB()
     docClient = new aws.DynamoDB.DocumentClient({ apiVersion: '2012-08-10' });
