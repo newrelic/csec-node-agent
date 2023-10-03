@@ -13,17 +13,26 @@ const libDynamoDb = require("@aws-sdk/lib-dynamodb")
 const localDynamo = require('local-dynamo')
 const { DynamoDBClient, CreateTableCommand, ListTablesCommand, DeleteTableCommand } = require("@aws-sdk/client-dynamodb");
 const { DynamoDBDocumentClient, GetCommand, PutCommand, UpdateCommand, QueryCommand, DeleteCommand } = require("@aws-sdk/lib-dynamodb");
+const { Docker } = require('docker-cli-js');
+
+const options = {
+    machineName: null, // uses local docker
+    currentWorkingDirectory: null, // uses current working directory
+    echo: true, // echo command output to stdout/stderr
+  };
+var docker = new Docker(options)
 
 let client = null;
 let documentClient = null;
 const TABLE_NAME = "users_v3";
 
 const dbSetup = async () => {
-    localDynamo.launch(null, 4567)
+    docker.command('rm -f dynamodb2', (data) => {});
+    docker.command('run -p 8000:7000 --name dynamodb2 amazon/dynamodb-local', (data) => {});
     client = new DynamoDBClient(
         {
-            endpoint: 'http://localhost:4567',
-            region: 'mock',
+            endpoint: 'http://127.0.0.1:7000',
+            region: 'local',
             credentials: {
                 accessKeyId: 'accessKeyId',
                 secretAccessKey: 'secretAccessKey'
@@ -55,6 +64,10 @@ test('dynamodb - v3', (t) => {
 
     t.afterEach(() => {
         helper && helper.unload();
+    })
+
+    t.teardown(() => {
+        docker.command('rm -f dynamodb2', (data) => {});
     })
 
     t.test('createTable', async (t) => {

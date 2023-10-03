@@ -9,7 +9,14 @@ const test = require('tap').test;
 const sinon = require('sinon');
 const utils = require('@newrelic/test-utilities');
 const aws = require('aws-sdk')
-const localDynamo = require('local-dynamo')
+const { Docker } = require('docker-cli-js');
+
+const options = {
+    machineName: null, // uses local docker
+    currentWorkingDirectory: null, // uses current working directory
+    echo: true, // echo command output to stdout/stderr
+  };
+var docker = new Docker(options)
 
 let dynamodb = null;
 let docClient = null;
@@ -17,8 +24,8 @@ const TABLE_NAME = "users";
 const setupAWS = () => {
     aws.config.update(
         {
-            endpoint: 'http://localhost:4567',
-            region: 'mock',
+            endpoint: 'http://localhost:8000',
+            region: 'local',
             credentials: {
                 accessKeyId: 'accessKeyId',
                 secretAccessKey: 'secretAccessKey'
@@ -28,8 +35,9 @@ const setupAWS = () => {
 }
 
 const dbSetup = async () => {
+    docker.command('rm -f dynamodb', (data) => {});
+    docker.command('run -p 8000:8000 --name dynamodb amazon/dynamodb-local', (data) => {});
     setupAWS()
-    localDynamo.launch(null, 4567)
     dynamodb = new aws.DynamoDB()
     docClient = new aws.DynamoDB.DocumentClient({ apiVersion: '2012-08-10' });
     try {
@@ -66,7 +74,7 @@ const tearDownDynamoDB = async () => {
     try {
         const data = await dynamodb.deleteTable({ TableName: TABLE_NAME }).promise();
         console.log('Table Deleted')
-
+        docker.command('rm -f dynamodb', (data) => {});
     } catch (err) {
         console.error('Table delete fail: ', err)
     }

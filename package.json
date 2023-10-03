@@ -69,6 +69,7 @@
     "@typescript-eslint/parser": "^4.15.0",
     "aws-sdk": "^2.1464.0",
     "director": "^1.2.8",
+    "docker-cli-js": "^2.10.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-disable": "^2.0.1",
