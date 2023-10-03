@@ -59,15 +59,15 @@
     "ws": "^7.5.9"
   },
   "devDependencies": {
-    "@aws-sdk/client-dynamodb": "^3.421.0",
-    "@aws-sdk/lib-dynamodb": "^3.421.0",
+    "@aws-sdk/client-dynamodb": "3.315.0",
+    "@aws-sdk/lib-dynamodb": "3.315.0",
     "@hapi/hapi": "^21.3.0",
     "@koa/router": "^12.0.0",
     "@newrelic/newrelic-oss-cli": "^0.1.2",
     "@newrelic/test-utilities": "7.2.1",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
     "@typescript-eslint/parser": "^4.15.0",
-    "aws-sdk": "^2.1464.0",
+    "aws-sdk": "2.1360.0",
     "director": "^1.2.8",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
