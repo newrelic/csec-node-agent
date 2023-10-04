@@ -120,25 +120,11 @@ test('redis', (t) => {
 
     t.test('get', (t) => {
         client.get('foo', redis.print); // 100
-        console.log("args:", shim.interceptedArgs);
         t.equal('get', shim.interceptedArgs.payloadType);
         t.equal(1, shim.interceptedArgs.payload.length);
         t.equal('foo', shim.interceptedArgs.payload[0]);
         t.end();
     })
-
-   
-
-
-
-
-
-
-
-
-
-
-
 
 
     t.teardown(() => {
