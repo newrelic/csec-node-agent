@@ -81,6 +81,24 @@ test('memcached', (t) => {
         });
     })
 
+    t.test('increment', (t) => {
+        memcached.increment( "hello", 1, function( err, result ){
+            t.equal('incr', shim.interceptedArgs.type);
+            t.equal('hello', shim.interceptedArgs.key);
+            t.equal(1, shim.interceptedArgs.value);
+            t.end();
+        });
+    })
+
+    t.test('decrement', (t) => {
+        memcached.decr( "hello", 1, function( err, result ){
+            t.equal('decr', shim.interceptedArgs.type);
+            t.equal('hello', shim.interceptedArgs.key);
+            t.equal(1, shim.interceptedArgs.value);
+            t.end();
+        });
+    })
+
     t.teardown(() => {
         cp.execSync('docker rm -f csec_memcache');
     })
