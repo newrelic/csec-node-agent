@@ -12,6 +12,18 @@ const hello_proto = grpc.loadPackageDefinition(packageDefinition);
 
 let server = null;
 
+const mockCallStream = () => {
+    function callStream(httpConstructor) {
+        this.Http2CallStream = httpConstructor
+    }
+
+    function Http2CallStream() { }
+    Http2CallStream.prototype.start = () => {}
+
+    const mockcallStream = new callStream(Http2CallStream)
+    return mockcallStream
+}
+
 function sayHello(call, callback) {
     callback(null, { message: 'Hello ' + call.request.name });
 }
@@ -59,7 +71,7 @@ test('grpc', (t) => {
 
     t.test('when version < 1.8.0', async (t) => {
         requireStub.onFirstCall().returns({ version: '1.5.5' });
-        requireStub.onSecondCall().returns(require('@grpc/grpc-js/build/src/call-stream'));
+        requireStub.onSecondCall().returns(mockCallStream());
         initialize(shim, grpc, '@grpc/grpc-js');
         startServer();
         var client = new hello_proto.Greeter('localhost:50051', grpc.credentials.createInsecure());
@@ -71,7 +83,7 @@ test('grpc', (t) => {
 
     t.test('when version < 1.4.0', async (t) => {
         requireStub.onFirstCall().returns({ version: '1.2.5' });
-        requireStub.onSecondCall().returns(require('@grpc/grpc-js/build/src/call-stream'));
+        requireStub.onSecondCall().returns(mockCallStream());
         initialize(shim, grpc, '@grpc/grpc-js');
         t.end()
     })
