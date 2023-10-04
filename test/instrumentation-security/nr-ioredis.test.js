@@ -13,10 +13,7 @@ let redis;
 const { RedisMemoryServer } = require('redis-memory-server');
 const redisServer = new RedisMemoryServer();
 
-tap.on('complete', ()=>{
-    console.log('completed');
-    tap.end()
-})
+
 const dbSetup = async () => {
     const host = await redisServer.getHost();
     const port = await redisServer.getPort();
