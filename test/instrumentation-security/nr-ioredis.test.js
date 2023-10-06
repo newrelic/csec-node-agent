@@ -17,7 +17,7 @@ const redisServer = new RedisMemoryServer();
 const dbSetup = async () => {
     const host = await redisServer.getHost();
     const port = await redisServer.getPort();
-    console.log("redis server running on:", host+":"+port)
+    console.log("redis server running on:", host + ":" + port)
     redis = new Redis(port, host);
     redis.on('error', (err) => {
         console.error("redis error:", err)
@@ -130,9 +130,21 @@ test('ioredis', (t) => {
         t.end();
     })
 
+    t.test('eval', (t) => {
+        redis.eval('return ARGV[1]', 0, 'Hello', function(err, res) {
+            t.equal('eval', shim.interceptedArgs.payloadType);
+            t.equal(3, shim.interceptedArgs.payload.length);
+            t.equal('return ARGV[1]', shim.interceptedArgs.payload[0]);
+            t.equal('0', shim.interceptedArgs.payload[1]);
+            t.equal('Hello', shim.interceptedArgs.payload[2]);
+            t.end();
+          })
+          
+    })
+
     t.teardown(() => {
         process.exit(0)
     })
-   
+
 
 })
