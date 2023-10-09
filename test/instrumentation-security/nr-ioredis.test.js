@@ -142,6 +142,27 @@ test('ioredis', (t) => {
           
     })
 
+    t.test('evalsha', (t)=>{
+        const luaScript = `return tonumber(ARGV[1]) + tonumber(ARGV[2])`;
+
+        // Load the script onto the Redis server and get its SHA1 hash
+        redis.script('load', luaScript, (err, sha1) => {
+          if (err) throw err;
+        
+          // Use evalsha to run the script with arguments
+          redis.evalsha(sha1, 0, '2', '3', (err, result) => {
+            if (err) throw err;
+
+            t.equal('evalsha', shim.interceptedArgs.payloadType);
+            t.equal(4, shim.interceptedArgs.payload.length);
+            t.equal('0', shim.interceptedArgs.payload[1]);
+            t.equal('2', shim.interceptedArgs.payload[2]);
+            t.end();
+
+          });
+        });
+    })
+
     t.teardown(() => {
         process.exit(0)
     })
