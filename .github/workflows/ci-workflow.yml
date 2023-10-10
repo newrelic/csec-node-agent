@@ -16,7 +16,7 @@ jobs:
 
   test:
     needs: should_skip_job
-    if: needs.should_skip_job.outputs.should_skip != 'true'
+    if: needs.should_skip_job.outputs.should_skip != 'false'
     runs-on: ubuntu-latest
 
     strategy:
