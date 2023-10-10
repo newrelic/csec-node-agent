@@ -3,17 +3,17 @@ name: CSEC Node Agent CI
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
-  build:
+  should_skip:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
       - name: Check for should_skip Label
-        id: should-skip-check
+        id: should_skip_check
         run: echo "::set-output name=should-skip::${{ contains(github.event.pull_request.labels.*.name, 'should_skip') }}"
 
   test:
-    if: ${{ steps.should-skip-check.outputs.should-skip != 'true' }}
+    if: ${{ steps.should_skip_check.outputs.should_skip != 'true' }}
     runs-on: ubuntu-latest
 
     strategy:
