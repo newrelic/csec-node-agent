@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Check for should_skip Label
         id: should_skip_check
-        run: echo "::set-output name=should-skip::${{ contains(github.event.pull_request.labels.*.name, 'should_skip') }}"
+        run: echo "::set-output name=should_skip::${{ contains(github.event.pull_request.labels.*.name, 'should_skip') }}"
 
   test:
     if: ${{ steps.should_skip_check.outputs.should_skip != 'true' }}
