@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v3
       - name: Check for should_skip Label
         id: should-skip-check
         run: echo "::set-output name=should-skip::${{ contains(github.event.pull_request.labels.*.name, 'should_skip') }}"
