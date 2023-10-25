@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "Fri Aug 04 2023 19:58:51 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Wed Oct 25 2023 09:22:08 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
-    "@aws-sdk/client-lambda@3.379.1": {
+    "@aws-sdk/client-lambda@3.435.0": {
       "name": "@aws-sdk/client-lambda",
-      "version": "3.379.1",
-      "range": "^3.363.0",
+      "version": "3.435.0",
+      "range": "^3.405.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/aws/aws-sdk-js-v3",
-      "versionedRepoUrl": "https://github.com/aws/aws-sdk-js-v3/tree/v3.379.1",
+      "versionedRepoUrl": "https://github.com/aws/aws-sdk-js-v3/tree/v3.435.0",
       "licenseFile": "node_modules/@aws-sdk/client-lambda/LICENSE",
-      "licenseUrl": "https://github.com/aws/aws-sdk-js-v3/blob/v3.379.1/LICENSE",
+      "licenseUrl": "https://github.com/aws/aws-sdk-js-v3/blob/v3.435.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "AWS SDK for JavaScript Team",
       "url": "https://aws.amazon.com/javascript/"
@@ -262,15 +262,15 @@
       "publisher": "Jon Schlinkert",
       "url": "https://github.com/jonschlinkert"
     },
-    "uuid@9.0.0": {
+    "uuid@9.0.1": {
       "name": "uuid",
-      "version": "9.0.0",
-      "range": "^9.0.0",
+      "version": "9.0.1",
+      "range": "^9.0.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/uuidjs/uuid",
-      "versionedRepoUrl": "https://github.com/uuidjs/uuid/tree/v9.0.0",
+      "versionedRepoUrl": "https://github.com/uuidjs/uuid/tree/v9.0.1",
       "licenseFile": "node_modules/uuid/LICENSE.md",
-      "licenseUrl": "https://github.com/uuidjs/uuid/blob/v9.0.0/LICENSE.md",
+      "licenseUrl": "https://github.com/uuidjs/uuid/blob/v9.0.1/LICENSE.md",
       "licenseTextSource": "file"
     },
     "ws@7.5.9": {
