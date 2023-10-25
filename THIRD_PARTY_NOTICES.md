@@ -75,7 +75,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### @aws-sdk/client-lambda
 
-This product includes source derived from [@aws-sdk/client-lambda](https://github.com/aws/aws-sdk-js-v3) ([v3.379.1](https://github.com/aws/aws-sdk-js-v3/tree/v3.379.1)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.379.1/LICENSE):
+This product includes source derived from [@aws-sdk/client-lambda](https://github.com/aws/aws-sdk-js-v3) ([v3.435.0](https://github.com/aws/aws-sdk-js-v3/tree/v3.435.0)), distributed under the [Apache-2.0 License](https://github.com/aws/aws-sdk-js-v3/blob/v3.435.0/LICENSE):
 
 ```
                                 Apache License
@@ -790,7 +790,7 @@ THE SOFTWARE.
 
 ### uuid
 
-This product includes source derived from [uuid](https://github.com/uuidjs/uuid) ([v9.0.0](https://github.com/uuidjs/uuid/tree/v9.0.0)), distributed under the [MIT License](https://github.com/uuidjs/uuid/blob/v9.0.0/LICENSE.md):
+This product includes source derived from [uuid](https://github.com/uuidjs/uuid) ([v9.0.1](https://github.com/uuidjs/uuid/tree/v9.0.1)), distributed under the [MIT License](https://github.com/uuidjs/uuid/blob/v9.0.1/LICENSE.md):
 
 ```
 The MIT License (MIT)
