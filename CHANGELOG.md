@@ -1,3 +1,22 @@
+### v0.3.0 (2023-09-25)
+#### Features
+* Last leg acknowledgement in IAST scanning.
+#### Bug Fixes
+* Fix for mysql query params in security events.
+* Logging update for default log level and status file flags.
+* Update in IAST batch size processing.
+* Disable instrumentation when security enabled flag is set to false
+#### Miscellaneous Chores
+* Readme update
+
+### v0.2.1 (2023-08-07)
+#### Bug Fixes
+* Pinned check-disk-space to v3.3.1 to support Node.js v14
+#### Miscellaneous Chores
+* deps: Updated semver to v7.5.4 and @aws-sdk/client-lambda to v3.363.0
+#### Continuous Integration
+* Add Node.js 20.x to CI
+
 ### v0.2.0 (2023-07-24)
 #### Features
 * IAST data pull implementation
