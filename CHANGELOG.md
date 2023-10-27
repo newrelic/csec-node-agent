@@ -7,6 +7,7 @@
 #### Continuous integration
 * Removed Node.js 14.x from CI.
 * Added should_skip flag to skip CI based on label.
+
 ### v0.3.0 (2023-09-25)
 #### Features
 * Last leg acknowledgement in IAST scanning.
