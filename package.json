@@ -56,7 +56,7 @@
     "unescape": "^1.0.1",
     "unescape-js": "^1.1.4",
     "uuid": "^9.0.1",
-    "ws": "^7.5.9"
+    "ws": "^8.14.2"
   },
   "devDependencies": {
     "@hapi/hapi": "^21.3.0",
