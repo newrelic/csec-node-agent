@@ -35,7 +35,7 @@
     "url": "https://github.com/newrelic/csec-node-agent.git"
   },
   "dependencies": {
-    "@aws-sdk/client-lambda": "^3.405.0",
+    "@aws-sdk/client-lambda": "^3.436.0",
     "axios": "1.6.0",
     "check-disk-space": "3.4.0",
     "content-type": "^1.0.5",
