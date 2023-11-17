@@ -1,3 +1,14 @@
+### v0.5.0 (2023-11-17)
+#### Features
+* IAST support for NestJS framework
+#### Bug Fixes
+* Fixed misspelled constant in fs.open() hook
+* Minor fix in applicationInfo for pod properties
+#### Miscellaneous chores
+* Upgraded ws to v8.14.2 and updated intialization of websocket for v8.x.
+* Upgraded check-disk-space to v3.4.0
+* Upgraded @aws-sdk/client-lambda to v3.436.0
+
 ### v0.4.0 (2023-10-27)
 #### Features
 * Added event stats for RASP, IAST and exit events in healthcheck. 
