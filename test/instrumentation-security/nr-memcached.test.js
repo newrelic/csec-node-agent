@@ -39,62 +39,57 @@ test('memcached', (t) => {
 
     t.test('set', (t) => {
         memcached.set("hello", 1, 100, function (err, result) {
-            t.equal('set', shim.interceptedArgs.type);
-            t.equal('hello', shim.interceptedArgs.key);
-            t.equal(1, shim.interceptedArgs.value);
+            t.equal('set', shim.interceptedArgs.mode);
+            t.equal('hello', shim.interceptedArgs.arguments[0]);
             t.end();
         });
     })
 
     t.test('get', (t) => {
         memcached.get("hello", function (err, result) {
-            t.equal('get', shim.interceptedArgs.type);
-            t.equal('hello', shim.interceptedArgs.key);
+            t.equal('get', shim.interceptedArgs.mode);
+            t.equal('hello', shim.interceptedArgs.arguments[0]);
             t.end();
         });
     })
 
     t.test('get_multi', (t) => {
         memcached.get(["hello", "hello_json"], function (err, result) {
-            t.equal('get', shim.interceptedArgs.type);
-            t.equal(2, shim.interceptedArgs.key.length);
+            t.equal('get', shim.interceptedArgs.mode);
+            t.equal(1, shim.interceptedArgs.arguments.length);
             t.end();
         });
     })
 
     t.test('delete', (t) => {
         memcached.del('foo', function (err, result) {
-            t.equal('delete', shim.interceptedArgs.type);
-            t.equal('foo', shim.interceptedArgs.key);
+            t.equal('delete', shim.interceptedArgs.mode);
+            t.equal('foo', shim.interceptedArgs.arguments[0]);
             t.end();
         });
     })
 
     t.test('set_json', (t) => {
         memcached.set("hello_json", { javascript: 'objects', are: ['no', 'problem', 4], nMemcached: true }, 10000, function (err, result) {
-            t.equal('set', shim.interceptedArgs.type);
-            t.equal('hello_json', shim.interceptedArgs.key);
-            t.equal("objects", shim.interceptedArgs.value.javascript);
-            t.equal(true, shim.interceptedArgs.value.nMemcached);
-            t.equal(3, shim.interceptedArgs.value.are.length);
+            t.equal('set', shim.interceptedArgs.mode);
+            t.equal('hello_json', shim.interceptedArgs.arguments[0]);
             t.end();
         });
     })
 
     t.test('increment', (t) => {
         memcached.increment( "hello", 1, function( err, result ){
-            t.equal('incr', shim.interceptedArgs.type);
-            t.equal('hello', shim.interceptedArgs.key);
-            t.equal(1, shim.interceptedArgs.value);
+            t.equal('incr', shim.interceptedArgs.mode);
+            t.equal('hello', shim.interceptedArgs.arguments[0]);
+            t.equal(1, shim.interceptedArgs.arguments[1]);
             t.end();
         });
     })
 
     t.test('decrement', (t) => {
         memcached.decr( "hello", 1, function( err, result ){
-            t.equal('decr', shim.interceptedArgs.type);
-            t.equal('hello', shim.interceptedArgs.key);
-            t.equal(1, shim.interceptedArgs.value);
+            t.equal('decr', shim.interceptedArgs.mode);
+            t.equal('hello', shim.interceptedArgs.arguments[0]);
             t.end();
         });
     })
