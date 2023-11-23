@@ -17,7 +17,7 @@ test('child_process', (t) => {
     let expectedUsername = require('os').userInfo().username;
 
     t.beforeEach(() => {
-        helper = utils.TestAgent.makeInstrumented()
+        helper = utils.TestAgent.makeInstrumented();
         shim = helper.getShim();
         initialize = require('../../lib/instrumentation-security/hooks/native/nr-childProcess');
         initialize(shim, cp, 'child_process');
