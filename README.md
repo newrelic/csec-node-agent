@@ -62,6 +62,7 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
 - [fastify](https://www.npmjs.com/package/fastify)(2.x, 3.x and 4.x)
 - [restify](https://www.npmjs.com/package/restify)(8.x, 9.x, 10.x and 11.x)
 - [director](https://www.npmjs.com/package/director)(1.2.x)
+- [@nestjs/core](https://www.npmjs.com/package/@nestjs/core)(8.x and above)
 - [ldapjs](https://www.npmjs.com/package/ldapjs)(2.x and above)
 - [ldapts](https://www.npmjs.com/package/ldapts)(2.x and above)
 - [xpath](https://www.npmjs.com/package/xpath)(0.0.20 and above)
