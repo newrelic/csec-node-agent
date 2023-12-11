@@ -1,9 +1,9 @@
 {
   "name": "@newrelic/security-agent",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "New Relic Security Agent for Node.js",
   "main": "index.js",
-  "jsonVersion": "1.1.0",
+  "jsonVersion": "1.1.1",
   "contributors": [
     {
       "name": "Sumit Suthar",
@@ -35,8 +35,8 @@
     "url": "https://github.com/newrelic/csec-node-agent.git"
   },
   "dependencies": {
-    "@aws-sdk/client-lambda": "^3.405.0",
-    "axios": "1.6.0",
+    "@aws-sdk/client-lambda": "^3.436.0",
+    "axios": "1.6.1",
     "check-disk-space": "3.4.0",
     "content-type": "^1.0.5",
     "fast-safe-stringify": "^2.1.1",
