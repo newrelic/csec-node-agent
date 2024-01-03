@@ -1,18 +1,18 @@
 ### v0.6.0 (2024-01-03)
 #### Features
 * Added ws headers NR-CSEC-ENTITY-GUID and NR-CSEC-ENTITY-NAME
-* Updated jsonVersion to 1.1.1 in security events.
-* Support to send important logs/errors to security engine.
+* Updated jsonVersion to 1.1.1 in security events
+* Support to send important logs/errors to security engine
 #### Bug fixes
-* Added missing protocol in http request object.
-* Fix for honouring probing interval from policy.
+* Added missing protocol in http request object
+* Fix for honouring probing interval from policy
 #### Miscellaneous chores
-* Added nestjs test cases.
+* Added nestjs test cases
 * Additional logging for instrumented modules and methods 
 * Upgraded axios to v1.6.3
-* Removed pinned version for axios and check-disk-space.
+* Removed pinned version for axios and check-disk-space
 * Update in lockfileVersion of package-lock.json
-* Updated @babel/traverse, protobufjs, fast-xml-parser and @aws-sdk/credential-providers.
+* Updated @babel/traverse, protobufjs, fast-xml-parser and @aws-sdk/credential-providers
 * Updated Readme.md
 
 
