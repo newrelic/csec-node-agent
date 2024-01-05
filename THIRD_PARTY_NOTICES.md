@@ -284,7 +284,7 @@ This product includes source derived from [@aws-sdk/client-lambda](https://githu
 
 ### axios
 
-This product includes source derived from [axios](https://github.com/axios/axios) ([v1.6.0](https://github.com/axios/axios/tree/v1.6.0)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.6.0/LICENSE):
+This product includes source derived from [axios](https://github.com/axios/axios) ([v1.6.3](https://github.com/axios/axios/tree/v1.6.3)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.6.3/LICENSE):
 
 ```
 # Copyright (c) 2014-present Matt Zabriskie & Collaborators
