@@ -1,3 +1,16 @@
+### v0.7.0 (2024-01-17)
+#### Features
+* Handling to exclude unsupported content types from rxss processing
+* Handling to report errors/critical messages to SE
+#### Bug fixes
+* Fix for file operation event's parameter must be absolute path of file.
+* Fix for ReferenceError of commonUtils module
+#### Miscellaneous chores
+* Updated log event jsonName to "critical-messages"
+* Removed dependency @aws-sdk/client-lambda
+* Bumped follow-redirects from 1.15.2 to 1.15.4  
+* Upgraded axios to v1.6.5 
+
 ### v0.6.0 (2024-01-03)
 #### Features
 * Added ws headers NR-CSEC-ENTITY-GUID and NR-CSEC-ENTITY-NAME
