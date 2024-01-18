@@ -1,32 +1,19 @@
 {
-  "lastUpdated": "Wed Jan 03 2024 10:46:43 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Mon Jan 15 2024 16:21:43 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
-    "@aws-sdk/client-lambda@3.436.0": {
-      "name": "@aws-sdk/client-lambda",
-      "version": "3.436.0",
-      "range": "^3.436.0",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/aws/aws-sdk-js-v3",
-      "versionedRepoUrl": "https://github.com/aws/aws-sdk-js-v3/tree/v3.436.0",
-      "licenseFile": "node_modules/@aws-sdk/client-lambda/LICENSE",
-      "licenseUrl": "https://github.com/aws/aws-sdk-js-v3/blob/v3.436.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "AWS SDK for JavaScript Team",
-      "url": "https://aws.amazon.com/javascript/"
-    },
-    "axios@1.6.3": {
+    "axios@1.6.5": {
       "name": "axios",
-      "version": "1.6.3",
-      "range": "^1.6.3",
+      "version": "1.6.5",
+      "range": "^1.6.5",
       "licenses": "MIT",
       "repoUrl": "https://github.com/axios/axios",
-      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.6.3",
+      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.6.5",
       "licenseFile": "node_modules/axios/LICENSE",
-      "licenseUrl": "https://github.com/axios/axios/blob/v1.6.3/LICENSE",
+      "licenseUrl": "https://github.com/axios/axios/blob/v1.6.5/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Matt Zabriskie"
     },
