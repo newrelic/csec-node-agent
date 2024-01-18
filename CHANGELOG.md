@@ -1,4 +1,4 @@
-### v0.7.0 (2024-01-17)
+### v0.7.0 (2024-01-18)
 #### Features
 * Handling to exclude unsupported content types from rxss processing
 * Handling to report errors/critical messages to SE
