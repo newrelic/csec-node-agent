@@ -1,9 +1,9 @@
 ### v0.7.0 (2024-01-18)
 #### Features
 * Handling to exclude unsupported content types from rxss processing
-* Handling to report errors/critical messages to SE
+* Handling to report errors/critical messages to Security Engine
 #### Bug fixes
-* Fix for file operation event's parameter must be absolute path of file.
+* Fix for file operation event's parameter must be absolute path of file
 * Fix for ReferenceError of commonUtils module
 #### Miscellaneous chores
 * Updated log event jsonName to "critical-messages"
