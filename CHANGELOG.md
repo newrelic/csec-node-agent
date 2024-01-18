@@ -8,7 +8,7 @@
 #### Miscellaneous chores
 * Updated log event jsonName to "critical-messages"
 * Removed dependency @aws-sdk/client-lambda
-* Bumped follow-redirects from 1.15.2 to 1.15.4  
+* Bumped follow-redirects from v1.15.2 to v1.15.4  
 * Upgraded axios to v1.6.5 
 
 ### v0.6.0 (2024-01-03)
