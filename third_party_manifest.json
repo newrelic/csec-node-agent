@@ -1,56 +1,31 @@
 {
-  "lastUpdated": "Thu Apr 27 2023 15:33:40 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Mon Jan 15 2024 16:21:43 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
-    "@aws-sdk/client-lambda@3.276.0": {
-      "name": "@aws-sdk/client-lambda",
-      "version": "3.276.0",
-      "range": "3.276.0",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/aws/aws-sdk-js-v3",
-      "versionedRepoUrl": "https://github.com/aws/aws-sdk-js-v3/tree/v3.276.0",
-      "licenseFile": "node_modules/@aws-sdk/client-lambda/LICENSE",
-      "licenseUrl": "https://github.com/aws/aws-sdk-js-v3/blob/v3.276.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "AWS SDK for JavaScript Team",
-      "url": "https://aws.amazon.com/javascript/"
-    },
-    "@newrelic/newrelic-oss-cli@0.1.2": {
-      "name": "@newrelic/newrelic-oss-cli",
-      "version": "0.1.2",
-      "range": "^0.1.2",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/newrelic/newrelic-oss-cli",
-      "versionedRepoUrl": "https://github.com/newrelic/newrelic-oss-cli/tree/v0.1.2",
-      "licenseFile": "node_modules/@newrelic/newrelic-oss-cli/LICENSE",
-      "licenseUrl": "https://github.com/newrelic/newrelic-oss-cli/blob/v0.1.2/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "New Relic"
-    },
-    "axios@0.21.4": {
+    "axios@1.6.5": {
       "name": "axios",
-      "version": "0.21.4",
-      "range": "0.21.4",
+      "version": "1.6.5",
+      "range": "^1.6.5",
       "licenses": "MIT",
       "repoUrl": "https://github.com/axios/axios",
-      "versionedRepoUrl": "https://github.com/axios/axios/tree/v0.21.4",
+      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.6.5",
       "licenseFile": "node_modules/axios/LICENSE",
-      "licenseUrl": "https://github.com/axios/axios/blob/v0.21.4/LICENSE",
+      "licenseUrl": "https://github.com/axios/axios/blob/v1.6.5/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Matt Zabriskie"
     },
-    "check-disk-space@3.3.1": {
+    "check-disk-space@3.4.0": {
       "name": "check-disk-space",
-      "version": "3.3.1",
-      "range": "^3.1.0",
+      "version": "3.4.0",
+      "range": "3.4.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/Alex-D/check-disk-space",
-      "versionedRepoUrl": "https://github.com/Alex-D/check-disk-space/tree/v3.3.1",
+      "versionedRepoUrl": "https://github.com/Alex-D/check-disk-space/tree/v3.4.0",
       "licenseFile": "node_modules/check-disk-space/LICENSE",
-      "licenseUrl": "https://github.com/Alex-D/check-disk-space/blob/v3.3.1/LICENSE",
+      "licenseUrl": "https://github.com/Alex-D/check-disk-space/blob/v3.4.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Alex-D",
       "email": "contact@alex-d.fr",
@@ -106,15 +81,15 @@
       "publisher": "Fedor Indutny",
       "email": "fedor@indutny.com"
     },
-    "html-entities@1.4.0": {
+    "html-entities@2.3.6": {
       "name": "html-entities",
-      "version": "1.4.0",
-      "range": "^1.2.1",
+      "version": "2.3.6",
+      "range": "^2.3.6",
       "licenses": "MIT",
-      "repoUrl": "https://github.com/mdevils/node-html-entities",
-      "versionedRepoUrl": "https://github.com/mdevils/node-html-entities/tree/v1.4.0",
+      "repoUrl": "https://github.com/mdevils/html-entities",
+      "versionedRepoUrl": "https://github.com/mdevils/html-entities/tree/v2.3.6",
       "licenseFile": "node_modules/html-entities/LICENSE",
-      "licenseUrl": "https://github.com/mdevils/node-html-entities/blob/v1.4.0/LICENSE",
+      "licenseUrl": "https://github.com/mdevils/html-entities/blob/v2.3.6/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Marat Dulin",
       "email": "mdevils@yandex.ru"
@@ -196,15 +171,15 @@
       "email": "sindresorhus@gmail.com",
       "url": "https://sindresorhus.com"
     },
-    "request-ip@2.2.0": {
+    "request-ip@3.3.0": {
       "name": "request-ip",
-      "version": "2.2.0",
-      "range": "^2.1.3",
+      "version": "3.3.0",
+      "range": "^3.3.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/pbojinov/request-ip",
-      "versionedRepoUrl": "https://github.com/pbojinov/request-ip/tree/v2.2.0",
+      "versionedRepoUrl": "https://github.com/pbojinov/request-ip/tree/v3.3.0",
       "licenseFile": "node_modules/request-ip/LICENSE.md",
-      "licenseUrl": "https://github.com/pbojinov/request-ip/blob/v2.2.0/LICENSE.md",
+      "licenseUrl": "https://github.com/pbojinov/request-ip/blob/v3.3.0/LICENSE.md",
       "licenseTextSource": "file",
       "publisher": "Petar Bojinov",
       "email": "petarbojinov+github@gmail.com"
@@ -223,16 +198,17 @@
       "email": "info@janogonzalez.com",
       "url": "http://janogonzalez.com"
     },
-    "semver@6.3.0": {
+    "semver@7.5.4": {
       "name": "semver",
-      "version": "6.3.0",
-      "range": "^6.3.0",
+      "version": "7.5.4",
+      "range": "^7.5.4",
       "licenses": "ISC",
       "repoUrl": "https://github.com/npm/node-semver",
-      "versionedRepoUrl": "https://github.com/npm/node-semver/tree/v6.3.0",
+      "versionedRepoUrl": "https://github.com/npm/node-semver/tree/v7.5.4",
       "licenseFile": "node_modules/semver/LICENSE",
-      "licenseUrl": "https://github.com/npm/node-semver/blob/v6.3.0/LICENSE",
-      "licenseTextSource": "file"
+      "licenseUrl": "https://github.com/npm/node-semver/blob/v7.5.4/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "GitHub Inc."
     },
     "sync-request@6.1.0": {
       "name": "sync-request",
@@ -273,26 +249,26 @@
       "publisher": "Jon Schlinkert",
       "url": "https://github.com/jonschlinkert"
     },
-    "uuid@3.4.0": {
+    "uuid@9.0.1": {
       "name": "uuid",
-      "version": "3.4.0",
-      "range": "^3.4.0",
+      "version": "9.0.1",
+      "range": "^9.0.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/uuidjs/uuid",
-      "versionedRepoUrl": "https://github.com/uuidjs/uuid/tree/v3.4.0",
+      "versionedRepoUrl": "https://github.com/uuidjs/uuid/tree/v9.0.1",
       "licenseFile": "node_modules/uuid/LICENSE.md",
-      "licenseUrl": "https://github.com/uuidjs/uuid/blob/v3.4.0/LICENSE.md",
+      "licenseUrl": "https://github.com/uuidjs/uuid/blob/v9.0.1/LICENSE.md",
       "licenseTextSource": "file"
     },
-    "ws@7.5.9": {
+    "ws@8.14.2": {
       "name": "ws",
-      "version": "7.5.9",
-      "range": "^7.5.9",
+      "version": "8.14.2",
+      "range": "^8.14.2",
       "licenses": "MIT",
       "repoUrl": "https://github.com/websockets/ws",
-      "versionedRepoUrl": "https://github.com/websockets/ws/tree/v7.5.9",
+      "versionedRepoUrl": "https://github.com/websockets/ws/tree/v8.14.2",
       "licenseFile": "node_modules/ws/LICENSE",
-      "licenseUrl": "https://github.com/websockets/ws/blob/v7.5.9/LICENSE",
+      "licenseUrl": "https://github.com/websockets/ws/blob/v8.14.2/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Einar Otto Stangvik",
       "email": "einaros@gmail.com",
@@ -300,15 +276,15 @@
     }
   },
   "devDependencies": {
-    "@hapi/hapi@21.3.1": {
+    "@hapi/hapi@21.3.2": {
       "name": "@hapi/hapi",
-      "version": "21.3.1",
+      "version": "21.3.2",
       "range": "^21.3.0",
       "licenses": "BSD-3-Clause",
       "repoUrl": "https://github.com/hapijs/hapi",
-      "versionedRepoUrl": "https://github.com/hapijs/hapi/tree/v21.3.1",
+      "versionedRepoUrl": "https://github.com/hapijs/hapi/tree/v21.3.2",
       "licenseFile": "node_modules/@hapi/hapi/LICENSE.md",
-      "licenseUrl": "https://github.com/hapijs/hapi/blob/v21.3.1/LICENSE.md",
+      "licenseUrl": "https://github.com/hapijs/hapi/blob/v21.3.2/LICENSE.md",
       "licenseTextSource": "file"
     },
     "@koa/router@12.0.0": {
@@ -323,6 +299,18 @@
       "licenseTextSource": "file",
       "publisher": "Alex Mingoia",
       "email": "talk@alexmingoia.com"
+    },
+    "@newrelic/newrelic-oss-cli@0.1.2": {
+      "name": "@newrelic/newrelic-oss-cli",
+      "version": "0.1.2",
+      "range": "^0.1.2",
+      "licenses": "Apache-2.0",
+      "repoUrl": "https://github.com/newrelic/newrelic-oss-cli",
+      "versionedRepoUrl": "https://github.com/newrelic/newrelic-oss-cli/tree/v0.1.2",
+      "licenseFile": "node_modules/@newrelic/newrelic-oss-cli/LICENSE",
+      "licenseUrl": "https://github.com/newrelic/newrelic-oss-cli/blob/v0.1.2/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "New Relic"
     },
     "@newrelic/test-utilities@7.2.1": {
       "name": "@newrelic/test-utilities",
@@ -509,15 +497,15 @@
       "licenseUrl": "https://github.com/koajs/koa/blob/v2.14.2/LICENSE",
       "licenseTextSource": "file"
     },
-    "mongodb-memory-server@8.12.2": {
+    "mongodb-memory-server@8.13.0": {
       "name": "mongodb-memory-server",
-      "version": "8.12.2",
+      "version": "8.13.0",
       "range": "^8.11.2",
       "licenses": "MIT",
       "repoUrl": "https://github.com/nodkz/mongodb-memory-server",
-      "versionedRepoUrl": "https://github.com/nodkz/mongodb-memory-server/tree/v8.12.2",
+      "versionedRepoUrl": "https://github.com/nodkz/mongodb-memory-server/tree/v8.13.0",
       "licenseFile": "node_modules/mongodb-memory-server/LICENSE.md",
-      "licenseUrl": "https://github.com/nodkz/mongodb-memory-server/blob/v8.12.2/LICENSE.md",
+      "licenseUrl": "https://github.com/nodkz/mongodb-memory-server/blob/v8.13.0/LICENSE.md",
       "licenseTextSource": "file"
     },
     "mongodb@2.2.36": {
@@ -534,13 +522,13 @@
         "Unable to determine license url."
       ]
     },
-    "mongodb@3.7.3": {
+    "mongodb@3.7.4": {
       "name": "mongodb",
-      "version": "3.7.3",
+      "version": "3.7.4",
       "range": "^4.13.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/mongodb/node-mongodb-native",
-      "versionedRepoUrl": "https://github.com/mongodb/node-mongodb-native/tree/v3.7.3",
+      "versionedRepoUrl": "https://github.com/mongodb/node-mongodb-native/tree/v3.7.4",
       "licenseFile": "node_modules/mongodb3/LICENSE.md",
       "licenseTextSource": "file",
       "publisher": "The MongoDB NodeJS Team",
@@ -562,15 +550,15 @@
       "publisher": "The MongoDB NodeJS Team",
       "email": "dbx-node@mongodb.com"
     },
-    "newrelic@9.15.0": {
+    "newrelic@10.3.1": {
       "name": "newrelic",
-      "version": "9.15.0",
-      "range": "^9.15.0",
+      "version": "10.3.1",
+      "range": "^10.3.1",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/newrelic/node-newrelic",
-      "versionedRepoUrl": "https://github.com/newrelic/node-newrelic/tree/v9.15.0",
+      "versionedRepoUrl": "https://github.com/newrelic/node-newrelic/tree/v10.3.1",
       "licenseFile": "node_modules/newrelic/LICENSE",
-      "licenseUrl": "https://github.com/newrelic/node-newrelic/blob/v9.15.0/LICENSE",
+      "licenseUrl": "https://github.com/newrelic/node-newrelic/blob/v10.3.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "New Relic Node.js agent team",
       "email": "nodejs@newrelic.com"
@@ -588,40 +576,40 @@
       "publisher": "Mikeal Rogers",
       "email": "mikeal.rogers@gmail.com"
     },
-    "restify@8.6.1": {
+    "restify@11.1.0": {
       "name": "restify",
-      "version": "8.6.1",
-      "range": "^8.6.1",
+      "version": "11.1.0",
+      "range": "^11.1.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/restify/node-restify",
-      "versionedRepoUrl": "https://github.com/restify/node-restify/tree/v8.6.1",
+      "versionedRepoUrl": "https://github.com/restify/node-restify/tree/v11.1.0",
       "licenseFile": "node_modules/restify/LICENSE",
-      "licenseUrl": "https://github.com/restify/node-restify/blob/v8.6.1/LICENSE",
+      "licenseUrl": "https://github.com/restify/node-restify/blob/v11.1.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Mark Cavage",
       "email": "mcavage@gmail.com"
     },
-    "sinon@15.0.4": {
+    "sinon@15.2.0": {
       "name": "sinon",
-      "version": "15.0.4",
+      "version": "15.2.0",
       "range": "^15.0.0",
       "licenses": "BSD-3-Clause",
       "repoUrl": "https://github.com/sinonjs/sinon",
-      "versionedRepoUrl": "https://github.com/sinonjs/sinon/tree/v15.0.4",
+      "versionedRepoUrl": "https://github.com/sinonjs/sinon/tree/v15.2.0",
       "licenseFile": "node_modules/sinon/LICENSE",
-      "licenseUrl": "https://github.com/sinonjs/sinon/blob/v15.0.4/LICENSE",
+      "licenseUrl": "https://github.com/sinonjs/sinon/blob/v15.2.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Christian Johansen"
     },
-    "tap@16.3.4": {
+    "tap@16.3.7": {
       "name": "tap",
-      "version": "16.3.4",
+      "version": "16.3.7",
       "range": "^16.3.2",
       "licenses": "ISC",
       "repoUrl": "https://github.com/tapjs/node-tap",
-      "versionedRepoUrl": "https://github.com/tapjs/node-tap/tree/v16.3.4",
+      "versionedRepoUrl": "https://github.com/tapjs/node-tap/tree/v16.3.7",
       "licenseFile": "node_modules/tap/LICENSE",
-      "licenseUrl": "https://github.com/tapjs/node-tap/blob/v16.3.4/LICENSE",
+      "licenseUrl": "https://github.com/tapjs/node-tap/blob/v16.3.7/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Isaac Z. Schlueter",
       "email": "i@izs.me",
