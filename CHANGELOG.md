@@ -1,3 +1,34 @@
+### v0.7.0 (2024-01-18)
+#### Features
+* Handling to exclude unsupported content types from rxss processing
+* Handling to report errors/critical messages to Security Engine
+#### Bug fixes
+* Fix for file operation event's parameter must be absolute path of file
+* Fix for ReferenceError of commonUtils module
+#### Miscellaneous chores
+* Updated log event jsonName to "critical-messages"
+* Removed dependency @aws-sdk/client-lambda
+* Bumped follow-redirects from v1.15.2 to v1.15.4  
+* Upgraded axios to v1.6.5 
+
+### v0.6.0 (2024-01-03)
+#### Features
+* Added ws headers NR-CSEC-ENTITY-GUID and NR-CSEC-ENTITY-NAME
+* Updated jsonVersion to 1.1.1 in security events
+* Support to send important logs/errors to security engine
+#### Bug fixes
+* Added missing protocol in http request object
+* Fix for honouring probing interval from policy
+#### Miscellaneous chores
+* Added nestjs test cases
+* Additional logging for instrumented modules and methods 
+* Upgraded axios to v1.6.3
+* Removed pinned version for axios and check-disk-space
+* Update in lockfileVersion of package-lock.json
+* Updated @babel/traverse, protobufjs, fast-xml-parser and @aws-sdk/credential-providers
+* Updated Readme.md
+
+
 ### v0.5.0 (2023-11-17)
 #### Features
 * IAST support for NestJS framework
