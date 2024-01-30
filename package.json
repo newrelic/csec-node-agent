@@ -30,7 +30,7 @@
     "Node.js Application Security"
   ],
   "author": "newrelic",
-  "license": "New Relic Pre-Release",
+  "license": "New Relic Software License v1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/newrelic/csec-node-agent.git"
