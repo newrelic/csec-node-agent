@@ -70,6 +70,18 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
 
 For more information, please see New Relic Node.js agent [compatibility and requirements](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent/).
 
+### Supported Vulnerabilities
+- Remote Code Execution
+- SQL Injection
+- NoSQL Injection
+- Stored XSS
+- Reflected XSS
+- Reverse Shell attack
+- File Access
+- SSRF
+- Application Integrity Violation
+- LDAP Injection
+- XPath Injection
 ## Testing
 
 The module includes a suite of unit and functional tests which should be used to
@@ -99,7 +111,7 @@ If you believe you have found a security vulnerability in this project or any of
 If you would like to contribute to this project, review [these guidelines](https://github.com/newrelic/csec-node-agent/blob/main/CONTRIBUTING.md).
 
 ## License
-The New Relic security agent is licensed under the New Relic Pre-Release Software Notice.
+The New Relic security agent is licensed under the  New Relic Software License v1.0.
 The `@newrelic/security-agent` also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
 
 [1]: https://img.shields.io/npm/v/@newrelic/security-agent.svg 
