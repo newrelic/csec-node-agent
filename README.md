@@ -111,7 +111,7 @@ If you believe you have found a security vulnerability in this project or any of
 If you would like to contribute to this project, review [these guidelines](https://github.com/newrelic/csec-node-agent/blob/main/CONTRIBUTING.md).
 
 ## License
-The New Relic security agent is licensed under the  New Relic Software License v1.0.
+The New Relic security agent is licensed under the New Relic Software License v1.0.
 The `@newrelic/security-agent` also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
 
 [1]: https://img.shields.io/npm/v/@newrelic/security-agent.svg 
