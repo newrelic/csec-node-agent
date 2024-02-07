@@ -1,4 +1,4 @@
-### v1.0.0 (2024-02-07)
+### v1.0.1 (2024-02-07)
 #### Bug fixes
 * Reporting of framework in security event json 
 #### Miscellaneous chores
