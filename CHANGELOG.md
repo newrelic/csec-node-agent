@@ -2,7 +2,7 @@
 #### Bug fixes
 * Reporting of framework in security event json 
 #### Miscellaneous chores
-* Update software license to New Relic Software License Version 1.0
+* Updated software license to New Relic Software License Version 1.0
 * Ability to send critical messages on successful startup of agent
 * Updated Copyright headers
 * Updated license in readme
