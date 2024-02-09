@@ -42,7 +42,7 @@ The `@newrelic/security-agent` must be explicitly enabled in order to perform IA
 The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instrumentation will be of help. We particularly recommend the [tutorials](https://newrelic.github.io/node-newrelic/tutorial-Instrumentation-Basics.html) and the [shim API](https://newrelic.github.io/node-newrelic/Shim.html) documentation.
 
 ### Supported  Node.js Versions
-- Node version 14.x, 16.x and 18.x
+- Node version 16.x, 18.x and 20.x
 
 ### Supported  Modules
 
@@ -56,12 +56,13 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
 - [pg](https://www.npmjs.com/package/pg)(7.x and above)
 - [mongodb](https://www.npmjs.com/package/mongodb)(2.x, 3.x and 4.x)
 - [express](https://www.npmjs.com/package/express)(4.x and above)
-- [@koa/router](https://www.npmjs.com/package/@koa/router) ((9.x and above)
+- [@koa/router](https://www.npmjs.com/package/@koa/router) (9.x and above)
 - [koa-router](https://www.npmjs.com/package/koa-router)(9.x and above)
 - [@hapi/hapi](https://www.npmjs.com/package/@hapi/hapi)(19.x and above)
 - [fastify](https://www.npmjs.com/package/fastify)(2.x, 3.x and 4.x)
 - [restify](https://www.npmjs.com/package/restify)(8.x, 9.x, 10.x and 11.x)
 - [director](https://www.npmjs.com/package/director)(1.2.x)
+- [@nestjs/core](https://www.npmjs.com/package/@nestjs/core)(8.x and above)
 - [ldapjs](https://www.npmjs.com/package/ldapjs)(2.x and above)
 - [ldapts](https://www.npmjs.com/package/ldapts)(2.x and above)
 - [xpath](https://www.npmjs.com/package/xpath)(0.0.20 and above)
@@ -69,6 +70,18 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
 
 For more information, please see New Relic Node.js agent [compatibility and requirements](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent/).
 
+### Supported Vulnerabilities
+- Remote Code Execution
+- SQL Injection
+- NoSQL Injection
+- Stored XSS
+- Reflected XSS
+- Reverse Shell attack
+- File Access
+- SSRF
+- Application Integrity Violation
+- LDAP Injection
+- XPath Injection
 ## Testing
 
 The module includes a suite of unit and functional tests which should be used to
@@ -98,7 +111,7 @@ If you believe you have found a security vulnerability in this project or any of
 If you would like to contribute to this project, review [these guidelines](https://github.com/newrelic/csec-node-agent/blob/main/CONTRIBUTING.md).
 
 ## License
-The New Relic security agent is licensed under the New Relic Pre-Release Software Notice.
+The New Relic security agent is licensed under the New Relic Software License v1.0.
 The `@newrelic/security-agent` also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
 
 [1]: https://img.shields.io/npm/v/@newrelic/security-agent.svg 
