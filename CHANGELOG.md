@@ -1,3 +1,12 @@
+### v1.0.1 (2024-02-07)
+#### Bug fixes
+* Reporting of framework in security event json 
+#### Miscellaneous chores
+* Updated software license to New Relic Software License Version 1.0
+* Ability to send critical messages on successful startup of agent
+* Updated Copyright headers
+* Updated license in readme
+
 ### v0.7.0 (2024-01-18)
 #### Features
 * Handling to exclude unsupported content types from rxss processing
