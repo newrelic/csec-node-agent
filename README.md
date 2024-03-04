@@ -3,7 +3,7 @@
 
 **Note**: The IAST capability should only be used in pre-production environments as the application is tested for real exploitable vulnerabilities.
 
-The New Relic security agent is in preview and is not generally available. This module enables instrumentation of a Node.js application for interactive application security testing(IAST) and exposes exploitable vulnerabilities. 
+The New Relic security agent enables instrumentation of a Node.js application for interactive application security testing(IAST) and exposes exploitable vulnerabilities. 
 
 ## Installation
 
@@ -67,6 +67,7 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
 - [ldapts](https://www.npmjs.com/package/ldapts)(2.x and above)
 - [xpath](https://www.npmjs.com/package/xpath)(0.0.20 and above)
 - [xpath.js](https://www.npmjs.com/package/xpath.js)(0.0.1 and above) 
+- [undici](https://www.npmjs.com/package/undici)(4.7.0 and above) 
 
 For more information, please see New Relic Node.js agent [compatibility and requirements](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent/).
 
