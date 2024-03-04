@@ -3,7 +3,7 @@
 
 **Note**: The IAST capability should only be used in pre-production environments as the application is tested for real exploitable vulnerabilities.
 
-The New Relic security agent enables instrumentation of a Node.js application for interactive application security testing(IAST) and exposes exploitable vulnerabilities. 
+The New Relic security agent enables instrumentation of a Node.js application for Interactive Application Security Testing(IAST) and exposes exploitable vulnerabilities. 
 
 ## Installation
 
