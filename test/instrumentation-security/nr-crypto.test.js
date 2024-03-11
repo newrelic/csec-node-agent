@@ -61,12 +61,10 @@ test('crypto', (t) => {
     })
 
     t.test('crypto.createHmac', (t) => {
-        // Secret key for HMAC
-        const secretKey = 'mySecretKey';
         // Data to be hashed
         const data = 'Hello, world!';
         // Create an HMAC object with the SHA256 algorithm
-        const hmac = crypto.createHmac('sha256', secretKey);
+        const hmac = crypto.createHmac('sha256', 'mySecretKey');
         // Update the HMAC object with the data
         hmac.update(data);
         // Obtain the HMAC digest in hexadecimal form
