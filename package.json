@@ -1,6 +1,6 @@
 {
   "name": "@newrelic/security-agent",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "New Relic Security Agent for Node.js",
   "main": "index.js",
   "jsonVersion": "1.1.1",
@@ -19,8 +19,7 @@
   "scripts": {
     "test": "tap --test-regex='(\\/|^test\\/instrumentation-security\\/.*\\.test\\.js)$' --no-coverage",
     "posttest": "rm -f newrelic_agent.log && rm -rf nr-security-home && rm -rf .nyc_output",
-    "third-party-updates": "oss third-party manifest && oss third-party notices && git add THIRD_PARTY_NOTICES.md third_party_manifest.json",
-    "undici": "tap test/instrumentation-security/nr-undici.test.js"
+    "third-party-updates": "oss third-party manifest && oss third-party notices && git add THIRD_PARTY_NOTICES.md third_party_manifest.json"
   },
   "keywords": [
     "instrumentation",
