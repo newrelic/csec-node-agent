@@ -1,3 +1,17 @@
+### v1.1.0 (2024-03-19)
+#### Features
+* IAST support for grpc 
+* Functionality to report API endpoints of the application
+* IAST support for undici
+#### Bug fixes
+* Updated permissions for file/directory created by security agent
+#### Miscellaneous chores
+* Bumped follow-redirects from v1.15.2 to v1.15.4  
+* Updated axios to v1.6.8
+* Bumped ip from v2.0.0 to v2.0.1
+* Bumped undici from 5.28.2 to v5.28.3
+* Readme update
+
 ### v1.0.1 (2024-02-07)
 #### Bug fixes
 * Reporting of framework in security event json 
