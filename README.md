@@ -68,6 +68,7 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
 - [xpath](https://www.npmjs.com/package/xpath)(0.0.20 and above)
 - [xpath.js](https://www.npmjs.com/package/xpath.js)(0.0.1 and above) 
 - [undici](https://www.npmjs.com/package/undici)(4.7.0 and above) 
+- [@grpc/grpc-js](https://www.npmjs.com/package/@grpc/grpc-js)(1.4.x and above)
 
 For more information, please see New Relic Node.js agent [compatibility and requirements](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent/).
 
