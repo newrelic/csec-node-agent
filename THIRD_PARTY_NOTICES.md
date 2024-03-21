@@ -64,7 +64,9 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 * [request](#request)
 * [restify](#restify)
 * [sinon](#sinon)
+* [stream](#stream)
 * [tap](#tap)
+* [undici](#undici)
 * [xmldom](#xmldom)
 * [xpath.js](#xpathjs)
 * [xpath](#xpath)
@@ -74,7 +76,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### axios
 
-This product includes source derived from [axios](https://github.com/axios/axios) ([v1.6.5](https://github.com/axios/axios/tree/v1.6.5)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.6.5/LICENSE):
+This product includes source derived from [axios](https://github.com/axios/axios) ([v1.6.8](https://github.com/axios/axios/tree/v1.6.8)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.6.8/LICENSE):
 
 ```
 # Copyright (c) 2014-present Matt Zabriskie & Collaborators
@@ -2588,6 +2590,22 @@ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ```
 
+### stream
+
+This product includes source derived from [stream](https://github.com/juliangruber/stream) ([v0.0.2](https://github.com/juliangruber/stream/tree/v0.0.2)), distributed under the [MIT License](https://github.com/juliangruber/stream/blob/v0.0.2/README.md):
+
+```
+MIT License
+
+Copyright (c) <year> <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
 ### tap
 
 This product includes source derived from [tap](https://github.com/tapjs/node-tap) ([v16.3.7](https://github.com/tapjs/node-tap/tree/v16.3.7)), distributed under the [ISC License](https://github.com/tapjs/node-tap/blob/v16.3.7/LICENSE):
@@ -2608,6 +2626,35 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+```
+
+### undici
+
+This product includes source derived from [undici](https://github.com/nodejs/undici) ([v5.28.3](https://github.com/nodejs/undici/tree/v5.28.3)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v5.28.3/LICENSE):
+
+```
+MIT License
+
+Copyright (c) Matteo Collina and Undici contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ```
 

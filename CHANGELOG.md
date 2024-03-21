@@ -1,3 +1,7 @@
+### v1.1.1 (2024-03-21)
+#### Bug fixes
+* Reverted IAST support for gRPC.
+
 ### v1.1.0 (2024-03-19)
 #### Features
 * IAST support for grpc 
