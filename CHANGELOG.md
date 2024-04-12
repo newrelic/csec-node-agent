@@ -1,3 +1,15 @@
+
+### v1.2.0 (2024-04-12)
+#### Features
+* Added instrumentation for express framework's res.download() and res.sendFile()
+#### Bug fixes
+* Handling to decrypt fuzz header data for IAST scanning 
+* Logging and snapshot file fixes
+#### Miscellaneous chores
+* Prepend vulnerability case type with apiId
+* Updated jsonVersion to v1.2.0
+* Bumped undici from 5.28.3 to 5.28.4
+
 ### v1.1.1 (2024-03-21)
 #### Bug fixes
 * Reverted IAST support for gRPC.
