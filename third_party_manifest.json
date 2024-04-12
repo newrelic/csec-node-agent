@@ -1,10 +1,22 @@
 {
-  "lastUpdated": "Thu Mar 21 2024 12:44:30 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Fri Apr 12 2024 09:30:54 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
+    "@newrelic/newrelic-plugin-oss-third-party@0.1.2": {
+      "name": "@newrelic/newrelic-plugin-oss-third-party",
+      "version": "0.1.2",
+      "range": "^0.1.2",
+      "licenses": "Apache-2.0",
+      "repoUrl": "https://github.com/newrelic/newrelic-oss-cli",
+      "versionedRepoUrl": "https://github.com/newrelic/newrelic-oss-cli/tree/v0.1.2",
+      "licenseFile": "node_modules/@newrelic/newrelic-plugin-oss-third-party/LICENSE",
+      "licenseUrl": "https://github.com/newrelic/newrelic-oss-cli/blob/v0.1.2/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "New Relic"
+    },
     "axios@1.6.8": {
       "name": "axios",
       "version": "1.6.8",
@@ -628,15 +640,15 @@
       "email": "i@izs.me",
       "url": "http://blog.izs.me"
     },
-    "undici@5.28.3": {
+    "undici@5.28.4": {
       "name": "undici",
-      "version": "5.28.3",
+      "version": "5.28.4",
       "range": "^5.28.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/nodejs/undici",
-      "versionedRepoUrl": "https://github.com/nodejs/undici/tree/v5.28.3",
+      "versionedRepoUrl": "https://github.com/nodejs/undici/tree/v5.28.4",
       "licenseFile": "node_modules/undici/LICENSE",
-      "licenseUrl": "https://github.com/nodejs/undici/blob/v5.28.3/LICENSE",
+      "licenseUrl": "https://github.com/nodejs/undici/blob/v5.28.4/LICENSE",
       "licenseTextSource": "file"
     },
     "xmldom@0.6.0": {
