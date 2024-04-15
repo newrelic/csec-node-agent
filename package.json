@@ -1,9 +1,9 @@
 {
   "name": "@newrelic/security-agent",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "New Relic Security Agent for Node.js",
   "main": "index.js",
-  "jsonVersion": "1.1.1",
+  "jsonVersion": "1.2.0",
   "contributors": [
     {
       "name": "Sumit Suthar",
