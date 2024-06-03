@@ -1,3 +1,15 @@
+### v1.3.0 (2024-05-31)
+#### Features
+* Added route field in security event for API endpoint mapping
+#### Bug fixes
+* Fix for control commands acknowledgement in security agent 
+* Added assert for typeof response data in Reflected XSS validation 
+* Updated @grpc/grpc-js instrumentation to instrument submodules 
+* Handling to convert header values into string
+#### Miscellaneous chores
+* Updated log level for critical messages 
+* Readme update
+* (deps-dev): bump axios from 0.21.4 to 1.7.2
 
 ### v1.2.0 (2024-04-12)
 #### Features
