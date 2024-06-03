@@ -3,7 +3,7 @@
   "version": "1.3.0",
   "description": "New Relic Security Agent for Node.js",
   "main": "index.js",
-  "jsonVersion": "1.2.0",
+  "jsonVersion": "2.0.0",
   "contributors": [
     {
       "name": "Sumit Suthar",
