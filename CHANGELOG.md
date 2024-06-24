@@ -8,7 +8,7 @@
 #### Miscellaneous chores
 * Updated package.json to bump ws from 8.14.2 to 8.17.1 
 * (deps-dev): bump @grpc/grpc-js from 1.9.12 to 1.10.9 
-* (deps-dev): bump bump braces from 3.0.2 to 3.0.3
+* (deps-dev): bump braces from 3.0.2 to 3.0.3
 * (deps): bump ws from 8.14.2 to 8.17.1 
 
 ### v1.3.0 (2024-05-31)
