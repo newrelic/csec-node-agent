@@ -42,6 +42,7 @@
     "find-package-json": "^1.2.0",
     "hash.js": "^1.1.7",
     "html-entities": "^2.3.6",
+    "https-proxy-agent": "^7.0.4",
     "is-invalid-path": "^1.0.2",
     "js-yaml": "^4.1.0",
     "jsonschema": "^1.4.1",
