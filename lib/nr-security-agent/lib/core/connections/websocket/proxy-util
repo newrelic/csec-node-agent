@@ -16,19 +16,22 @@ exports.proxyAgent = function proxyAgent(config) {
     return agentProxyWithKeepAlive
   }
   const proxyUrl = proxyOptions(config)
-
   const proxyOpts = {
     secureEndpoint: config.ssl,
     auth: proxyUrl.auth,
     ca: config?.certificates?.length ? config.certificates : [],
     keepAlive: true
   }
-
-  logger.info(`using proxy: ${proxyUrl}`)
+  logger.info(`Using proxy: ${proxyUrl}`)
   agentProxyWithKeepAlive = new HttpsProxyAgent(proxyUrl, proxyOpts)
   return agentProxyWithKeepAlive
 }
 
+/**
+ * Utility to create proxy URL
+ * @param config 
+ * @returns 
+ */
 function proxyOptions(config) {
   let proxyUrl
   if (config.proxy) {
@@ -43,6 +46,5 @@ function proxyOptions(config) {
 
     proxyUrl += `${config.proxy_host || 'localhost'}:${config.proxy_port || 80}`
   }
-
   return proxyUrl
 }
