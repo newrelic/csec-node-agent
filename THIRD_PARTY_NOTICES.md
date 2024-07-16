@@ -77,7 +77,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### axios
 
-This product includes source derived from [axios](https://github.com/axios/axios) ([v1.6.8](https://github.com/axios/axios/tree/v1.6.8)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.6.8/LICENSE):
+This product includes source derived from [axios](https://github.com/axios/axios) ([v1.7.2](https://github.com/axios/axios/tree/v1.7.2)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.7.2/LICENSE):
 
 ```
 # Copyright (c) 2014-present Matt Zabriskie & Collaborators
@@ -588,7 +588,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### ws
 
-This product includes source derived from [ws](https://github.com/websockets/ws) ([v8.14.2](https://github.com/websockets/ws/tree/v8.14.2)), distributed under the [MIT License](https://github.com/websockets/ws/blob/v8.14.2/LICENSE):
+This product includes source derived from [ws](https://github.com/websockets/ws) ([v8.17.1](https://github.com/websockets/ws/tree/v8.17.1)), distributed under the [MIT License](https://github.com/websockets/ws/blob/v8.17.1/LICENSE):
 
 ```
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
@@ -619,7 +619,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @grpc/proto-loader
 
-This product includes source derived from [@grpc/proto-loader](https://github.com/grpc/grpc-node) ([v0.7.7](https://github.com/grpc/grpc-node/tree/v0.7.7)), distributed under the [Apache-2.0 License](https://github.com/grpc/grpc-node/blob/v0.7.7/LICENSE):
+This product includes source derived from [@grpc/proto-loader](https://github.com/grpc/grpc-node) ([v0.7.13](https://github.com/grpc/grpc-node/tree/v0.7.13)), distributed under the [Apache-2.0 License](https://github.com/grpc/grpc-node/blob/v0.7.13/LICENSE):
 
 ```
                                  Apache License
