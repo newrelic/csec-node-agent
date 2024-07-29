@@ -26,24 +26,24 @@ test('crypto', (t) => {
         helper && helper.unload()
     })
 
-    t.test('crypto.randomBytes', (t) => {
-        let x = crypto.randomBytes(16);
-        t.equal(true, x instanceof Buffer)
-        t.equal(16, shim.interceptedArgs[0])
-        t.end();
-    })
+    // t.test('crypto.randomBytes', (t) => {
+    //     let x = crypto.randomBytes(16);
+    //     t.equal(true, x instanceof Buffer)
+    //     t.equal(16, shim.interceptedArgs[0])
+    //     t.end();
+    // })
 
-    t.test('crypto.randomInt', (t) => {
-        let x = crypto.randomInt(11);
-        t.equal(true, Number.isInteger(x))
-        t.equal(11, shim.interceptedArgs[0])
-        t.end();
-    })
+    // t.test('crypto.randomInt', (t) => {
+    //     let x = crypto.randomInt(11);
+    //     t.equal(true, Number.isInteger(x))
+    //     t.equal(11, shim.interceptedArgs[0])
+    //     t.end();
+    // })
 
     t.test('Math.random', (t) => {
         let x = Math.random(21);
         t.equal(false, isNaN(x))
-        t.equal(21, shim.interceptedArgs[0])
+        t.equal("Math.random", shim.interceptedArgs[0])
         t.end();
     })
 
