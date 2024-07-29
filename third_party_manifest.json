@@ -1,31 +1,19 @@
 {
-  "lastUpdated": "Fri Apr 12 2024 09:30:54 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Mon Jun 24 2024 16:50:11 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
-    "@newrelic/newrelic-plugin-oss-third-party@0.1.2": {
-      "name": "@newrelic/newrelic-plugin-oss-third-party",
-      "version": "0.1.2",
-      "range": "^0.1.2",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/newrelic/newrelic-oss-cli",
-      "versionedRepoUrl": "https://github.com/newrelic/newrelic-oss-cli/tree/v0.1.2",
-      "licenseFile": "node_modules/@newrelic/newrelic-plugin-oss-third-party/LICENSE",
-      "licenseUrl": "https://github.com/newrelic/newrelic-oss-cli/blob/v0.1.2/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "New Relic"
-    },
-    "axios@1.6.8": {
+    "axios@1.7.2": {
       "name": "axios",
-      "version": "1.6.8",
+      "version": "1.7.2",
       "range": "^1.6.8",
       "licenses": "MIT",
       "repoUrl": "https://github.com/axios/axios",
-      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.6.8",
+      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.7.2",
       "licenseFile": "node_modules/axios/LICENSE",
-      "licenseUrl": "https://github.com/axios/axios/blob/v1.6.8/LICENSE",
+      "licenseUrl": "https://github.com/axios/axios/blob/v1.7.2/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Matt Zabriskie"
     },
@@ -272,15 +260,15 @@
       "licenseUrl": "https://github.com/uuidjs/uuid/blob/v9.0.1/LICENSE.md",
       "licenseTextSource": "file"
     },
-    "ws@8.14.2": {
+    "ws@8.17.1": {
       "name": "ws",
-      "version": "8.14.2",
-      "range": "^8.14.2",
+      "version": "8.17.1",
+      "range": "^8.17.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/websockets/ws",
-      "versionedRepoUrl": "https://github.com/websockets/ws/tree/v8.14.2",
+      "versionedRepoUrl": "https://github.com/websockets/ws/tree/v8.17.1",
       "licenseFile": "node_modules/ws/LICENSE",
-      "licenseUrl": "https://github.com/websockets/ws/blob/v8.14.2/LICENSE",
+      "licenseUrl": "https://github.com/websockets/ws/blob/v8.17.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Einar Otto Stangvik",
       "email": "einaros@gmail.com",
@@ -288,6 +276,18 @@
     }
   },
   "devDependencies": {
+    "@grpc/proto-loader@0.7.13": {
+      "name": "@grpc/proto-loader",
+      "version": "0.7.13",
+      "range": "^0.7.10",
+      "licenses": "Apache-2.0",
+      "repoUrl": "https://github.com/grpc/grpc-node",
+      "versionedRepoUrl": "https://github.com/grpc/grpc-node/tree/v0.7.13",
+      "licenseFile": "node_modules/@grpc/proto-loader/LICENSE",
+      "licenseUrl": "https://github.com/grpc/grpc-node/blob/v0.7.13/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Google Inc."
+    },
     "@hapi/hapi@21.3.2": {
       "name": "@hapi/hapi",
       "version": "21.3.2",
