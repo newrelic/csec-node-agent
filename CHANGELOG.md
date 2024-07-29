@@ -1,3 +1,58 @@
+### v1.4.0 (2024-06-24)
+#### Features
+* Added support to report application's errors while IAST scanning
+* Support to detect gRPC API endpoints 
+#### Bug fixes
+* Remove additional headers added by IAST client
+* Fix for uncaught exception reporting 
+#### Miscellaneous chores
+* Updated package.json to bump ws from 8.14.2 to 8.17.1 
+* (deps-dev): bump @grpc/grpc-js from 1.9.12 to 1.10.9 
+* (deps-dev): bump braces from 3.0.2 to 3.0.3
+* (deps): bump ws from 8.14.2 to 8.17.1 
+
+### v1.3.0 (2024-05-31)
+#### Features
+* Added route field in security event for API endpoint mapping
+#### Bug fixes
+* Fix for control commands acknowledgement in security agent 
+* Added assert for typeof response data in Reflected XSS validation 
+* Updated @grpc/grpc-js instrumentation to instrument submodules 
+* Handling to convert header values into string
+#### Miscellaneous chores
+* Updated log level for critical messages 
+* Readme update
+* (deps-dev): bump axios from 0.21.4 to 1.7.2
+
+### v1.2.0 (2024-04-12)
+#### Features
+* Added instrumentation for express framework's res.download() and res.sendFile()
+#### Bug fixes
+* Handling to decrypt fuzz header data for IAST scanning 
+* Logging and snapshot file fixes
+#### Miscellaneous chores
+* Prepend vulnerability case type with apiId
+* Updated jsonVersion to v1.2.0
+* Bumped undici from 5.28.3 to 5.28.4
+
+### v1.1.1 (2024-03-21)
+#### Bug fixes
+* Reverted IAST support for gRPC.
+
+### v1.1.0 (2024-03-19)
+#### Features
+* IAST support for grpc 
+* Functionality to report API endpoints of the application
+* IAST support for undici
+#### Bug fixes
+* Updated permissions for file/directory created by security agent
+#### Miscellaneous chores
+* Bumped follow-redirects from v1.15.2 to v1.15.4  
+* Updated axios to v1.6.8
+* Bumped ip from v2.0.0 to v2.0.1
+* Bumped undici from 5.28.2 to v5.28.3
+* Readme update
+
 ### v1.0.1 (2024-02-07)
 #### Bug fixes
 * Reporting of framework in security event json 
