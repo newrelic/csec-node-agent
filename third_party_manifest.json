@@ -1,32 +1,19 @@
 {
-  "lastUpdated": "Wed Jan 03 2024 10:46:43 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Wed Aug 14 2024 10:38:44 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
-    "@aws-sdk/client-lambda@3.436.0": {
-      "name": "@aws-sdk/client-lambda",
-      "version": "3.436.0",
-      "range": "^3.436.0",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/aws/aws-sdk-js-v3",
-      "versionedRepoUrl": "https://github.com/aws/aws-sdk-js-v3/tree/v3.436.0",
-      "licenseFile": "node_modules/@aws-sdk/client-lambda/LICENSE",
-      "licenseUrl": "https://github.com/aws/aws-sdk-js-v3/blob/v3.436.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "AWS SDK for JavaScript Team",
-      "url": "https://aws.amazon.com/javascript/"
-    },
-    "axios@1.6.3": {
+    "axios@1.7.4": {
       "name": "axios",
-      "version": "1.6.3",
-      "range": "^1.6.3",
+      "version": "1.7.4",
+      "range": "^1.7.4",
       "licenses": "MIT",
       "repoUrl": "https://github.com/axios/axios",
-      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.6.3",
+      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.7.4",
       "licenseFile": "node_modules/axios/LICENSE",
-      "licenseUrl": "https://github.com/axios/axios/blob/v1.6.3/LICENSE",
+      "licenseUrl": "https://github.com/axios/axios/blob/v1.7.4/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Matt Zabriskie"
     },
@@ -273,15 +260,15 @@
       "licenseUrl": "https://github.com/uuidjs/uuid/blob/v9.0.1/LICENSE.md",
       "licenseTextSource": "file"
     },
-    "ws@8.14.2": {
+    "ws@8.17.1": {
       "name": "ws",
-      "version": "8.14.2",
-      "range": "^8.14.2",
+      "version": "8.17.1",
+      "range": "^8.17.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/websockets/ws",
-      "versionedRepoUrl": "https://github.com/websockets/ws/tree/v8.14.2",
+      "versionedRepoUrl": "https://github.com/websockets/ws/tree/v8.17.1",
       "licenseFile": "node_modules/ws/LICENSE",
-      "licenseUrl": "https://github.com/websockets/ws/blob/v8.14.2/LICENSE",
+      "licenseUrl": "https://github.com/websockets/ws/blob/v8.17.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Einar Otto Stangvik",
       "email": "einaros@gmail.com",
@@ -289,6 +276,18 @@
     }
   },
   "devDependencies": {
+    "@grpc/proto-loader@0.7.13": {
+      "name": "@grpc/proto-loader",
+      "version": "0.7.13",
+      "range": "^0.7.10",
+      "licenses": "Apache-2.0",
+      "repoUrl": "https://github.com/grpc/grpc-node",
+      "versionedRepoUrl": "https://github.com/grpc/grpc-node/tree/v0.7.13",
+      "licenseFile": "node_modules/@grpc/proto-loader/LICENSE",
+      "licenseUrl": "https://github.com/grpc/grpc-node/blob/v0.7.13/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Google Inc."
+    },
     "@hapi/hapi@21.3.2": {
       "name": "@hapi/hapi",
       "version": "21.3.2",
@@ -614,6 +613,19 @@
       "licenseTextSource": "file",
       "publisher": "Christian Johansen"
     },
+    "stream@0.0.2": {
+      "name": "stream",
+      "version": "0.0.2",
+      "range": "^0.0.2",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/juliangruber/stream",
+      "versionedRepoUrl": "https://github.com/juliangruber/stream/tree/v0.0.2",
+      "licenseFile": "node_modules/stream/README.md",
+      "licenseUrl": "https://github.com/juliangruber/stream/blob/v0.0.2/README.md",
+      "licenseTextSource": "spdx",
+      "publisher": "Julian Gruber",
+      "email": "julian@juliangruber.com"
+    },
     "tap@16.3.7": {
       "name": "tap",
       "version": "16.3.7",
@@ -627,6 +639,17 @@
       "publisher": "Isaac Z. Schlueter",
       "email": "i@izs.me",
       "url": "http://blog.izs.me"
+    },
+    "undici@5.28.4": {
+      "name": "undici",
+      "version": "5.28.4",
+      "range": "^5.28.0",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/nodejs/undici",
+      "versionedRepoUrl": "https://github.com/nodejs/undici/tree/v5.28.4",
+      "licenseFile": "node_modules/undici/LICENSE",
+      "licenseUrl": "https://github.com/nodejs/undici/blob/v5.28.4/LICENSE",
+      "licenseTextSource": "file"
     },
     "xmldom@0.6.0": {
       "name": "xmldom",
