@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "Mon Jun 24 2024 16:50:11 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Wed Aug 14 2024 10:38:44 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
-    "axios@1.7.2": {
+    "axios@1.7.4": {
       "name": "axios",
-      "version": "1.7.2",
-      "range": "^1.6.8",
+      "version": "1.7.4",
+      "range": "^1.7.4",
       "licenses": "MIT",
       "repoUrl": "https://github.com/axios/axios",
-      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.7.2",
+      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.7.4",
       "licenseFile": "node_modules/axios/LICENSE",
-      "licenseUrl": "https://github.com/axios/axios/blob/v1.7.2/LICENSE",
+      "licenseUrl": "https://github.com/axios/axios/blob/v1.7.4/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Matt Zabriskie"
     },
