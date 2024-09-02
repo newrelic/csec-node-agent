@@ -8,6 +8,8 @@
 const { HttpsProxyAgent } = require('https-proxy-agent')
 const logs = require('../../logging');
 let logger = logs.getLogger();
+const commonUtils = require('../../commonUtils');
+const fs = require('fs');
 
 let agentProxyWithKeepAlive = null
 
@@ -16,12 +18,21 @@ exports.proxyAgent = function proxyAgent(config) {
     return agentProxyWithKeepAlive
   }
   const proxyUrl = proxyOptions(config)
-  const proxyOpts = {
+  let proxyOpts = {
     secureEndpoint: config.ssl,
     auth: proxyUrl.auth,
     ca: config?.certificates?.length ? config.certificates : [],
     keepAlive: true
   }
+  let cert = '';
+  try {
+    const certPath = commonUtils.getPathOfCACert();
+    cert = fs.readFileSync(certPath, 'utf8');
+  } catch (error) {
+    logger.error("Error in reading certificate:", error);
+
+  }
+  proxyOpts.ca.push(cert);
   logger.info(`Using proxy: ${proxyUrl}`)
   agentProxyWithKeepAlive = new HttpsProxyAgent(proxyUrl, proxyOpts)
   return agentProxyWithKeepAlive
