@@ -1,3 +1,14 @@
+### v1.5.0 (2024-08-14)
+#### Features
+* Support for Node.js v22.x
+#### Bug fixes
+* Fix for traceId in error reporting
+#### Miscellaneous chores
+* (deps): bumped axios from 1.6.8 to 1.7.4 
+* (deps-dev): bumped ws from 7.5.9 to 8.18.0
+#### Continuous integration
+* Added Node.js v22.x to unit tests
+
 ### v1.4.0 (2024-06-24)
 #### Features
 * Added support to report application's errors while IAST scanning
