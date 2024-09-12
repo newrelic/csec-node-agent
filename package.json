@@ -40,6 +40,7 @@
     "content-type": "^1.0.5",
     "cron": "^3.1.7",
     "fast-safe-stringify": "^2.1.1",
+    "fast-xml-parser": "^4.5.0",
     "find-package-json": "^1.2.0",
     "hash.js": "^1.1.7",
     "html-entities": "^2.3.6",
