@@ -194,6 +194,57 @@ test('FS', (t) => {
         t.equal(__dirname + '/test1.txt', shim.interceptedArgs[0]);
         t.end()
     })
+
+    t.test('stat', (t) => {
+        fs.stat(fileName, function (err, stats) {
+            t.ok(shim.interceptedArgs)
+            t.equal(1, shim.interceptedArgs.length)
+            t.equal(fileName, shim.interceptedArgs[0])
+            t.end()
+        });
+    })
+
+    t.test('access', (t) => {
+        fs.stat(fileName, function (err, stats) {
+            t.ok(shim.interceptedArgs)
+            t.equal(1, shim.interceptedArgs.length)
+            t.equal(fileName, shim.interceptedArgs[0])
+            t.end()
+        });
+    })
+
+    t.test('exists', (t) => {
+        fs.stat(fileName, function (err, stats) {
+            t.ok(shim.interceptedArgs)
+            t.equal(1, shim.interceptedArgs.length)
+            t.equal(fileName, shim.interceptedArgs[0])
+            t.end()
+        });
+    })
+
+    t.test('statSync', (t) => {
+        fs.existsSync(fileName)
+        t.ok(shim.interceptedArgs)
+        t.equal(1, shim.interceptedArgs.length)
+        t.equal(fileName, shim.interceptedArgs[0])
+        t.end()
+    })
+
+    t.test('accessSync', (t) => {
+        fs.existsSync(fileName)
+        t.ok(shim.interceptedArgs)
+        t.equal(1, shim.interceptedArgs.length)
+        t.equal(fileName, shim.interceptedArgs[0])
+        t.end()
+    })
+
+    t.test('existsSync', (t) => {
+        fs.existsSync(fileName)
+        t.ok(shim.interceptedArgs)
+        t.equal(1, shim.interceptedArgs.length)
+        t.equal(fileName, shim.interceptedArgs[0])
+        t.end()
+    })
 })
 
 
