@@ -8,12 +8,12 @@
     {
       "name": "Sumit Suthar",
       "email": "ssuthar@newrelic.com",
-      "web": "http://newrelic.com"
+      "web": "https://newrelic.com"
     },
     {
       "name": "Pratik Gunjetiya",
       "email": "pgunjetiya@newrelic.com",
-      "web": "http://newrelic.com"
+      "web": "https://newrelic.com"
     }
   ],
   "scripts": {
@@ -28,6 +28,10 @@
     "New Relic Security Agent",
     "Node.js Application Security"
   ],
+  "engines": {
+    "node": ">=18",
+    "npm": ">=6.0.0"
+  },
   "author": "newrelic",
   "license": "New Relic Software License v1.0",
   "repository": {
