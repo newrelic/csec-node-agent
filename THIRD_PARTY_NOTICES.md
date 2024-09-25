@@ -21,6 +21,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 * [find-package-json](#find-package-json)
 * [hash.js](#hashjs)
 * [html-entities](#html-entities)
+* [https-proxy-agent](#https-proxy-agent)
 * [is-invalid-path](#is-invalid-path)
 * [js-yaml](#js-yaml)
 * [jsonschema](#jsonschema)
@@ -77,7 +78,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### axios
 
-This product includes source derived from [axios](https://github.com/axios/axios) ([v1.6.8](https://github.com/axios/axios/tree/v1.6.8)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.6.8/LICENSE):
+This product includes source derived from [axios](https://github.com/axios/axios) ([v1.7.4](https://github.com/axios/axios/tree/v1.7.4)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.7.4/LICENSE):
 
 ```
 # Copyright (c) 2014-present Matt Zabriskie & Collaborators
@@ -237,6 +238,22 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+```
+
+### https-proxy-agent
+
+This product includes source derived from [https-proxy-agent](https://github.com/TooTallNate/node-https-proxy-agent) ([v5.0.1](https://github.com/TooTallNate/node-https-proxy-agent/tree/v5.0.1)), distributed under the [MIT License](https://github.com/TooTallNate/node-https-proxy-agent/blob/v5.0.1/README.md):
+
+```
+MIT License
+
+Copyright (c) <year> <copyright holders>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
 ### is-invalid-path
@@ -588,7 +605,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### ws
 
-This product includes source derived from [ws](https://github.com/websockets/ws) ([v8.14.2](https://github.com/websockets/ws/tree/v8.14.2)), distributed under the [MIT License](https://github.com/websockets/ws/blob/v8.14.2/LICENSE):
+This product includes source derived from [ws](https://github.com/websockets/ws) ([v8.18.0](https://github.com/websockets/ws/tree/v8.18.0)), distributed under the [MIT License](https://github.com/websockets/ws/blob/v8.18.0/LICENSE):
 
 ```
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
@@ -619,7 +636,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### @grpc/proto-loader
 
-This product includes source derived from [@grpc/proto-loader](https://github.com/grpc/grpc-node) ([v0.7.7](https://github.com/grpc/grpc-node/tree/v0.7.7)), distributed under the [Apache-2.0 License](https://github.com/grpc/grpc-node/blob/v0.7.7/LICENSE):
+This product includes source derived from [@grpc/proto-loader](https://github.com/grpc/grpc-node) ([v0.7.13](https://github.com/grpc/grpc-node/tree/v0.7.13)), distributed under the [Apache-2.0 License](https://github.com/grpc/grpc-node/blob/v0.7.13/LICENSE):
 
 ```
                                  Apache License

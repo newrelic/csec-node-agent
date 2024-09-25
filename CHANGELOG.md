@@ -1,3 +1,45 @@
+### v2.0.0 (2024-09-20)
+### ⚠ BREAKING CHANGES
+* Dropped support for Node.js v16
+* Dropped functionality to generate snapshot file
+#### Features
+* Support to honour proxy settings via config
+* Support for secure cookie security event generation
+* Report error to Error Inbox upon connection failure to Security Engine
+* Support to detect application and server path
+* Functionality to truncate Incoming HTTP request upto default limit
+* Dropped support for Node.js v16
+* Dropped functionality to generate snapshot file
+#### Bug fixes
+* Handling for empty data in IAST fuzzing header
+* Added identifiers in events
+* Fix for file integrity security event generation
+* Fix for missing identifiers in iast-data-request JSON
+
+### v1.5.0 (2024-08-14)
+#### Features
+* Support for Node.js v22.x
+#### Bug fixes
+* Fix for traceId in error reporting
+#### Miscellaneous chores
+* (deps): bumped axios from 1.6.8 to 1.7.4 
+* (deps-dev): bumped ws from 7.5.9 to 8.18.0
+#### Continuous integration
+* Added Node.js v22.x to unit tests
+
+### v1.4.0 (2024-06-24)
+#### Features
+* Added support to report application's errors while IAST scanning
+* Support to detect gRPC API endpoints 
+#### Bug fixes
+* Remove additional headers added by IAST client
+* Fix for uncaught exception reporting 
+#### Miscellaneous chores
+* Updated package.json to bump ws from 8.14.2 to 8.17.1 
+* (deps-dev): bump @grpc/grpc-js from 1.9.12 to 1.10.9 
+* (deps-dev): bump braces from 3.0.2 to 3.0.3
+* (deps): bump ws from 8.14.2 to 8.17.1 
+
 ### v1.3.0 (2024-05-31)
 #### Features
 * Added route field in security event for API endpoint mapping
