@@ -1,3 +1,21 @@
+### v2.0.0 (2024-09-20)
+### ⚠ BREAKING CHANGES
+* Dropped support for Node.js v16
+* Dropped functionality to generate snapshot file
+#### Features
+* Support to honour proxy settings via config
+* Support for secure cookie security event generation
+* Report error to Error Inbox upon connection failure to Security Engine
+* Support to detect application and server path
+* Functionality to truncate Incoming HTTP request upto default limit
+* Dropped support for Node.js v16
+* Dropped functionality to generate snapshot file
+#### Bug fixes
+* Handling for empty data in IAST fuzzing header
+* Added identifiers in events
+* Fix for file integrity security event generation
+* Fix for missing identifiers in iast-data-request JSON
+
 ### v1.5.0 (2024-08-14)
 #### Features
 * Support for Node.js v22.x
