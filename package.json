@@ -1,6 +1,6 @@
 {
   "name": "@newrelic/security-agent",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "New Relic Security Agent for Node.js",
   "main": "index.js",
   "jsonVersion": "1.2.9",
@@ -42,6 +42,7 @@
     "axios": "^1.7.4",
     "check-disk-space": "^3.4.0",
     "content-type": "^1.0.5",
+    "cron": "^3.1.7",
     "fast-safe-stringify": "^2.1.1",
     "find-package-json": "^1.2.0",
     "hash.js": "^1.1.7",
