@@ -17,10 +17,12 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 * [axios](#axios)
 * [check-disk-space](#check-disk-space)
 * [content-type](#content-type)
+* [cron](#cron)
 * [fast-safe-stringify](#fast-safe-stringify)
 * [find-package-json](#find-package-json)
 * [hash.js](#hashjs)
 * [html-entities](#html-entities)
+* [https-proxy-agent](#https-proxy-agent)
 * [is-invalid-path](#is-invalid-path)
 * [js-yaml](#js-yaml)
 * [jsonschema](#jsonschema)
@@ -77,7 +79,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### axios
 
-This product includes source derived from [axios](https://github.com/axios/axios) ([v1.7.2](https://github.com/axios/axios/tree/v1.7.2)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.7.2/LICENSE):
+This product includes source derived from [axios](https://github.com/axios/axios) ([v1.7.4](https://github.com/axios/axios/tree/v1.7.4)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.7.4/LICENSE):
 
 ```
 # Copyright (c) 2014-present Matt Zabriskie & Collaborators
@@ -146,6 +148,22 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+```
+
+### cron
+
+This product includes source derived from [cron](https://github.com/kelektiv/node-cron) ([v3.1.7](https://github.com/kelektiv/node-cron/tree/v3.1.7)), distributed under the [MIT License](https://github.com/kelektiv/node-cron/blob/v3.1.7/LICENSE):
+
+```
+The MIT License (MIT)
+Copyright © 2017 Nicholas Campbell <nicholas.j.campbell@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ```
 
@@ -237,6 +255,35 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+```
+
+### https-proxy-agent
+
+This product includes source derived from [https-proxy-agent](https://github.com/TooTallNate/proxy-agents) ([v7.0.4](https://github.com/TooTallNate/proxy-agents/tree/v7.0.4)), distributed under the [MIT License](https://github.com/TooTallNate/proxy-agents/blob/v7.0.4/LICENSE):
+
+```
+(The MIT License)
+
+Copyright (c) 2013 Nathan Rajlich <nathan@tootallnate.net>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
 ### is-invalid-path
@@ -588,7 +635,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### ws
 
-This product includes source derived from [ws](https://github.com/websockets/ws) ([v8.17.1](https://github.com/websockets/ws/tree/v8.17.1)), distributed under the [MIT License](https://github.com/websockets/ws/blob/v8.17.1/LICENSE):
+This product includes source derived from [ws](https://github.com/websockets/ws) ([v8.18.0](https://github.com/websockets/ws/tree/v8.18.0)), distributed under the [MIT License](https://github.com/websockets/ws/blob/v8.18.0/LICENSE):
 
 ```
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>

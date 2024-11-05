@@ -1,3 +1,45 @@
+### v2.1.0 (2024-11-05)
+#### Features
+* IAST support for CI/CD
+* Support for IAST schedule, delay and ignore scan categories
+#### Bug fixes
+* Added default values for scan_schedule, scan_controllers and exclude_from_iast_scan config
+* Fix for security home placeholder replacement in fuzz requests
+* Handling to not resolve file path in fs module instrumentation
+* Fix for batch size and condition of iast-data-request sending 
+#### Miscellaneous chores
+* Added requestURI field in http request for application-runtime-error
+* Updated instrumented to get the transaction directly instead of from the active segment
+
+### v2.0.0 (2024-09-20)
+### ⚠ BREAKING CHANGES
+* Dropped support for Node.js v16
+* Dropped functionality to generate snapshot file
+#### Features
+* Support to honour proxy settings via config
+* Support for secure cookie security event generation
+* Report error to Error Inbox upon connection failure to Security Engine
+* Support to detect application and server path
+* Functionality to truncate Incoming HTTP request upto default limit
+* Dropped support for Node.js v16
+* Dropped functionality to generate snapshot file
+#### Bug fixes
+* Handling for empty data in IAST fuzzing header
+* Added identifiers in events
+* Fix for file integrity security event generation
+* Fix for missing identifiers in iast-data-request JSON
+
+### v1.5.0 (2024-08-14)
+#### Features
+* Support for Node.js v22.x
+#### Bug fixes
+* Fix for traceId in error reporting
+#### Miscellaneous chores
+* (deps): bumped axios from 1.6.8 to 1.7.4 
+* (deps-dev): bumped ws from 7.5.9 to 8.18.0
+#### Continuous integration
+* Added Node.js v22.x to unit tests
+
 ### v1.4.0 (2024-06-24)
 #### Features
 * Added support to report application's errors while IAST scanning
