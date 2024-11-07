@@ -1,3 +1,7 @@
+### v2.1.1 (2024-11-07)
+#### Bug fixes
+* Fix for assignment to logger constant 
+
 ### v2.1.0 (2024-11-05)
 #### Features
 * IAST support for CI/CD
