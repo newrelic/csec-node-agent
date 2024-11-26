@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Wed Aug 14 2024 10:38:44 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Thu Nov 07 2024 11:04:14 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
@@ -43,6 +43,20 @@
       "licenseTextSource": "file",
       "publisher": "Douglas Christopher Wilson",
       "email": "doug@somethingdoug.com"
+    },
+    "cron@3.1.7": {
+      "name": "cron",
+      "version": "3.1.7",
+      "range": "^3.1.7",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/kelektiv/node-cron",
+      "versionedRepoUrl": "https://github.com/kelektiv/node-cron/tree/v3.1.7",
+      "licenseFile": "node_modules/cron/LICENSE",
+      "licenseUrl": "https://github.com/kelektiv/node-cron/blob/v3.1.7/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Nick Campbell",
+      "email": "nicholas.j.campbell@gmail.com",
+      "url": "https://github.com/ncb000gt"
     },
     "fast-safe-stringify@2.1.1": {
       "name": "fast-safe-stringify",
@@ -93,6 +107,20 @@
       "licenseTextSource": "file",
       "publisher": "Marat Dulin",
       "email": "mdevils@yandex.ru"
+    },
+    "https-proxy-agent@7.0.4": {
+      "name": "https-proxy-agent",
+      "version": "7.0.4",
+      "range": "^7.0.4",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/TooTallNate/proxy-agents",
+      "versionedRepoUrl": "https://github.com/TooTallNate/proxy-agents/tree/v7.0.4",
+      "licenseFile": "node_modules/https-proxy-agent/LICENSE",
+      "licenseUrl": "https://github.com/TooTallNate/proxy-agents/blob/v7.0.4/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Nathan Rajlich",
+      "email": "nathan@tootallnate.net",
+      "url": "http://n8.io/"
     },
     "is-invalid-path@1.0.2": {
       "name": "is-invalid-path",
@@ -260,15 +288,15 @@
       "licenseUrl": "https://github.com/uuidjs/uuid/blob/v9.0.1/LICENSE.md",
       "licenseTextSource": "file"
     },
-    "ws@8.17.1": {
+    "ws@8.18.0": {
       "name": "ws",
-      "version": "8.17.1",
+      "version": "8.18.0",
       "range": "^8.17.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/websockets/ws",
-      "versionedRepoUrl": "https://github.com/websockets/ws/tree/v8.17.1",
+      "versionedRepoUrl": "https://github.com/websockets/ws/tree/v8.18.0",
       "licenseFile": "node_modules/ws/LICENSE",
-      "licenseUrl": "https://github.com/websockets/ws/blob/v8.17.1/LICENSE",
+      "licenseUrl": "https://github.com/websockets/ws/blob/v8.18.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Einar Otto Stangvik",
       "email": "einaros@gmail.com",
