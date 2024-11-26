@@ -1,3 +1,20 @@
+### v2.1.1 (2024-11-07)
+#### Bug fixes
+* Fix for assignment to logger constant 
+
+### v2.1.0 (2024-11-05)
+#### Features
+* IAST support for CI/CD
+* Support for IAST schedule, delay and ignore scan categories
+#### Bug fixes
+* Added default values for scan_schedule, scan_controllers and exclude_from_iast_scan config
+* Fix for security home placeholder replacement in fuzz requests
+* Handling to not resolve file path in fs module instrumentation
+* Fix for batch size and condition of iast-data-request sending 
+#### Miscellaneous chores
+* Added requestURI field in http request for application-runtime-error
+* Updated instrumented to get the transaction directly instead of from the active segment
+
 ### v2.0.0 (2024-09-20)
 ### ⚠ BREAKING CHANGES
 * Dropped support for Node.js v16

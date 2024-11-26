@@ -42,7 +42,7 @@ The `@newrelic/security-agent` must be explicitly enabled in order to perform IA
 The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instrumentation will be of help. We particularly recommend the [tutorials](https://newrelic.github.io/node-newrelic/tutorial-Instrumentation-Basics.html) and the [shim API](https://newrelic.github.io/node-newrelic/Shim.html) documentation.
 
 ### Supported  Node.js Versions
-- Node version 16.x, 18.x and 20.x
+- Node version 18.x, 20.x and 22.x
 
 ### Supported  Modules
 
