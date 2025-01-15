@@ -1,3 +1,12 @@
+### v2.2.0 (2024-12-18)
+#### Features
+* Support for express 5.x 
+* IAST support for GraphQL
+* Added support for trustboundary security events
+
+#### Bug fixes
+* Fix for empty route in fastify
+
 ### v2.1.1 (2024-11-07)
 #### Bug fixes
 * Fix for assignment to logger constant 
