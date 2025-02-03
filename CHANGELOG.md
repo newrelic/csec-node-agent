@@ -10,7 +10,7 @@
 * Fix for mongodb unit tests 
 
 #### Miscellaneous chores
-* deps-dev: bump undici from 5.28.4 to 5.28.5
+* deps-dev: bump undici from v5.28.4 to v5.28.5
 * Updated axios to v1.7.9 
 
 ### v2.2.0 (2024-12-18)
