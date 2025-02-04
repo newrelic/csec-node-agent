@@ -1,3 +1,8 @@
+### v2.3.1 (2025-02-04)
+#### Bug fixes
+* Removed docker-cli-js dependency and updated mongodb unit test case (#283)
+* Added safety check for agentModule before accessing its properties (#284)
+
 ### v2.3.0 (2025-02-03)
 #### Features
 * Added Support for VM module
