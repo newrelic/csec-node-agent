@@ -7,29 +7,22 @@
 const test = require('tap').test;
 const sinon = require('sinon')
 const utils = require('@newrelic/test-utilities')
-const MongoMemoryServer = require('mongodb-memory-server').MongoMemoryServer;
 const mongodb2 = require('mongodb2');
 const mongodb3 = require('mongodb3');
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 
-const { Docker } = require('docker-cli-js');
-const options = {
-  machineName: null, // uses local docker
-  currentWorkingDirectory: null, // uses current working directory
-  echo: true, // echo command output to stdout/stderr
-};
-var docker = new Docker(options)
+const cp = require('child_process')
 
 const dbSetup = async () => {
-  require('child_process').execSync('docker rm -f mongodb && docker run -d -p 27017:27017 --name mongodb mongo:4 && sleep 5');
+  cp.execSync('docker rm -f mongodb && docker run -d -p 27017:27017 --name mongodb mongo:4 && sleep 5');
 }
 
 const tearDownMongoDB = async () => {
   try {
-      docker.command('rm -f dynamodb', (data) => {});
+    cp.execSync('docker rm -f dynamodb');
   } catch (err) {
-      console.error('Table delete fail: ', err)
+    console.error('Table delete fail: ', err)
   }
 }
 
@@ -45,7 +38,7 @@ test('mongodb', (t) => {
   });
 
   t.teardown(async () => {
-      await tearDownMongoDB;
+    await tearDownMongoDB;
   });
 
   t.test('v2', (t) => {
