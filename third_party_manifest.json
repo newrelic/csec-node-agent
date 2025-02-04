@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Mon Feb 03 2025 15:27:49 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Tue Feb 04 2025 09:42:23 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
@@ -57,19 +57,6 @@
       "publisher": "Nick Campbell",
       "email": "nicholas.j.campbell@gmail.com",
       "url": "https://github.com/ncb000gt"
-    },
-    "docker-cli-js@2.10.0": {
-      "name": "docker-cli-js",
-      "version": "2.10.0",
-      "range": "^2.10.0",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/Quobject/docker-cli-js",
-      "versionedRepoUrl": "https://github.com/Quobject/docker-cli-js/tree/v2.10.0",
-      "licenseFile": "node_modules/docker-cli-js/LICENSE",
-      "licenseUrl": "https://github.com/Quobject/docker-cli-js/blob/v2.10.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Matthias Ludwig",
-      "email": "mludwig@quobject.io"
     },
     "fast-safe-stringify@2.1.1": {
       "name": "fast-safe-stringify",
@@ -548,17 +535,6 @@
       "versionedRepoUrl": "https://github.com/koajs/koa/tree/v2.14.2",
       "licenseFile": "node_modules/koa/LICENSE",
       "licenseUrl": "https://github.com/koajs/koa/blob/v2.14.2/LICENSE",
-      "licenseTextSource": "file"
-    },
-    "mongodb-memory-server@8.11.2": {
-      "name": "mongodb-memory-server",
-      "version": "8.11.2",
-      "range": "^8.11.2",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/nodkz/mongodb-memory-server",
-      "versionedRepoUrl": "https://github.com/nodkz/mongodb-memory-server/tree/v8.11.2",
-      "licenseFile": "node_modules/mongodb-memory-server/LICENSE.md",
-      "licenseUrl": "https://github.com/nodkz/mongodb-memory-server/blob/v8.11.2/LICENSE.md",
       "licenseTextSource": "file"
     },
     "mongodb@2.2.36": {

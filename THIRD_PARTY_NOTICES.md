@@ -18,7 +18,6 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 * [check-disk-space](#check-disk-space)
 * [content-type](#content-type)
 * [cron](#cron)
-* [docker-cli-js](#docker-cli-js)
 * [fast-safe-stringify](#fast-safe-stringify)
 * [find-package-json](#find-package-json)
 * [hash.js](#hashjs)
@@ -60,7 +59,6 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 * [eslint-plugin-promise](#eslint-plugin-promise)
 * [eslint-plugin-sonarjs](#eslint-plugin-sonarjs)
 * [koa](#koa)
-* [mongodb-memory-server](#mongodb-memory-server)
 * [mongodb](#mongodb)
 * [mongodb](#mongodb)
 * [mongodb](#mongodb)
@@ -165,36 +163,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-```
-
-### docker-cli-js
-
-This product includes source derived from [docker-cli-js](https://github.com/Quobject/docker-cli-js) ([v2.10.0](https://github.com/Quobject/docker-cli-js/tree/v2.10.0)), distributed under the [MIT License](https://github.com/Quobject/docker-cli-js/blob/v2.10.0/LICENSE):
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2016 Matthias Ludwig (mludwig@quobject.io)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
 
 ```
 
@@ -1902,23 +1870,6 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-```
-
-### mongodb-memory-server
-
-This product includes source derived from [mongodb-memory-server](https://github.com/nodkz/mongodb-memory-server) ([v8.11.2](https://github.com/nodkz/mongodb-memory-server/tree/v8.11.2)), distributed under the [MIT License](https://github.com/nodkz/mongodb-memory-server/blob/v8.11.2/LICENSE.md):
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2017-present Pavel Chertorogov
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ```
 
