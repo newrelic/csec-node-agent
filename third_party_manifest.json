@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "Fri Sep 20 2024 15:51:01 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Tue Feb 04 2025 09:42:23 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
-    "axios@1.7.4": {
+    "axios@1.7.9": {
       "name": "axios",
-      "version": "1.7.4",
-      "range": "^1.7.4",
+      "version": "1.7.9",
+      "range": "^1.7.9",
       "licenses": "MIT",
       "repoUrl": "https://github.com/axios/axios",
-      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.7.4",
+      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.7.9",
       "licenseFile": "node_modules/axios/LICENSE",
-      "licenseUrl": "https://github.com/axios/axios/blob/v1.7.4/LICENSE",
+      "licenseUrl": "https://github.com/axios/axios/blob/v1.7.9/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Matt Zabriskie"
     },
@@ -43,6 +43,20 @@
       "licenseTextSource": "file",
       "publisher": "Douglas Christopher Wilson",
       "email": "doug@somethingdoug.com"
+    },
+    "cron@3.1.7": {
+      "name": "cron",
+      "version": "3.1.7",
+      "range": "^3.1.7",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/kelektiv/node-cron",
+      "versionedRepoUrl": "https://github.com/kelektiv/node-cron/tree/v3.1.7",
+      "licenseFile": "node_modules/cron/LICENSE",
+      "licenseUrl": "https://github.com/kelektiv/node-cron/blob/v3.1.7/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Nick Campbell",
+      "email": "nicholas.j.campbell@gmail.com",
+      "url": "https://github.com/ncb000gt"
     },
     "fast-safe-stringify@2.1.1": {
       "name": "fast-safe-stringify",
@@ -94,16 +108,16 @@
       "publisher": "Marat Dulin",
       "email": "mdevils@yandex.ru"
     },
-    "https-proxy-agent@5.0.1": {
+    "https-proxy-agent@7.0.6": {
       "name": "https-proxy-agent",
-      "version": "5.0.1",
+      "version": "7.0.6",
       "range": "^7.0.4",
       "licenses": "MIT",
-      "repoUrl": "https://github.com/TooTallNate/node-https-proxy-agent",
-      "versionedRepoUrl": "https://github.com/TooTallNate/node-https-proxy-agent/tree/v5.0.1",
-      "licenseFile": "node_modules/https-proxy-agent/README.md",
-      "licenseUrl": "https://github.com/TooTallNate/node-https-proxy-agent/blob/v5.0.1/README.md",
-      "licenseTextSource": "spdx",
+      "repoUrl": "https://github.com/TooTallNate/proxy-agents",
+      "versionedRepoUrl": "https://github.com/TooTallNate/proxy-agents/tree/v7.0.6",
+      "licenseFile": "node_modules/https-proxy-agent/LICENSE",
+      "licenseUrl": "https://github.com/TooTallNate/proxy-agents/blob/v7.0.6/LICENSE",
+      "licenseTextSource": "file",
       "publisher": "Nathan Rajlich",
       "email": "nathan@tootallnate.net",
       "url": "http://n8.io/"
@@ -212,15 +226,15 @@
       "email": "info@janogonzalez.com",
       "url": "http://janogonzalez.com"
     },
-    "semver@7.5.4": {
+    "semver@7.6.3": {
       "name": "semver",
-      "version": "7.5.4",
+      "version": "7.6.3",
       "range": "^7.5.4",
       "licenses": "ISC",
       "repoUrl": "https://github.com/npm/node-semver",
-      "versionedRepoUrl": "https://github.com/npm/node-semver/tree/v7.5.4",
+      "versionedRepoUrl": "https://github.com/npm/node-semver/tree/v7.6.3",
       "licenseFile": "node_modules/semver/LICENSE",
-      "licenseUrl": "https://github.com/npm/node-semver/blob/v7.5.4/LICENSE",
+      "licenseUrl": "https://github.com/npm/node-semver/blob/v7.6.3/LICENSE",
       "licenseTextSource": "file",
       "publisher": "GitHub Inc."
     },
@@ -521,17 +535,6 @@
       "versionedRepoUrl": "https://github.com/koajs/koa/tree/v2.14.2",
       "licenseFile": "node_modules/koa/LICENSE",
       "licenseUrl": "https://github.com/koajs/koa/blob/v2.14.2/LICENSE",
-      "licenseTextSource": "file"
-    },
-    "mongodb-memory-server@8.13.0": {
-      "name": "mongodb-memory-server",
-      "version": "8.13.0",
-      "range": "^8.11.2",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/nodkz/mongodb-memory-server",
-      "versionedRepoUrl": "https://github.com/nodkz/mongodb-memory-server/tree/v8.13.0",
-      "licenseFile": "node_modules/mongodb-memory-server/LICENSE.md",
-      "licenseUrl": "https://github.com/nodkz/mongodb-memory-server/blob/v8.13.0/LICENSE.md",
       "licenseTextSource": "file"
     },
     "mongodb@2.2.36": {
