@@ -78,7 +78,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### axios
 
-This product includes source derived from [axios](https://github.com/axios/axios) ([v1.7.9](https://github.com/axios/axios/tree/v1.7.9)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.7.9/LICENSE):
+This product includes source derived from [axios](https://github.com/axios/axios) ([v1.8.2](https://github.com/axios/axios/tree/v1.8.2)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.8.2/LICENSE):
 
 ```
 # Copyright (c) 2014-present Matt Zabriskie & Collaborators
