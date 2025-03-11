@@ -1,3 +1,10 @@
+### v2.3.2 (2025-03-11)
+#### Bug fixes
+* Updated axios to v1.8.2 
+#### Miscellaneous chores
+* Updated readme 
+
+
 ### v2.3.1 (2025-02-04)
 #### Bug fixes
 * Removed docker-cli-js dependency and updated mongodb unit test case (#283)
