@@ -39,7 +39,7 @@
     "url": "https://github.com/newrelic/csec-node-agent.git"
   },
   "dependencies": {
-    "axios": "^1.7.9",
+    "axios": "^1.8.2",
     "check-disk-space": "^3.4.0",
     "content-type": "^1.0.5",
     "cron": "^3.1.7",
