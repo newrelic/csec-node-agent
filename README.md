@@ -51,6 +51,7 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
     - `https`
     - `fs`
     - `child_process`
+    - `vm`
 - [mysql](https://www.npmjs.com/package/mysql)(2.16.x and above)
 - [mysql2](https://www.npmjs.com/package/mysql2) (2.x and above)
 - [pg](https://www.npmjs.com/package/pg)(7.x and above)
@@ -68,6 +69,7 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
 - [xpath](https://www.npmjs.com/package/xpath)(0.0.20 and above)
 - [xpath.js](https://www.npmjs.com/package/xpath.js)(0.0.1 and above) 
 - [undici](https://www.npmjs.com/package/undici)(4.7.0 and above) 
+- [next](https://www.npmjs.com/package/next)(13.4.19 and above) 
 
 For more information, please see New Relic Node.js agent [compatibility and requirements](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent/).
 

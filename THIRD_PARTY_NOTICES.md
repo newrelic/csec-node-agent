@@ -59,7 +59,6 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 * [eslint-plugin-promise](#eslint-plugin-promise)
 * [eslint-plugin-sonarjs](#eslint-plugin-sonarjs)
 * [koa](#koa)
-* [mongodb-memory-server](#mongodb-memory-server)
 * [mongodb](#mongodb)
 * [mongodb](#mongodb)
 * [mongodb](#mongodb)
@@ -79,7 +78,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 ### axios
 
-This product includes source derived from [axios](https://github.com/axios/axios) ([v1.7.4](https://github.com/axios/axios/tree/v1.7.4)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.7.4/LICENSE):
+This product includes source derived from [axios](https://github.com/axios/axios) ([v1.8.2](https://github.com/axios/axios/tree/v1.8.2)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.8.2/LICENSE):
 
 ```
 # Copyright (c) 2014-present Matt Zabriskie & Collaborators
@@ -259,7 +258,7 @@ THE SOFTWARE.
 
 ### https-proxy-agent
 
-This product includes source derived from [https-proxy-agent](https://github.com/TooTallNate/proxy-agents) ([v7.0.4](https://github.com/TooTallNate/proxy-agents/tree/v7.0.4)), distributed under the [MIT License](https://github.com/TooTallNate/proxy-agents/blob/v7.0.4/LICENSE):
+This product includes source derived from [https-proxy-agent](https://github.com/TooTallNate/proxy-agents) ([v7.0.6](https://github.com/TooTallNate/proxy-agents/tree/v7.0.6)), distributed under the [MIT License](https://github.com/TooTallNate/proxy-agents/blob/v7.0.6/LICENSE):
 
 ```
 (The MIT License)
@@ -512,7 +511,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### semver
 
-This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.5.4](https://github.com/npm/node-semver/tree/v7.5.4)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.5.4/LICENSE):
+This product includes source derived from [semver](https://github.com/npm/node-semver) ([v7.6.3](https://github.com/npm/node-semver/tree/v7.6.3)), distributed under the [ISC License](https://github.com/npm/node-semver/blob/v7.6.3/LICENSE):
 
 ```
 The ISC License
@@ -1871,23 +1870,6 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-```
-
-### mongodb-memory-server
-
-This product includes source derived from [mongodb-memory-server](https://github.com/nodkz/mongodb-memory-server) ([v8.13.0](https://github.com/nodkz/mongodb-memory-server/tree/v8.13.0)), distributed under the [MIT License](https://github.com/nodkz/mongodb-memory-server/blob/v8.13.0/LICENSE.md):
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2017-present Pavel Chertorogov
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ```
 

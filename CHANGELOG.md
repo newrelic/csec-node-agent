@@ -1,3 +1,39 @@
+### v2.3.2 (2025-03-11)
+#### Bug fixes
+* Updated axios to v1.8.2 
+#### Miscellaneous chores
+* Updated readme 
+
+
+### v2.3.1 (2025-02-04)
+#### Bug fixes
+* Removed docker-cli-js dependency and updated mongodb unit test case (#283)
+* Added safety check for agentModule before accessing its properties (#284)
+
+### v2.3.0 (2025-02-03)
+#### Features
+* Added Support for VM module
+* IAST support for Next.js
+* Support for Insecure settings i.e crypto, hash and random modules 
+
+#### Bug fixes
+* Fix for special characters in ws header
+* Fix for getting transaction in graphql instrumentation 
+* Fix for mongodb unit tests 
+
+#### Miscellaneous chores
+* deps-dev: bump undici from v5.28.4 to v5.28.5
+* Updated axios to v1.7.9 
+
+### v2.2.0 (2024-12-18)
+#### Features
+* Support for express 5.x 
+* IAST support for GraphQL
+* Added support for trustboundary security events
+
+#### Bug fixes
+* Fix for empty route in fastify
+
 ### v2.1.1 (2024-11-07)
 #### Bug fixes
 * Fix for assignment to logger constant 
