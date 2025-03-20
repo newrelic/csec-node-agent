@@ -1,3 +1,10 @@
+### v2.4.0 (2025-03-20)
+#### Features
+* Support for gRPC error reporting
+* Support to detect API endpoints in next.js framework 
+#### Miscellaneous chores
+* Updated axios to v1.8.4
+
 ### v2.3.2 (2025-03-11)
 #### Bug fixes
 * Updated axios to v1.8.2 
