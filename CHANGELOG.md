@@ -1,4 +1,4 @@
-### v2.4.0 (2025-03-20)
+### v2.4.0 (2025-03-21)
 #### Features
 * Support for gRPC error reporting
 * Support to detect API endpoints in next.js framework 
