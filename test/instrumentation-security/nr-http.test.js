@@ -47,6 +47,12 @@ function makeRequest(params, data, cb) {
 test('http', (t) => {
   t.autoend()
 
+  const API = require('../../lib/nr-security-api')
+  const sendEventOrig = API.sendEvent
+  Object.defineProperty(API, 'sendEvent', {
+    value: sendEventOrig
+  })
+
   let helper = null;
   let shim = null
   let initialize = null
@@ -177,6 +183,40 @@ test('http', (t) => {
       request(options, function (error, response) {
         t.end()
       });
+    })
+
+    t.test('uncaughtException', (t) => {
+      t.plan(2)
+      t.expectUncaughtException()
+
+      Object.defineProperty(API, 'sendEvent', {
+        value: (exception) => {
+          t.equal(exception.exception?.message, 'boom')
+
+          server.close()
+          Object.defineProperty(API, 'sendEvent', { value: sendEventOrig })
+
+          t.end()
+        }
+      })
+
+      const server = http.createServer((req, res) => {
+        res.statusCode = 500
+        res.end()
+        throw Error('boom')
+      })
+      server.listen(0, '127.0.0.1', () => {
+        const options = {
+          hostname: server.address().address,
+          port: server.address().port,
+          path: '/',
+          headers: {
+            'self-test': 1
+          }
+        }
+        const req = http.request(options, () => {})
+        req.end()
+      })
     })
   })
 })
