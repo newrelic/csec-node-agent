@@ -1,3 +1,11 @@
+### v2.4.1 (2025-05-13)
+#### Bug fixes
+* Only listen once for uncaughtException
+#### Miscellaneous chores
+* (deps-dev): bump koa from v2.14.2 to v2.16.1
+* (deps-dev): bump tar-fs from v2.1.1 to v2.1.2 
+
+
 ### v2.4.0 (2025-03-21)
 #### Features
 * Support for gRPC error reporting
