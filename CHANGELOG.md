@@ -1,3 +1,7 @@
+### v2.4.2 (2025-05-14)
+#### Bug fixes
+* Fixed usage of incorrect method
+
 ### v2.4.1 (2025-05-13)
 #### Bug fixes
 * Only listen once for uncaughtException
