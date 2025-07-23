@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "Wed May 14 2025 14:00:47 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Wed Jul 23 2025 14:11:02 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
-    "axios@1.8.4": {
+    "axios@1.11.0": {
       "name": "axios",
-      "version": "1.8.4",
-      "range": "^1.8.4",
+      "version": "1.11.0",
+      "range": "^1.11.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/axios/axios",
-      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.8.4",
+      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.11.0",
       "licenseFile": "node_modules/axios/LICENSE",
-      "licenseUrl": "https://github.com/axios/axios/blob/v1.8.4/LICENSE",
+      "licenseUrl": "https://github.com/axios/axios/blob/v1.11.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Matt Zabriskie"
     },
@@ -237,18 +237,6 @@
       "licenseUrl": "https://github.com/npm/node-semver/blob/v7.6.3/LICENSE",
       "licenseTextSource": "file",
       "publisher": "GitHub Inc."
-    },
-    "sync-request@6.1.0": {
-      "name": "sync-request",
-      "version": "6.1.0",
-      "range": "^6.1.0",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/ForbesLindesay/sync-request",
-      "versionedRepoUrl": "https://github.com/ForbesLindesay/sync-request/tree/v6.1.0",
-      "licenseFile": "node_modules/sync-request/LICENSE",
-      "licenseUrl": "https://github.com/ForbesLindesay/sync-request/blob/v6.1.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "ForbesLindesay"
     },
     "unescape-js@1.1.4": {
       "name": "unescape-js",
