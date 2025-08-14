@@ -42,7 +42,7 @@
     "axios": "^1.11.0",
     "check-disk-space": "^3.4.0",
     "content-type": "^1.0.5",
-    "cron": "^3.1.7",
+    "cron": "^4.0.0",
     "fast-safe-stringify": "^2.1.1",
     "find-package-json": "^1.2.0",
     "hash.js": "^1.1.7",

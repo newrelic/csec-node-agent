@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Wed Jul 23 2025 14:11:02 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Thu Aug 14 2025 15:51:34 GMT+0200 (Central European Summer Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
@@ -44,15 +44,15 @@
       "publisher": "Douglas Christopher Wilson",
       "email": "doug@somethingdoug.com"
     },
-    "cron@3.1.7": {
+    "cron@4.3.3": {
       "name": "cron",
-      "version": "3.1.7",
-      "range": "^3.1.7",
+      "version": "4.3.3",
+      "range": "^4.0.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/kelektiv/node-cron",
-      "versionedRepoUrl": "https://github.com/kelektiv/node-cron/tree/v3.1.7",
+      "versionedRepoUrl": "https://github.com/kelektiv/node-cron/tree/v4.3.3",
       "licenseFile": "node_modules/cron/LICENSE",
-      "licenseUrl": "https://github.com/kelektiv/node-cron/blob/v3.1.7/LICENSE",
+      "licenseUrl": "https://github.com/kelektiv/node-cron/blob/v4.3.3/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Nick Campbell",
       "email": "nicholas.j.campbell@gmail.com",
@@ -514,15 +514,15 @@
       "licenseUrl": "https://github.com/SonarSource/eslint-plugin-sonarjs/blob/v0.15.0/LICENSE",
       "licenseTextSource": "file"
     },
-    "koa@2.14.2": {
+    "koa@2.16.1": {
       "name": "koa",
-      "version": "2.14.2",
+      "version": "2.16.1",
       "range": "^2.14.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/koajs/koa",
-      "versionedRepoUrl": "https://github.com/koajs/koa/tree/v2.14.2",
+      "versionedRepoUrl": "https://github.com/koajs/koa/tree/v2.16.1",
       "licenseFile": "node_modules/koa/LICENSE",
-      "licenseUrl": "https://github.com/koajs/koa/blob/v2.14.2/LICENSE",
+      "licenseUrl": "https://github.com/koajs/koa/blob/v2.16.1/LICENSE",
       "licenseTextSource": "file"
     },
     "mongodb@2.2.36": {
@@ -645,15 +645,15 @@
       "email": "i@izs.me",
       "url": "http://blog.izs.me"
     },
-    "undici@5.28.4": {
+    "undici@5.28.5": {
       "name": "undici",
-      "version": "5.28.4",
+      "version": "5.28.5",
       "range": "^5.28.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/nodejs/undici",
-      "versionedRepoUrl": "https://github.com/nodejs/undici/tree/v5.28.4",
+      "versionedRepoUrl": "https://github.com/nodejs/undici/tree/v5.28.5",
       "licenseFile": "node_modules/undici/LICENSE",
-      "licenseUrl": "https://github.com/nodejs/undici/blob/v5.28.4/LICENSE",
+      "licenseUrl": "https://github.com/nodejs/undici/blob/v5.28.5/LICENSE",
       "licenseTextSource": "file"
     },
     "xmldom@0.6.0": {

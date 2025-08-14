@@ -151,7 +151,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### cron
 
-This product includes source derived from [cron](https://github.com/kelektiv/node-cron) ([v3.1.7](https://github.com/kelektiv/node-cron/tree/v3.1.7)), distributed under the [MIT License](https://github.com/kelektiv/node-cron/blob/v3.1.7/LICENSE):
+This product includes source derived from [cron](https://github.com/kelektiv/node-cron) ([v4.3.3](https://github.com/kelektiv/node-cron/tree/v4.3.3)), distributed under the [MIT License](https://github.com/kelektiv/node-cron/blob/v4.3.3/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -1818,7 +1818,7 @@ Library.
 
 ### koa
 
-This product includes source derived from [koa](https://github.com/koajs/koa) ([v2.14.2](https://github.com/koajs/koa/tree/v2.14.2)), distributed under the [MIT License](https://github.com/koajs/koa/blob/v2.14.2/LICENSE):
+This product includes source derived from [koa](https://github.com/koajs/koa) ([v2.16.1](https://github.com/koajs/koa/tree/v2.16.1)), distributed under the [MIT License](https://github.com/koajs/koa/blob/v2.16.1/LICENSE):
 
 ```
 (The MIT License)
@@ -2843,7 +2843,7 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ### undici
 
-This product includes source derived from [undici](https://github.com/nodejs/undici) ([v5.28.4](https://github.com/nodejs/undici/tree/v5.28.4)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v5.28.4/LICENSE):
+This product includes source derived from [undici](https://github.com/nodejs/undici) ([v5.28.5](https://github.com/nodejs/undici/tree/v5.28.5)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v5.28.5/LICENSE):
 
 ```
 MIT License
