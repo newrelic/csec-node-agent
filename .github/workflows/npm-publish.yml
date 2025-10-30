@@ -9,16 +9,24 @@ jobs:
     permissions:
       contents: write
       packages: write
+      # This permission is needed for OIDC based publishing.
+      id-token: write
+
     strategy:
       matrix:
         node-version: [lts/*]
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version}}
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
+        # As of 2025-10-21, we must specify a version to use because we need
+        # a specific version of npm in order to perform OIDC based publishing.
+        # That version of npm is 11.5.1, which first ships with v24.5.0.
+        # Once v24 is the minimum LTS release, we can revert this back to
+        # utilizing the matrix defined version.
+        node-version: 24.x
         registry-url: 'https://registry.npmjs.org'
     - name: Install dependencies
       run: npm ci
@@ -28,9 +36,7 @@ jobs:
         git config user.email gh-actions-${GITHUB_ACTOR}@github.com
     - name: Publish module
       run: npm publish
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-    - name: Create and push tag 
+    - name: Create and push tag
       run: |
         VERSION=`node -e "const { version } = require('./package.json'); console.log(version);"`
         git tag v$VERSION
