@@ -39,7 +39,6 @@
     "url": "https://github.com/newrelic/csec-node-agent.git"
   },
   "dependencies": {
-    "axios": "^1.12.0",
     "check-disk-space": "^3.4.0",
     "content-type": "^1.0.5",
     "cron": "^3.1.7",
@@ -57,6 +56,7 @@
     "request-ip": "^3.3.0",
     "ringbufferjs": "^2.0.0",
     "semver": "^7.5.4",
+    "undici": "^6.21.3",
     "unescape": "^1.0.1",
     "unescape-js": "^1.1.4",
     "uuid": "^9.0.1",
@@ -91,7 +91,6 @@
     "sinon": "^15.0.0",
     "stream": "^0.0.2",
     "tap": "^16.3.2",
-    "undici": "^5.28.0",
     "xmldom": "^0.6.0",
     "xpath": "^0.0.32",
     "xpath.js": "^1.1.0"
