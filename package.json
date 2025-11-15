@@ -48,7 +48,7 @@
     "html-entities": "^2.3.6",
     "https-proxy-agent": "^7.0.4",
     "is-invalid-path": "^1.0.2",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "jsonschema": "^1.4.1",
     "lodash": "^4.17.21",
     "log4js": "^6.9.1",
