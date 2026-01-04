@@ -29,7 +29,7 @@
     "Node.js Application Security"
   ],
   "engines": {
-    "node": ">=18",
+    "node": ">=20",
     "npm": ">=6.0.0"
   },
   "author": "newrelic",
