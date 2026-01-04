@@ -8,27 +8,37 @@
 const test = require('tap').test;
 const sinon = require('sinon');
 const utils = require('@newrelic/test-utilities');
-const restify = require('restify');
+const Hapi = require('@hapi/hapi');
 const undici = require('undici');
 const {Writable} = require('stream');
 
-const server = restify.createServer();
+let server;
 
-const startServer = () => {
-    server.use(restify.plugins.acceptParser(server.acceptable));
-    server.use(restify.plugins.queryParser());
-    server.use(restify.plugins.bodyParser());
-    server.get("/user", (req, res, next) => {
-        res.send("Hello " + req.query.name);
-        next();
+const startServer = async () => {
+    server = Hapi.server({
+        port: 8010,
+        host: 'localhost'
     });
-    server.get("/user/:id", (req, res, next) => {
-        res.send({"name": "Test User"});
-        next();
-    });
-    server.listen(8010, function () {
-        console.log('server listening at %s', server.url);
-    });
+
+    server.route([
+        {
+            method: 'GET',
+            path: '/user',
+            handler: (request, h) => {
+                return "Hello " + request.query.name;
+            }
+        },
+        {
+            method: 'GET',
+            path: '/user/{id}',
+            handler: (request, h) => {
+                return {"name": "Test User"};
+            }
+        }
+    ]);
+
+    await server.start();
+    console.log('server listening at %s', server.info.uri);
 }
 
 test('undici', (t) => {
@@ -37,14 +47,13 @@ test('undici', (t) => {
     let initialize = null;
     let shim = null;
 
-    t.before(() => {
-        startServer();
+    t.before(async () => {
+        await startServer();
     })
 
-    t.teardown(() => {
-        server.close(function () {
-            console.log('server is closed');
-        });
+    t.teardown(async () => {
+        await server.stop();
+        console.log('server is closed');
     })
 
     t.beforeEach(() => {
@@ -87,7 +96,7 @@ test('undici', (t) => {
                 }
               })
           })
-        t.same(bufs.toString(), "\"Hello NR\"")
+        t.same(bufs.toString(), "Hello NR");
         t.end();
     })
 
