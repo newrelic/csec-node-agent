@@ -1,22 +1,10 @@
 {
-  "lastUpdated": "Fri Sep 12 2025 14:11:25 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Tue Jan 06 2026 15:59:43 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
   "includeDev": true,
   "dependencies": {
-    "axios@1.12.0": {
-      "name": "axios",
-      "version": "1.12.0",
-      "range": "^1.12.0",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/axios/axios",
-      "versionedRepoUrl": "https://github.com/axios/axios/tree/v1.12.0",
-      "licenseFile": "node_modules/axios/LICENSE",
-      "licenseUrl": "https://github.com/axios/axios/blob/v1.12.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Matt Zabriskie"
-    },
     "check-disk-space@3.4.0": {
       "name": "check-disk-space",
       "version": "3.4.0",
@@ -135,15 +123,15 @@
       "publisher": "Jon Schlinkert",
       "url": "https://github.com/jonschlinkert"
     },
-    "js-yaml@4.1.0": {
+    "js-yaml@4.1.1": {
       "name": "js-yaml",
-      "version": "4.1.0",
-      "range": "^4.1.0",
+      "version": "4.1.1",
+      "range": "^4.1.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/nodeca/js-yaml",
-      "versionedRepoUrl": "https://github.com/nodeca/js-yaml/tree/v4.1.0",
+      "versionedRepoUrl": "https://github.com/nodeca/js-yaml/tree/v4.1.1",
       "licenseFile": "node_modules/js-yaml/LICENSE",
-      "licenseUrl": "https://github.com/nodeca/js-yaml/blob/v4.1.0/LICENSE",
+      "licenseUrl": "https://github.com/nodeca/js-yaml/blob/v4.1.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Vladimir Zapparov",
       "email": "dervus.grim@gmail.com"
@@ -237,6 +225,17 @@
       "licenseUrl": "https://github.com/npm/node-semver/blob/v7.6.3/LICENSE",
       "licenseTextSource": "file",
       "publisher": "GitHub Inc."
+    },
+    "undici@7.16.0": {
+      "name": "undici",
+      "version": "7.16.0",
+      "range": "^7.16.0",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/nodejs/undici",
+      "versionedRepoUrl": "https://github.com/nodejs/undici/tree/v7.16.0",
+      "licenseFile": "node_modules/undici/LICENSE",
+      "licenseUrl": "https://github.com/nodejs/undici/blob/v7.16.0/LICENSE",
+      "licenseTextSource": "file"
     },
     "unescape-js@1.1.4": {
       "name": "unescape-js",
@@ -514,15 +513,15 @@
       "licenseUrl": "https://github.com/SonarSource/eslint-plugin-sonarjs/blob/v0.15.0/LICENSE",
       "licenseTextSource": "file"
     },
-    "koa@3.0.1": {
+    "koa@3.0.3": {
       "name": "koa",
-      "version": "3.0.1",
+      "version": "3.0.3",
       "range": "^3.0.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/koajs/koa",
-      "versionedRepoUrl": "https://github.com/koajs/koa/tree/v3.0.1",
+      "versionedRepoUrl": "https://github.com/koajs/koa/tree/v3.0.3",
       "licenseFile": "node_modules/koa/LICENSE",
-      "licenseUrl": "https://github.com/koajs/koa/blob/v3.0.1/LICENSE",
+      "licenseUrl": "https://github.com/koajs/koa/blob/v3.0.3/LICENSE",
       "licenseTextSource": "file"
     },
     "mongodb@2.2.36": {
@@ -593,19 +592,6 @@
       "publisher": "Mikeal Rogers",
       "email": "mikeal.rogers@gmail.com"
     },
-    "restify@11.1.0": {
-      "name": "restify",
-      "version": "11.1.0",
-      "range": "^11.1.0",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/restify/node-restify",
-      "versionedRepoUrl": "https://github.com/restify/node-restify/tree/v11.1.0",
-      "licenseFile": "node_modules/restify/LICENSE",
-      "licenseUrl": "https://github.com/restify/node-restify/blob/v11.1.0/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Mark Cavage",
-      "email": "mcavage@gmail.com"
-    },
     "sinon@15.2.0": {
       "name": "sinon",
       "version": "15.2.0",
@@ -644,17 +630,6 @@
       "publisher": "Isaac Z. Schlueter",
       "email": "i@izs.me",
       "url": "http://blog.izs.me"
-    },
-    "undici@5.28.4": {
-      "name": "undici",
-      "version": "5.28.4",
-      "range": "^5.28.0",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/nodejs/undici",
-      "versionedRepoUrl": "https://github.com/nodejs/undici/tree/v5.28.4",
-      "licenseFile": "node_modules/undici/LICENSE",
-      "licenseUrl": "https://github.com/nodejs/undici/blob/v5.28.4/LICENSE",
-      "licenseTextSource": "file"
     },
     "xmldom@0.6.0": {
       "name": "xmldom",

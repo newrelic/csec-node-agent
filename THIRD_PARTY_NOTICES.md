@@ -14,7 +14,6 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 
 **[dependencies](#dependencies)**
 
-* [axios](#axios)
 * [check-disk-space](#check-disk-space)
 * [content-type](#content-type)
 * [cron](#cron)
@@ -32,6 +31,7 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 * [request-ip](#request-ip)
 * [ringbufferjs](#ringbufferjs)
 * [semver](#semver)
+* [undici](#undici)
 * [unescape-js](#unescape-js)
 * [unescape](#unescape)
 * [uuid](#uuid)
@@ -63,32 +63,15 @@ code, the source code can be found at [https://github.com/newrelic/csec-node-age
 * [mongodb](#mongodb)
 * [newrelic](#newrelic)
 * [request](#request)
-* [restify](#restify)
 * [sinon](#sinon)
 * [stream](#stream)
 * [tap](#tap)
-* [undici](#undici)
 * [xmldom](#xmldom)
 * [xpath.js](#xpathjs)
 * [xpath](#xpath)
 
 
 ## dependencies
-
-### axios
-
-This product includes source derived from [axios](https://github.com/axios/axios) ([v1.12.0](https://github.com/axios/axios/tree/v1.12.0)), distributed under the [MIT License](https://github.com/axios/axios/blob/v1.12.0/LICENSE):
-
-```
-# Copyright (c) 2014-present Matt Zabriskie & Collaborators
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-```
 
 ### check-disk-space
 
@@ -315,7 +298,7 @@ THE SOFTWARE.
 
 ### js-yaml
 
-This product includes source derived from [js-yaml](https://github.com/nodeca/js-yaml) ([v4.1.0](https://github.com/nodeca/js-yaml/tree/v4.1.0)), distributed under the [MIT License](https://github.com/nodeca/js-yaml/blob/v4.1.0/LICENSE):
+This product includes source derived from [js-yaml](https://github.com/nodeca/js-yaml) ([v4.1.1](https://github.com/nodeca/js-yaml/tree/v4.1.1)), distributed under the [MIT License](https://github.com/nodeca/js-yaml/blob/v4.1.1/LICENSE):
 
 ```
 (The MIT License)
@@ -528,6 +511,35 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+```
+
+### undici
+
+This product includes source derived from [undici](https://github.com/nodejs/undici) ([v7.16.0](https://github.com/nodejs/undici/tree/v7.16.0)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v7.16.0/LICENSE):
+
+```
+MIT License
+
+Copyright (c) Matteo Collina and Undici contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ```
 
@@ -1818,7 +1830,7 @@ Library.
 
 ### koa
 
-This product includes source derived from [koa](https://github.com/koajs/koa) ([v3.0.1](https://github.com/koajs/koa/tree/v3.0.1)), distributed under the [MIT License](https://github.com/koajs/koa/blob/v3.0.1/LICENSE):
+This product includes source derived from [koa](https://github.com/koajs/koa) ([v3.0.3](https://github.com/koajs/koa/tree/v3.0.3)), distributed under the [MIT License](https://github.com/koajs/koa/blob/v3.0.3/LICENSE):
 
 ```
 (The MIT License)
@@ -2740,33 +2752,6 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 END OF TERMS AND CONDITIONS
 ```
 
-### restify
-
-This product includes source derived from [restify](https://github.com/restify/node-restify) ([v11.1.0](https://github.com/restify/node-restify/tree/v11.1.0)), distributed under the [MIT License](https://github.com/restify/node-restify/blob/v11.1.0/LICENSE):
-
-```
-Copyright (c) 2011 Mark Cavage, All rights reserved.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE
-
-```
-
 ### sinon
 
 This product includes source derived from [sinon](https://github.com/sinonjs/sinon) ([v15.2.0](https://github.com/sinonjs/sinon/tree/v15.2.0)), distributed under the [BSD-3-Clause License](https://github.com/sinonjs/sinon/blob/v15.2.0/LICENSE):
@@ -2838,35 +2823,6 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-```
-
-### undici
-
-This product includes source derived from [undici](https://github.com/nodejs/undici) ([v5.28.4](https://github.com/nodejs/undici/tree/v5.28.4)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v5.28.4/LICENSE):
-
-```
-MIT License
-
-Copyright (c) Matteo Collina and Undici contributors
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 ```
 
