@@ -29,7 +29,7 @@
     "Node.js Application Security"
   ],
   "engines": {
-    "node": ">=18",
+    "node": ">=20",
     "npm": ">=6.0.0"
   },
   "author": "newrelic",
@@ -56,7 +56,7 @@
     "request-ip": "^3.3.0",
     "ringbufferjs": "^2.0.0",
     "semver": "^7.5.4",
-    "undici": "^6.21.3",
+    "undici": "^7.16.0",
     "unescape": "^1.0.1",
     "unescape-js": "^1.1.4",
     "uuid": "^9.0.1",
@@ -87,7 +87,6 @@
     "mongodb3": "npm:mongodb@^3.7.3",
     "newrelic": "^10.3.1",
     "request": "^2.88.2",
-    "restify": "^11.1.0",
     "sinon": "^15.0.0",
     "stream": "^0.0.2",
     "tap": "^16.3.2",
