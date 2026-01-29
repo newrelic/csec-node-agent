@@ -356,7 +356,7 @@ SOFTWARE.
 
 ### lodash
 
-This product includes source derived from [lodash](https://github.com/lodash/lodash) ([v4.17.21](https://github.com/lodash/lodash/tree/v4.17.21)), distributed under the [MIT License](https://github.com/lodash/lodash/blob/v4.17.21/LICENSE):
+This product includes source derived from [lodash](https://github.com/lodash/lodash) ([v4.17.23](https://github.com/lodash/lodash/tree/v4.17.23)), distributed under the [MIT License](https://github.com/lodash/lodash/blob/v4.17.23/LICENSE):
 
 ```
 Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
@@ -516,7 +516,7 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ### undici
 
-This product includes source derived from [undici](https://github.com/nodejs/undici) ([v7.16.0](https://github.com/nodejs/undici/tree/v7.16.0)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v7.16.0/LICENSE):
+This product includes source derived from [undici](https://github.com/nodejs/undici) ([v7.19.0](https://github.com/nodejs/undici/tree/v7.19.0)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v7.19.0/LICENSE):
 
 ```
 MIT License
