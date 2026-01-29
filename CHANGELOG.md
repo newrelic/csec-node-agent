@@ -4,7 +4,7 @@
 
 ### v3.0.0 (2026-01-06)
 ### ⚠ BREAKING CHANGES
-* Dropped support for Node.js v8
+* Dropped support for Node.js v18
 
 #### Features
 * Dropped support of Node 18.x and added Node 24.x
