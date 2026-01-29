@@ -1,3 +1,7 @@
+### v3.0.1 (2026-01-29)
+#### Miscellaneous chores
+* (deps): Updated lodash to v4.17.23 and undici to v7.19.0
+
 ### v3.0.0 (2026-01-06)
 ### ⚠ BREAKING CHANGES
 * Dropped support for Node.js v8
