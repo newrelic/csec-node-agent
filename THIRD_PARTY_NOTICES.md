@@ -134,7 +134,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### cron
 
-This product includes source derived from [cron](https://github.com/kelektiv/node-cron) ([v3.1.7](https://github.com/kelektiv/node-cron/tree/v3.1.7)), distributed under the [MIT License](https://github.com/kelektiv/node-cron/blob/v3.1.7/LICENSE):
+This product includes source derived from [cron](https://github.com/kelektiv/node-cron) ([v4.3.3](https://github.com/kelektiv/node-cron/tree/v4.3.3)), distributed under the [MIT License](https://github.com/kelektiv/node-cron/blob/v4.3.3/LICENSE):
 
 ```
 The MIT License (MIT)

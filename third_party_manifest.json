@@ -32,15 +32,15 @@
       "publisher": "Douglas Christopher Wilson",
       "email": "doug@somethingdoug.com"
     },
-    "cron@3.1.7": {
+    "cron@4.3.3": {
       "name": "cron",
-      "version": "3.1.7",
-      "range": "^3.1.7",
+      "version": "4.3.3",
+      "range": "^4.0.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/kelektiv/node-cron",
-      "versionedRepoUrl": "https://github.com/kelektiv/node-cron/tree/v3.1.7",
+      "versionedRepoUrl": "https://github.com/kelektiv/node-cron/tree/v4.3.3",
       "licenseFile": "node_modules/cron/LICENSE",
-      "licenseUrl": "https://github.com/kelektiv/node-cron/blob/v3.1.7/LICENSE",
+      "licenseUrl": "https://github.com/kelektiv/node-cron/blob/v4.3.3/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Nick Campbell",
       "email": "nicholas.j.campbell@gmail.com",
