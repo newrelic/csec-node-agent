@@ -1,3 +1,29 @@
+### v3.0.1 (2026-01-29)
+#### Miscellaneous chores
+* (deps): Updated lodash to v4.17.23 and undici to v7.19.0
+
+### v3.0.0 (2026-01-06)
+### ⚠ BREAKING CHANGES
+* Dropped support for Node.js v18
+
+#### Features
+* Dropped support of Node 18.x and added Node 24.x
+
+#### Bug fixes
+* Updated rest-client to use undici.request instead of axios to avoid future CVEs
+
+#### Miscellaneous chores
+* Updated workflow to support OIDC publish
+* Updated js-yaml to v4.1.1
+* (deps-dev): bump tar-fs from 2.1.2 to 2.1.4
+* (deps-dev): bump koa from 3.0.1 to 3.0.3
+
+
+### v2.4.4 (2025-09-12)
+#### Miscellaneous chores
+* (deps): Bump axios to v1.12.0
+* (deps-dev): Bump koa from 2.16.1 to 3.0.1
+
 ### v2.4.3 (2025-07-23)
 #### Bug fixes
 * Removed dependency sync-req and updated axios

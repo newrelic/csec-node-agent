@@ -1,6 +1,6 @@
 {
   "name": "@newrelic/security-agent",
-  "version": "2.4.3",
+  "version": "3.0.1",
   "description": "New Relic Security Agent for Node.js",
   "main": "index.js",
   "jsonVersion": "1.2.9",
@@ -29,7 +29,7 @@
     "Node.js Application Security"
   ],
   "engines": {
-    "node": ">=18",
+    "node": ">=20",
     "npm": ">=6.0.0"
   },
   "author": "newrelic",
@@ -39,7 +39,6 @@
     "url": "https://github.com/newrelic/csec-node-agent.git"
   },
   "dependencies": {
-    "axios": "^1.11.0",
     "check-disk-space": "^3.4.0",
     "content-type": "^1.0.5",
     "cron": "^4.0.0",
@@ -49,14 +48,14 @@
     "html-entities": "^2.3.6",
     "https-proxy-agent": "^7.0.4",
     "is-invalid-path": "^1.0.2",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "jsonschema": "^1.4.1",
-    "lodash": "^4.17.21",
     "log4js": "^6.9.1",
     "pretty-bytes": "^5.6.0",
     "request-ip": "^3.3.0",
     "ringbufferjs": "^2.0.0",
     "semver": "^7.5.4",
+    "undici": "^7.19.0",
     "unescape": "^1.0.1",
     "unescape-js": "^1.1.4",
     "uuid": "^9.0.1",
@@ -81,17 +80,15 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-sonarjs": "^0.15.0",
-    "koa": "^2.14.1",
+    "koa": "^3.0.1",
     "mongodb": "^4.13.0",
     "mongodb2": "npm:mongodb@^2.2.36",
     "mongodb3": "npm:mongodb@^3.7.3",
     "newrelic": "^10.3.1",
     "request": "^2.88.2",
-    "restify": "^11.1.0",
     "sinon": "^15.0.0",
     "stream": "^0.0.2",
     "tap": "^16.3.2",
-    "undici": "^5.28.0",
     "xmldom": "^0.6.0",
     "xpath": "^0.0.32",
     "xpath.js": "^1.1.0"

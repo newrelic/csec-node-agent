@@ -3,7 +3,7 @@
 
 **Note**: The IAST capability should only be used in pre-production environments as the application is tested for real exploitable vulnerabilities.
 
-The New Relic security agent enables instrumentation of a Node.js application for Interactive Application Security Testing(IAST) and exposes exploitable vulnerabilities. 
+The New Relic security agent enables instrumentation of a Node.js application for Interactive Application Security Testing(IAST) and exposes exploitable vulnerabilities.
 
 ## Installation
 
@@ -42,12 +42,12 @@ The `@newrelic/security-agent` must be explicitly enabled in order to perform IA
 The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instrumentation will be of help. We particularly recommend the [tutorials](https://newrelic.github.io/node-newrelic/tutorial-Instrumentation-Basics.html) and the [shim API](https://newrelic.github.io/node-newrelic/Shim.html) documentation.
 
 ### Supported  Node.js Versions
-- Node version 18.x, 20.x and 22.x
+- Node version 20.x, 22.x and 24.x
 
 ### Supported  Modules
 
 - Node.js core modules
-    - `http` 
+    - `http`
     - `https`
     - `fs`
     - `child_process`
@@ -67,9 +67,9 @@ The [Developer docs](http://newrelic.github.io/node-newrelic/) for writing instr
 - [ldapjs](https://www.npmjs.com/package/ldapjs)(2.x and above)
 - [ldapts](https://www.npmjs.com/package/ldapts)(2.x and above)
 - [xpath](https://www.npmjs.com/package/xpath)(0.0.20 and above)
-- [xpath.js](https://www.npmjs.com/package/xpath.js)(0.0.1 and above) 
-- [undici](https://www.npmjs.com/package/undici)(4.7.0 and above) 
-- [next](https://www.npmjs.com/package/next)(13.4.19 and above) 
+- [xpath.js](https://www.npmjs.com/package/xpath.js)(0.0.1 and above)
+- [undici](https://www.npmjs.com/package/undici)(4.7.0 and above)
+- [next](https://www.npmjs.com/package/next)(13.4.19 and above)
 
 For more information, please see New Relic Node.js agent [compatibility and requirements](https://docs.newrelic.com/docs/apm/agents/nodejs-agent/getting-started/compatibility-requirements-nodejs-agent/).
 
@@ -117,7 +117,7 @@ If you would like to contribute to this project, review [these guidelines](https
 The New Relic security agent is licensed under the New Relic Software License v1.0.
 The `@newrelic/security-agent` also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.
 
-[1]: https://img.shields.io/npm/v/@newrelic/security-agent.svg 
-[2]: https://www.npmjs.com/package/@newrelic/security-agent 
+[1]: https://img.shields.io/npm/v/@newrelic/security-agent.svg
+[2]: https://www.npmjs.com/package/@newrelic/security-agent
 [3]: https://github.com/newrelic/csec-node-agent/workflows/CSEC%20Node%20Agent%20CI/badge.svg
 [4]: https://github.com/newrelic/csec-node-agent/actions?query=workflow%3A%22CSEC+Node+Agent+CI%22
