@@ -41,7 +41,6 @@
   "dependencies": {
     "check-disk-space": "^3.4.0",
     "content-type": "^1.0.5",
-    "cron": "^3.1.7",
     "fast-safe-stringify": "^2.1.1",
     "find-package-json": "^1.2.0",
     "hash.js": "^1.1.7",
@@ -51,6 +50,7 @@
     "js-yaml": "^4.1.1",
     "jsonschema": "^1.4.1",
     "log4js": "^6.9.1",
+    "node-cron": "^4.2.1",
     "pretty-bytes": "^5.6.0",
     "request-ip": "^3.3.0",
     "ringbufferjs": "^2.0.0",
