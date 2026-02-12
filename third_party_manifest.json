@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Thu Jan 29 2026 15:06:50 GMT+0530 (India Standard Time)",
+  "lastUpdated": "Thu Feb 12 2026 12:19:21 GMT+0530 (India Standard Time)",
   "projectName": "@newrelic/security-agent",
   "projectUrl": "https://github.com/newrelic/csec-node-agent.git",
   "includeOptDeps": false,
@@ -31,20 +31,6 @@
       "licenseTextSource": "file",
       "publisher": "Douglas Christopher Wilson",
       "email": "doug@somethingdoug.com"
-    },
-    "cron@3.1.7": {
-      "name": "cron",
-      "version": "3.1.7",
-      "range": "^3.1.7",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/kelektiv/node-cron",
-      "versionedRepoUrl": "https://github.com/kelektiv/node-cron/tree/v3.1.7",
-      "licenseFile": "node_modules/cron/LICENSE",
-      "licenseUrl": "https://github.com/kelektiv/node-cron/blob/v3.1.7/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Nick Campbell",
-      "email": "nicholas.j.campbell@gmail.com",
-      "url": "https://github.com/ncb000gt"
     },
     "fast-safe-stringify@2.1.1": {
       "name": "fast-safe-stringify",
@@ -123,45 +109,6 @@
       "publisher": "Jon Schlinkert",
       "url": "https://github.com/jonschlinkert"
     },
-    "js-yaml@4.1.1": {
-      "name": "js-yaml",
-      "version": "4.1.1",
-      "range": "^4.1.1",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/nodeca/js-yaml",
-      "versionedRepoUrl": "https://github.com/nodeca/js-yaml/tree/v4.1.1",
-      "licenseFile": "node_modules/js-yaml/LICENSE",
-      "licenseUrl": "https://github.com/nodeca/js-yaml/blob/v4.1.1/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Vladimir Zapparov",
-      "email": "dervus.grim@gmail.com"
-    },
-    "jsonschema@1.4.1": {
-      "name": "jsonschema",
-      "version": "1.4.1",
-      "range": "^1.4.0",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/tdegrunt/jsonschema",
-      "versionedRepoUrl": "https://github.com/tdegrunt/jsonschema/tree/v1.4.1",
-      "licenseFile": "node_modules/jsonschema/LICENSE",
-      "licenseUrl": "https://github.com/tdegrunt/jsonschema/blob/v1.4.1/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Tom de Grunt",
-      "email": "tom@degrunt.nl"
-    },
-    "lodash@4.17.23": {
-      "name": "lodash",
-      "version": "4.17.23",
-      "range": "^4.17.23",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/lodash/lodash",
-      "versionedRepoUrl": "https://github.com/lodash/lodash/tree/v4.17.23",
-      "licenseFile": "node_modules/lodash/LICENSE",
-      "licenseUrl": "https://github.com/lodash/lodash/blob/v4.17.23/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "John-David Dalton",
-      "email": "john.david.dalton@gmail.com"
-    },
     "log4js@6.9.1": {
       "name": "log4js",
       "version": "6.9.1",
@@ -173,19 +120,17 @@
       "licenseUrl": "https://github.com/log4js-node/log4js-node/blob/v6.9.1/LICENSE",
       "licenseTextSource": "file"
     },
-    "pretty-bytes@5.6.0": {
-      "name": "pretty-bytes",
-      "version": "5.6.0",
-      "range": "^5.6.0",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/sindresorhus/pretty-bytes",
-      "versionedRepoUrl": "https://github.com/sindresorhus/pretty-bytes/tree/v5.6.0",
-      "licenseFile": "node_modules/pretty-bytes/license",
-      "licenseUrl": "https://github.com/sindresorhus/pretty-bytes/blob/v5.6.0/license",
+    "node-cron@4.2.1": {
+      "name": "node-cron",
+      "version": "4.2.1",
+      "range": "^4.2.1",
+      "licenses": "ISC",
+      "repoUrl": "https://github.com/merencia/node-cron",
+      "versionedRepoUrl": "https://github.com/merencia/node-cron/tree/v4.2.1",
+      "licenseFile": "node_modules/node-cron/LICENSE.md",
+      "licenseUrl": "https://github.com/merencia/node-cron/blob/v4.2.1/LICENSE.md",
       "licenseTextSource": "file",
-      "publisher": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "https://sindresorhus.com"
+      "publisher": "Lucas Merencia"
     },
     "request-ip@3.3.0": {
       "name": "request-ip",
