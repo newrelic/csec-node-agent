@@ -1,3 +1,8 @@
+### v3.0.2 (2026-02-17)
+#### Miscellaneous chores
+* refactor: Removed dependence on lodash in lieu of using native javascript
+* refactor: Replace cron module with node-cron. Removed pretty-bytes, js-yaml and jsonschema modules
+
 ### v3.0.1 (2026-01-29)
 #### Miscellaneous chores
 * (deps): Updated lodash to v4.17.23 and undici to v7.19.0
