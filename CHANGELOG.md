@@ -1,3 +1,13 @@
+### v3.0.3 (2026-04-08)
+#### Miscellaneous chores
+* (deps-dev): bump koa from 3.0.3 to 3.1.2 (#330)
+* (deps): bump minimatch from 3.1.2 to 3.1.5 (#332)
+* (deps): bump undici from 7.19.0 to 7.24.0 (#335)
+* (deps): bump flatted from 3.2.9 to 3.4.2 (#339)
+* (deps-dev): bump fast-xml-parser, @aws-sdk/credential-providers and @aws-sdk/client-lambda (#338)
+* (deps-dev): bump picomatch from 2.3.1 to 2.3.2 (#340)
+* (deps-dev): bump lodash.template from 4.5.0 to 4.18.1 (#342)
+
 ### v3.0.2 (2026-02-17)
 #### Miscellaneous chores
 * refactor: Removed dependence on lodash in lieu of using native javascript
