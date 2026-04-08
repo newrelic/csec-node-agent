@@ -381,7 +381,7 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ### undici
 
-This product includes source derived from [undici](https://github.com/nodejs/undici) ([v7.19.0](https://github.com/nodejs/undici/tree/v7.19.0)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v7.19.0/LICENSE):
+This product includes source derived from [undici](https://github.com/nodejs/undici) ([v7.24.0](https://github.com/nodejs/undici/tree/v7.24.0)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v7.24.0/LICENSE):
 
 ```
 MIT License
@@ -1695,7 +1695,7 @@ Library.
 
 ### koa
 
-This product includes source derived from [koa](https://github.com/koajs/koa) ([v3.0.3](https://github.com/koajs/koa/tree/v3.0.3)), distributed under the [MIT License](https://github.com/koajs/koa/blob/v3.0.3/LICENSE):
+This product includes source derived from [koa](https://github.com/koajs/koa) ([v3.1.2](https://github.com/koajs/koa/tree/v3.1.2)), distributed under the [MIT License](https://github.com/koajs/koa/blob/v3.1.2/LICENSE):
 
 ```
 (The MIT License)
