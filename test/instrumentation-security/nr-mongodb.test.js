@@ -20,7 +20,7 @@ const dbSetup = async () => {
 
 const tearDownMongoDB = async () => {
   try {
-    cp.execSync('docker rm -f dynamodb');
+    cp.execSync('docker rm -f mongodb');
   } catch (err) {
     console.error('Table delete fail: ', err)
   }
@@ -38,7 +38,7 @@ test('mongodb', (t) => {
   });
 
   t.teardown(async () => {
-    await tearDownMongoDB;
+    await tearDownMongoDB();
   });
 
   t.test('v2', (t) => {
