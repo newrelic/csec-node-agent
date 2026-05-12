@@ -55,7 +55,6 @@
     "undici": "^7.19.0",
     "unescape": "^1.0.1",
     "unescape-js": "^1.1.4",
-    "uuid": "^14.0.0",
     "ws": "^8.17.1"
   },
   "devDependencies": {
