@@ -1,3 +1,12 @@
+### v3.0.4 (2026-05-14)
+#### Bug fixes
+* remove dependency on uuid module (#357)
+* update hapi instrumentation, remove shim.argsToArray method (#360)
+
+#### Miscellaneous chores
+* (deps-dev): bump protobufjs from 7.2.5 to 7.5.8 (#358)
+* (deps-dev): bump fast-xml-parser and @aws-sdk/xml-builder (#356)
+
 ### v3.0.3 (2026-04-08)
 #### Miscellaneous chores
 * (deps-dev): bump koa from 3.0.3 to 3.1.2 (#330)
