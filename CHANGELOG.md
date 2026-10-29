@@ -1,3 +1,11 @@
+### v3.0.5 (2026-10-29)
+#### Bug fixes
+* Subscribe to agent mongodb channels instead of wrapping prototypes (#375)
+* Delegate wrapped mongodb methods to the prototype at call time (#376)
+
+#### Miscellaneous chores
+* bump undici to 7.30.1 and ws to 8.22.0 (#377)
+
 ### v3.0.4 (2026-05-14)
 #### Bug fixes
 * remove dependency on uuid module (#357)
