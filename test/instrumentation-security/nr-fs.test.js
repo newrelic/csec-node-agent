@@ -134,6 +134,22 @@ test('FS', (t) => {
         });
     })
 
+    t.test('writeFile', (t) => {
+        fs.writeFile(__dirname + '/test1.txt', 'Updated text', (err) => {
+            t.equal(1, shim.interceptedArgs.length)
+            t.equal(__dirname + '/test1.txt', shim.interceptedArgs[0]);
+            t.end()
+        });
+    })
+
+    t.test('appendFile', (t) => {
+        fs.appendFile(__dirname + '/test1.txt', 'more', (err) => {
+            t.equal(1, shim.interceptedArgs.length)
+            t.equal(__dirname + '/test1.txt', shim.interceptedArgs[0]);
+            t.end()
+        });
+    })
+
     t.test('copyFile', (t) => {
         fs.copyFile("test.txt", "test1.txt", (err) => {
             t.equal(1, shim.interceptedArgs.length)
