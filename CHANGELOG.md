@@ -1,3 +1,10 @@
+### v4.0.0 (2026-11-03)
+### ⚠ BREAKING CHANGES
+* Dropped support for Node.js v20.x
+
+#### Features
+* Added Node 26.x support and removed 20.x, updated CI matrix and fs callback hooks
+
 ### v3.0.5 (2026-10-29)
 #### Bug fixes
 * Subscribe to agent mongodb channels instead of wrapping prototypes (#375)
