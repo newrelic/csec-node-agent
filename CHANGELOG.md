@@ -3,7 +3,10 @@
 * Dropped support for Node.js v20.x
 
 #### Features
-* Added Node 26.x support and removed 20.x, updated CI matrix and fs callback hooks
+* Added Node 26.x support and removed 20.x, updated CI matrix and fs callback hooks (#379)
+
+#### Miscellaneous chores
+* Updated Readme (#381)
 
 ### v3.0.5 (2026-10-29)
 #### Bug fixes
