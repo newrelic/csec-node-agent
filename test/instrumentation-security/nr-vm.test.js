@@ -7,7 +7,7 @@
 
 const test = require('tap').test;
 const vm = require('vm');
-const utils = require('@newrelic/test-utilities')
+const utils = require('../lib/test-agent')
 
 test('vm', (t) => {
     t.autoend();

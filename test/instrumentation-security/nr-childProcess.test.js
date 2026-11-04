@@ -7,7 +7,7 @@
 
 const test = require('tap').test;
 const cp = require('child_process');
-const utils = require('@newrelic/test-utilities')
+const utils = require('../lib/test-agent')
 
 test('child_process', (t) => {
     t.autoend();

@@ -6,7 +6,7 @@
 
 const test = require('tap').test;
 const sinon = require('sinon')
-const utils = require('@newrelic/test-utilities')
+const utils = require('../lib/test-agent')
 const mongodb2 = require('mongodb2');
 const mongodb3 = require('mongodb3');
 const mongodb = require('mongodb');

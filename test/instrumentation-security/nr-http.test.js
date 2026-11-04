@@ -7,7 +7,7 @@
 
 const tap = require('tap')
 const test = tap.test
-const utils = require('@newrelic/test-utilities')
+const utils = require('../lib/test-agent')
 const http = require('http')
 const sinon = require('sinon');
 
