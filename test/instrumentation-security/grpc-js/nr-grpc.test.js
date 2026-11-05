@@ -2,7 +2,7 @@
 
 const test = require('tap').test;
 const sinon = require('sinon');
-const utils = require('@newrelic/test-utilities');
+const utils = require('../../lib/test-agent');
 const grpc = require('@grpc/grpc-js');
 const protoLoader = require('@grpc/proto-loader');
 const resolvingCall = require('@grpc/grpc-js/build/src/resolving-call');

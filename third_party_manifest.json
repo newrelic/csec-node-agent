@@ -273,19 +273,6 @@
       "licenseTextSource": "file",
       "publisher": "New Relic"
     },
-    "@newrelic/test-utilities@7.2.1": {
-      "name": "@newrelic/test-utilities",
-      "version": "7.2.1",
-      "range": "7.2.1",
-      "licenses": "Apache-2.0",
-      "repoUrl": "https://github.com/newrelic/node-test-utilities",
-      "versionedRepoUrl": "https://github.com/newrelic/node-test-utilities/tree/v7.2.1",
-      "licenseFile": "node_modules/@newrelic/test-utilities/LICENSE",
-      "licenseUrl": "https://github.com/newrelic/node-test-utilities/blob/v7.2.1/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "New Relic Node.js agent team",
-      "email": "nodejs@newrelic.com"
-    },
     "@typescript-eslint/eslint-plugin@4.33.0": {
       "name": "@typescript-eslint/eslint-plugin",
       "version": "4.33.0",

@@ -8,7 +8,7 @@
 const test = require('tap').test;
 const fs = require('fs');
 const fsPromises = require('fs').promises;
-const utils = require('@newrelic/test-utilities');
+const utils = require('../lib/test-agent');
 
 const fileName = __dirname + '/test.txt';
 
