@@ -5,7 +5,7 @@
 'use strict'
 
 const test = require('tap').test;
-const utils = require('@newrelic/test-utilities')
+const utils = require('../lib/test-agent')
 const sinon = require('sinon');
 const director = require('director');
 var http = require('http');
