@@ -379,7 +379,7 @@ IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ### undici
 
-This product includes source derived from [undici](https://github.com/nodejs/undici) ([v7.24.0](https://github.com/nodejs/undici/tree/v7.24.0)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v7.24.0/LICENSE):
+This product includes source derived from [undici](https://github.com/nodejs/undici) ([v7.30.1](https://github.com/nodejs/undici/tree/v7.30.1)), distributed under the [MIT License](https://github.com/nodejs/undici/blob/v7.30.1/LICENSE):
 
 ```
 MIT License
@@ -465,7 +465,7 @@ THE SOFTWARE.
 
 ### ws
 
-This product includes source derived from [ws](https://github.com/websockets/ws) ([v8.18.0](https://github.com/websockets/ws/tree/v8.18.0)), distributed under the [MIT License](https://github.com/websockets/ws/blob/v8.18.0/LICENSE):
+This product includes source derived from [ws](https://github.com/websockets/ws) ([v8.22.0](https://github.com/websockets/ws/tree/v8.22.0)), distributed under the [MIT License](https://github.com/websockets/ws/blob/v8.22.0/LICENSE):
 
 ```
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
