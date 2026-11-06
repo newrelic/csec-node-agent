@@ -1,6 +1,8 @@
 ### v4.0.1 (2026-11-06)
 #### Bug fixes
 * Add re-entrancy guards to Math.random and require hooks (#383)
+
+#### Miscellaneous chores
 * Removed reliance on @newrelic/test-utilities (#382)
 
 ### v4.0.0 (2026-11-03)
